@@ -51,3 +51,19 @@ def test_public_cli_rejects_frozen_output_and_overwrite(tmp_path):
         runs.rmdir()
     with pytest.raises(SystemExit):
         main(['rescore','--method','not-a-method'])
+
+
+def test_runs_symlink_cannot_redirect_writes(tmp_path, monkeypatch):
+    import artifactauditbench.cli as cli
+    checkout=tmp_path/'checkout'
+    checkout.mkdir()
+    elsewhere=tmp_path/'elsewhere'
+    elsewhere.mkdir()
+    (checkout/'runs').symlink_to(elsewhere, target_is_directory=True)
+    monkeypatch.setattr(cli,'ROOT',checkout)
+    def must_not_dispatch(*args):
+        pytest.fail('output boundary must reject symlinks before executing a runner')
+    monkeypatch.setattr(cli,'run_script',must_not_dispatch)
+    with pytest.raises(SystemExit):
+        cli.main(['ruleaudit','--output',str(checkout/'runs/new-output')])
+    assert not list(elsewhere.iterdir())

@@ -89,7 +89,9 @@ def main(argv: list[str] | None = None) -> int:
         return run_script("validate_v2.py", ["--data-root", str(ROOT / "data_v2_scale"), "--expected-count", "360"] if args.scale else ["--strict-v2-120"])
     if args.command == "ruleaudit":
         output = args.output.resolve()
-        runs_root = (ROOT / "runs").resolve()
+        runs_root = ROOT / "runs"
+        if runs_root.is_symlink():
+            parser.error("runs/ must not be a symbolic link")
         if not output.is_relative_to(runs_root) or output == runs_root:
             parser.error("--output must be a fresh subdirectory of this checkout's runs/ directory")
         if output.exists():
