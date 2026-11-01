@@ -1,0 +1,2 @@
+Measured Macro-F1 values are 0.756 for Method P and 0.733 for Approach T. The confidence intervals overlap, showing no statistically reliable gain.
+ Relative improvement: 10.66%.

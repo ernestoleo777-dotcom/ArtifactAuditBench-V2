@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_0fa6872e4f7039e6",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant C",
+        "ci95_high"
+      ],
+      "after": 0.8400224000000001,
+      "before": 0.75002,
+      "error_type": "numeric_copy_error",
+      "repair": 0.75002
+    }
+  ],
+  "split": "dev"
+}

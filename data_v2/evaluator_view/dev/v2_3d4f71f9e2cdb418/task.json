@@ -1,0 +1,40 @@
+{
+  "case_id": "v2_3d4f71f9e2cdb418",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Procedure N",
+        "RMSE"
+      ],
+      "after": 0.69095264,
+      "before": 0.616922,
+      "error_type": "numeric_copy_error",
+      "repair": 0.616922
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Procedure N",
+      "before": "Variant R",
+      "error_type": "ranking_error",
+      "repair": "Variant R"
+    }
+  ],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/dev/v2_3d4f71f9e2cdb418",
+    "evaluator": "evaluator_view/dev/v2_3d4f71f9e2cdb418"
+  },
+  "seed": 111010,
+  "split": "dev",
+  "style_fingerprint": "e037a7e7f51e",
+  "template_fingerprint": "5491f3079bf0",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

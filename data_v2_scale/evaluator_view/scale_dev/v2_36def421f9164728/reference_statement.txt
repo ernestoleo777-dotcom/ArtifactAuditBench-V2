@@ -1,0 +1,1 @@
+Variant C is consistently better than Approach T for Macro-F1.

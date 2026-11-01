@@ -1,0 +1,57 @@
+{
+  "case_id": "v2_324b1260d19f07ac",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach H",
+        "System V"
+      ],
+      "after": [
+        0.6973084886128365,
+        0.8042989884733005,
+        0.6671311965248118,
+        0.5869098855636741
+      ],
+      "before": [
+        0.8042989884733005,
+        0.6973084886128365,
+        0.6671311965248118,
+        0.5869098855636741
+      ],
+      "error_type": "series_data_swap",
+      "repair": [
+        0.8042989884733005,
+        0.6973084886128365,
+        0.6671311965248118,
+        0.5869098855636741
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "Accuracy"
+      ],
+      "after": 0.7483638400000001,
+      "before": 0.668182,
+      "error_type": "numeric_copy_error",
+      "repair": 0.668182
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_324b1260d19f07ac",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_324b1260d19f07ac"
+  },
+  "seed": 2581797,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "4b61e0df1115",
+  "template_family": "test_unseen",
+  "template_fingerprint": "9142d55e4007",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

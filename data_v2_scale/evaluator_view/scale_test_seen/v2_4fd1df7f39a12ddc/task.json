@@ -1,0 +1,31 @@
+{
+  "case_id": "v2_4fd1df7f39a12ddc",
+  "chart_type": "confusion_heatmap",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "Micro-F1"
+      ],
+      "after": 0.8501819199999999,
+      "before": 0.759091,
+      "error_type": "numeric_copy_error",
+      "repair": 0.759091
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_4fd1df7f39a12ddc",
+    "evaluator": "evaluator_view/scale_test_seen/v2_4fd1df7f39a12ddc"
+  },
+  "seed": 1536932,
+  "split": "scale_test_seen",
+  "style_fingerprint": "6aa5dd2be979",
+  "template_family": "test_seen",
+  "template_fingerprint": "7a13a03ef864",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

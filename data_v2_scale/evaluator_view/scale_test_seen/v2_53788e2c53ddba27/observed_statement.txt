@@ -1,0 +1,1 @@
+Reported Macro-F1: System K=0.769, Approach H=0.741. The confidence intervals overlap, showing no statistically reliable gain.

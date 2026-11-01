@@ -1,0 +1,61 @@
+{
+  "case_id": "v2_169e80cfa870fc0e",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "System K",
+        "Method X"
+      ],
+      "after": [
+        "Method X",
+        "System K"
+      ],
+      "before": [
+        "System K",
+        "Method X"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "System K",
+        "Method X"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System K",
+        "RMSE"
+      ],
+      "after": 0.5439111999999999,
+      "before": 0.485635,
+      "error_type": "numeric_copy_error",
+      "repair": 0.485635
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 30.465125736661737,
+      "before": 22.965125736661737,
+      "error_type": "relative_improvement_error",
+      "repair": 22.965125736661737
+    }
+  ],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_169e80cfa870fc0e",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_169e80cfa870fc0e"
+  },
+  "seed": 2625665,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "13af2e0ea99a",
+  "template_family": "test_unseen",
+  "template_fingerprint": "34149437ddfb",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

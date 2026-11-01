@@ -1,0 +1,1 @@
+The best observed RMSE is obtained by System K (0.484).

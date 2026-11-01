@@ -1,0 +1,1 @@
+Model Q obtains the best Macro-F1: 0.729. The confidence intervals overlap, showing a statistically significant improvement.

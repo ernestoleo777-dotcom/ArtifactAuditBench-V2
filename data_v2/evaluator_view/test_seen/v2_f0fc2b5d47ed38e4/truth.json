@@ -1,0 +1,26 @@
+{
+  "case_id": "v2_f0fc2b5d47ed38e4",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "System K",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "System K"
+      ],
+      "before": [
+        "System K",
+        "Approach H"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "System K",
+        "Approach H"
+      ]
+    }
+  ],
+  "split": "test_seen"
+}

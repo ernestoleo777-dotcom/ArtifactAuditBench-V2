@@ -1,0 +1,31 @@
+{
+  "case_id": "v2_a8c14aa5c91244a8",
+  "chart_type": "confusion_heatmap",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System V",
+        "Accuracy"
+      ],
+      "after": 0.8043638399999999,
+      "before": 0.718182,
+      "error_type": "numeric_copy_error",
+      "repair": 0.718182
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_a8c14aa5c91244a8",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_a8c14aa5c91244a8"
+  },
+  "seed": 2611707,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "5fc8290eafec",
+  "template_family": "test_unseen",
+  "template_fingerprint": "9142d55e4007",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

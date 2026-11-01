@@ -1,0 +1,3 @@
+model,Accuracy,Macro-F1,Micro-F1,Weighted-F1,Recall:Class 0,Recall:Class 1,Recall:Class 2,Recall:Class 3
+Procedure N,0.772727,0.770154,0.772727,0.772013,0.762712,0.680000,0.771930,0.870370
+System V,0.718182,0.717594,0.718182,0.719692,0.711864,0.720000,0.754386,0.685185

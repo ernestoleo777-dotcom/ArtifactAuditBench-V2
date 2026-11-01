@@ -1,0 +1,25 @@
+{
+  "case_id": "v2_f189847d6f031f68",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "error bars"
+      ],
+      "after": [
+        0.009056768994906116,
+        0.013364898173897277
+      ],
+      "before": [
+        0.013364898173897277,
+        0.009056768994906116
+      ],
+      "error_type": "error_bar_error",
+      "repair": [
+        0.013364898173897277,
+        0.009056768994906116
+      ]
+    }
+  ],
+  "split": "scale_dev"
+}

@@ -1,0 +1,1 @@
+The result from Method P yields a relative Macro-F1 change of 0.42%. The confidence intervals overlap, showing no statistically reliable gain.

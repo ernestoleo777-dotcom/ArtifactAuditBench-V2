@@ -1,0 +1,10 @@
+{
+  "title": "ArtifactAuditBench V2: A Multimodal Benchmark for Auditing Scientific Experiment Artifacts",
+  "source_commit": "63750a49c7ea1528f34da3fbd3cfabc727f338db",
+  "final_pdf_sha256": "dda1a283595140321d88f7e28c690dcb4aadf52f001db9fbf43867aa9189996a",
+  "final_source_zip_sha256": "a155e28f80afe5e90f9af06c06f31e99d05fa2b3caed26cbdb2e5a054a71d78a",
+  "binding": "R4 PDF Git blob matches separately registered final camera-ready SHA256",
+  "publication_disposition": "WITHDRAWAL_REQUESTED_PENDING_OFFICIAL_CONFIRMATION_PER_LOCAL_RECORDS",
+  "official_publication_verified": false,
+  "manuscript_redistributed": false
+}

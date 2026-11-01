@@ -1,0 +1,37 @@
+{
+  "case_id": "v2_979b21f9ef29492f",
+  "chart_type": "grouped_bar",
+  "experiment_type": "repeated_runs",
+  "files": {
+    "claim": "statement.txt",
+    "figure": "visual.png",
+    "raw": "observations.csv",
+    "table": "results.csv"
+  },
+  "metric_directions": {
+    "Macro-F1": "maximize"
+  },
+  "model_count": 2,
+  "primary_metric": "Macro-F1",
+  "render_config": {
+    "dpi": 140,
+    "figsize": [
+      9.0,
+      5.0
+    ],
+    "font": "DejaVu Sans Mono",
+    "grid": false,
+    "horizontal": true,
+    "legend_loc": "lower center",
+    "legend_outside": true,
+    "marker": "^",
+    "palette": [
+      "#6B5B95",
+      "#88B04B",
+      "#F7CAC9",
+      "#92A8D1",
+      "#955251"
+    ],
+    "precision": 2
+  }
+}

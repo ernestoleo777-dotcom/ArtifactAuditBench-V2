@@ -1,0 +1,37 @@
+{
+  "case_id": "v2_6c4e0a54165e06c7",
+  "chart_type": "bar",
+  "experiment_type": "regression",
+  "files": {
+    "claim": "statement.txt",
+    "figure": "visual.png",
+    "raw": "observations.csv",
+    "table": "results.csv"
+  },
+  "metric_directions": {
+    "RMSE": "minimize"
+  },
+  "model_count": 5,
+  "primary_metric": "RMSE",
+  "render_config": {
+    "dpi": 120,
+    "figsize": [
+      5.0,
+      5.0
+    ],
+    "font": "DejaVu Sans",
+    "grid": true,
+    "horizontal": true,
+    "legend_loc": "lower left",
+    "legend_outside": true,
+    "marker": "x",
+    "palette": [
+      "#6B5B95",
+      "#88B04B",
+      "#F7CAC9",
+      "#92A8D1",
+      "#955251"
+    ],
+    "precision": 3
+  }
+}

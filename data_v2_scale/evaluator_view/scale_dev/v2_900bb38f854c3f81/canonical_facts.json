@@ -1,0 +1,93 @@
+{
+  "models": [
+    "Approach H",
+    "System V"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach H",
+      "System V"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        6.4,
+        4.8
+      ],
+      "font": "DejaVu Serif",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "lower left",
+      "legend_outside": true,
+      "marker": "s",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 2
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8777626867514509,
+      0.8999505928853755
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach H",
+      "System V"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        6.4,
+        4.8
+      ],
+      "font": "DejaVu Serif",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "lower left",
+      "legend_outside": true,
+      "marker": "s",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 2
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8777626867514509,
+      0.8999505928853755
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Approach H": {
+      "Accuracy": 0.8777777777777778,
+      "Macro-F1": 0.8777626867514509,
+      "Precision": 0.8888888888888888,
+      "ROC-AUC": 0.9398468379446641,
+      "Recall": 0.8695652173913043
+    },
+    "System V": {
+      "Accuracy": 0.9,
+      "Macro-F1": 0.8999505928853755,
+      "Precision": 0.9021739130434783,
+      "ROC-AUC": 0.9693675889328063,
+      "Recall": 0.9021739130434783
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Across methods, System V achieves the highest Macro-F1 at 0.733. The 95% confidence intervals do not overlap, indicating a statistically reliable difference.

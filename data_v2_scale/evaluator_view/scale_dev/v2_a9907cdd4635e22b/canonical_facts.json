@@ -1,0 +1,89 @@
+{
+  "models": [
+    "System V",
+    "Variant R"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Variant R",
+      "System V"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": true,
+      "marker": "s",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4893775444440609,
+      0.6269108955989272
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "System V",
+      "Variant R"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": true,
+      "marker": "s",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4893775444440609,
+      0.6269108955989272
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "System V": {
+      "MAE": 0.371404500960909,
+      "R2": 0.9789293856276484,
+      "RMSE": 0.4893775444440609
+    },
+    "Variant R": {
+      "MAE": 0.5100246388632416,
+      "R2": 0.965421929162411,
+      "RMSE": 0.6269108955989272
+    }
+  }
+}

@@ -1,0 +1,1 @@
+On Macro-F1, Model Q ranks first and Variant R ranks second. The confidence intervals overlap, showing no statistically reliable gain.

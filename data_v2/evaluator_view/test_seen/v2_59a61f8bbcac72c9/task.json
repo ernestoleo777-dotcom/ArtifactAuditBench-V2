@@ -1,0 +1,41 @@
+{
+  "case_id": "v2_59a61f8bbcac72c9",
+  "chart_type": "error_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "error bars"
+      ],
+      "after": [
+        0.008842729295993177,
+        0.008667228766300362,
+        0.007650161173221422
+      ],
+      "before": [
+        0.007650161173221422,
+        0.008667228766300362,
+        0.008842729295993177
+      ],
+      "error_type": "error_bar_error",
+      "repair": [
+        0.007650161173221422,
+        0.008667228766300362,
+        0.008842729295993177
+      ]
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/test_seen/v2_59a61f8bbcac72c9",
+    "evaluator": "evaluator_view/test_seen/v2_59a61f8bbcac72c9"
+  },
+  "seed": 241947,
+  "split": "test_seen",
+  "style_fingerprint": "7af137358eff",
+  "template_fingerprint": "a92ceff79791",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

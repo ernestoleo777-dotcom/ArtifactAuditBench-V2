@@ -1,0 +1,336 @@
+{
+  "models": [
+    "Method X",
+    "Variant R",
+    "Model Q",
+    "Procedure N",
+    "System V"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "confusion_heatmap",
+    "labels": [
+      "Method X",
+      "Variant R",
+      "Model Q",
+      "Procedure N",
+      "System V"
+    ],
+    "matrix": [
+      [
+        47,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        32,
+        4,
+        3
+      ],
+      [
+        3,
+        2,
+        47,
+        2
+      ],
+      [
+        2,
+        6,
+        4,
+        62
+      ]
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": true,
+      "marker": "x",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 2
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8493510554486164,
+      0.6678356329213812,
+      0.6203708935817955,
+      0.6298058229686366,
+      0.5421941793121668
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "confusion_heatmap",
+    "labels": [
+      "Method X",
+      "Variant R",
+      "Model Q",
+      "Procedure N",
+      "System V"
+    ],
+    "matrix": [
+      [
+        47,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        32,
+        4,
+        3
+      ],
+      [
+        3,
+        2,
+        47,
+        2
+      ],
+      [
+        2,
+        6,
+        4,
+        62
+      ]
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": true,
+      "marker": "x",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 2
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8493510554486164,
+      0.6678356329213812,
+      0.6203708935817955,
+      0.6298058229686366,
+      0.5421941793121668
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Method X": {
+      "Accuracy": 0.8545454545454545,
+      "Macro-F1": 0.8493510554486164,
+      "Micro-F1": 0.8545454545454545,
+      "Weighted-F1": 0.8554542279597712,
+      "confusion_matrix": [
+        [
+          47,
+          3,
+          1,
+          2
+        ],
+        [
+          0,
+          32,
+          4,
+          3
+        ],
+        [
+          3,
+          2,
+          47,
+          2
+        ],
+        [
+          2,
+          6,
+          4,
+          62
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.8867924528301887,
+        "Class 1": 0.8205128205128205,
+        "Class 2": 0.8703703703703703,
+        "Class 3": 0.8378378378378378
+      }
+    },
+    "Model Q": {
+      "Accuracy": 0.6318181818181818,
+      "Macro-F1": 0.6203708935817955,
+      "Micro-F1": 0.6318181818181818,
+      "Weighted-F1": 0.6310012687043919,
+      "confusion_matrix": [
+        [
+          28,
+          8,
+          7,
+          10
+        ],
+        [
+          6,
+          25,
+          5,
+          3
+        ],
+        [
+          11,
+          2,
+          32,
+          9
+        ],
+        [
+          5,
+          9,
+          6,
+          54
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.5283018867924528,
+        "Class 1": 0.6410256410256411,
+        "Class 2": 0.5925925925925926,
+        "Class 3": 0.7297297297297297
+      }
+    },
+    "Procedure N": {
+      "Accuracy": 0.6318181818181818,
+      "Macro-F1": 0.6298058229686366,
+      "Micro-F1": 0.6318181818181818,
+      "Weighted-F1": 0.6327590003044995,
+      "confusion_matrix": [
+        [
+          31,
+          10,
+          9,
+          3
+        ],
+        [
+          2,
+          30,
+          1,
+          6
+        ],
+        [
+          8,
+          6,
+          34,
+          6
+        ],
+        [
+          11,
+          10,
+          9,
+          44
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.5849056603773585,
+        "Class 1": 0.7692307692307693,
+        "Class 2": 0.6296296296296297,
+        "Class 3": 0.5945945945945946
+      }
+    },
+    "System V": {
+      "Accuracy": 0.55,
+      "Macro-F1": 0.5421941793121668,
+      "Micro-F1": 0.55,
+      "Weighted-F1": 0.5513711964379142,
+      "confusion_matrix": [
+        [
+          28,
+          12,
+          6,
+          7
+        ],
+        [
+          6,
+          21,
+          5,
+          7
+        ],
+        [
+          6,
+          5,
+          28,
+          15
+        ],
+        [
+          10,
+          10,
+          10,
+          44
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.5283018867924528,
+        "Class 1": 0.5384615384615384,
+        "Class 2": 0.5185185185185185,
+        "Class 3": 0.5945945945945946
+      }
+    },
+    "Variant R": {
+      "Accuracy": 0.6727272727272727,
+      "Macro-F1": 0.6678356329213812,
+      "Micro-F1": 0.6727272727272727,
+      "Weighted-F1": 0.673818754164728,
+      "confusion_matrix": [
+        [
+          34,
+          6,
+          9,
+          4
+        ],
+        [
+          3,
+          26,
+          4,
+          6
+        ],
+        [
+          8,
+          3,
+          41,
+          2
+        ],
+        [
+          9,
+          8,
+          10,
+          47
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.6415094339622641,
+        "Class 1": 0.6666666666666666,
+        "Class 2": 0.7592592592592593,
+        "Class 3": 0.6351351351351351
+      }
+    }
+  }
+}

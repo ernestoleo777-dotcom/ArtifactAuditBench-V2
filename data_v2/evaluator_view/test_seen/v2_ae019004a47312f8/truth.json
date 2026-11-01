@@ -1,0 +1,42 @@
+{
+  "case_id": "v2_ae019004a47312f8",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach H",
+        "Approach T"
+      ],
+      "after": [
+        "Approach T",
+        "Approach H",
+        "Model Q",
+        "System V"
+      ],
+      "before": [
+        "Approach H",
+        "Approach T",
+        "Model Q",
+        "System V"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach H",
+        "Approach T",
+        "Model Q",
+        "System V"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 10.579552648015724,
+      "before": 3.0795526480157243,
+      "error_type": "relative_improvement_error",
+      "repair": 3.0795526480157243
+    }
+  ],
+  "split": "test_seen"
+}

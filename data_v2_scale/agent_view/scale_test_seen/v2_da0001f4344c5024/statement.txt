@@ -1,0 +1,1 @@
+Ordering systems by Macro-F1 puts Approach T ahead of Variant C. The confidence intervals overlap, showing no statistically reliable gain.

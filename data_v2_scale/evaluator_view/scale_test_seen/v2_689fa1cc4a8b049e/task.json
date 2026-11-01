@@ -1,0 +1,19 @@
+{
+  "case_id": "v2_689fa1cc4a8b049e",
+  "chart_type": "confusion_heatmap",
+  "errors": [],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_689fa1cc4a8b049e",
+    "evaluator": "evaluator_view/scale_test_seen/v2_689fa1cc4a8b049e"
+  },
+  "seed": 1611707,
+  "split": "scale_test_seen",
+  "style_fingerprint": "fe1a6649b9c9",
+  "template_family": "test_seen",
+  "template_fingerprint": "a92ceff79791",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

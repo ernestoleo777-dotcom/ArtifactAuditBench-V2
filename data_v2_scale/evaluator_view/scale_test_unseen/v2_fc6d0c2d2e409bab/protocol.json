@@ -1,0 +1,37 @@
+{
+  "case_id": "v2_fc6d0c2d2e409bab",
+  "chart_type": "line",
+  "experiment_type": "ablation",
+  "files": {
+    "claim": "statement.txt",
+    "figure": "visual.png",
+    "raw": "observations.csv",
+    "table": "results.csv"
+  },
+  "metric_directions": {
+    "Macro-F1": "maximize"
+  },
+  "model_count": 4,
+  "primary_metric": "Macro-F1",
+  "render_config": {
+    "dpi": 180,
+    "figsize": [
+      9.0,
+      5.0
+    ],
+    "font": "DejaVu Sans Mono",
+    "grid": true,
+    "horizontal": false,
+    "legend_loc": "upper left",
+    "legend_outside": false,
+    "marker": "^",
+    "palette": [
+      "#2E86AB",
+      "#A23B72",
+      "#F18F01",
+      "#C73E1D",
+      "#6A994E"
+    ],
+    "precision": 2
+  }
+}

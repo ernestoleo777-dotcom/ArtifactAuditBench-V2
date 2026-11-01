@@ -1,0 +1,29 @@
+{
+  "case_id": "v2_dc66091af905c3c0",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach H",
+        "Method P"
+      ],
+      "after": [
+        "Method P",
+        "Approach H",
+        "Method X"
+      ],
+      "before": [
+        "Approach H",
+        "Method P",
+        "Method X"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach H",
+        "Method P",
+        "Method X"
+      ]
+    }
+  ],
+  "split": "scale_dev"
+}

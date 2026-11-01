@@ -1,0 +1,1 @@
+System V and Model Q remain close (0.740 versus 0.732), with System V ahead. The confidence intervals overlap, showing a statistically significant improvement.

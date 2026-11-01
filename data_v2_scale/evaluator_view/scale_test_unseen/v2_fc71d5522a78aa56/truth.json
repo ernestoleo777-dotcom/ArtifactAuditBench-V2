@@ -1,0 +1,35 @@
+{
+  "case_id": "v2_fc71d5522a78aa56",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "System K"
+      ],
+      "after": [
+        "System K",
+        "Method X",
+        "Approach H",
+        "Procedure N",
+        "Approach T"
+      ],
+      "before": [
+        "Method X",
+        "System K",
+        "Approach H",
+        "Procedure N",
+        "Approach T"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method X",
+        "System K",
+        "Approach H",
+        "Procedure N",
+        "Approach T"
+      ]
+    }
+  ],
+  "split": "scale_test_unseen"
+}

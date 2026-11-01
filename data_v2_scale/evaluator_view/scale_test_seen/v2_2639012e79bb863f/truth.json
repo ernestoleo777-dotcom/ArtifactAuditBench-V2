@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_2639012e79bb863f",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Procedure N",
+      "before": "Variant R",
+      "error_type": "ranking_error",
+      "repair": "Variant R"
+    }
+  ],
+  "split": "scale_test_seen"
+}

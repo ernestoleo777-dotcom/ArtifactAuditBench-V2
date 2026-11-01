@@ -1,0 +1,50 @@
+{
+  "case_id": "v2_47a0da1036fc5861",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Model Q",
+        "Approach T"
+      ],
+      "after": [
+        "Approach T",
+        "Model Q",
+        "System K"
+      ],
+      "before": [
+        "Model Q",
+        "Approach T",
+        "System K"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Model Q",
+        "Approach T",
+        "System K"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Model Q",
+        "Accuracy"
+      ],
+      "after": 0.93333296,
+      "before": 0.833333,
+      "error_type": "numeric_copy_error",
+      "repair": 0.833333
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 12.872332487688404,
+      "before": 5.372332487688404,
+      "error_type": "relative_improvement_error",
+      "repair": 5.372332487688404
+    }
+  ],
+  "split": "test_unseen"
+}

@@ -1,0 +1,1 @@
+The Macro-F1 gap is 2.96 points in favor of Approach H. The 95% confidence intervals do not overlap, indicating a statistically reliable difference.

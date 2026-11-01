@@ -1,0 +1,1 @@
+For Macro-F1, Approach T outperforms Model Q; the absolute gap is 0.103.

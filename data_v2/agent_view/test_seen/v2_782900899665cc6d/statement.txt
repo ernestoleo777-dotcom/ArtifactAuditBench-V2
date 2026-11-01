@@ -1,0 +1,2 @@
+Evaluation on Accuracy finds Variant R consistently better than Variant R.
+ Relative improvement: 34.68%.

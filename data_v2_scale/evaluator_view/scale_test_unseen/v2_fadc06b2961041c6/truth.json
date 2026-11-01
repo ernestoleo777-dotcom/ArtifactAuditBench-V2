@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_fadc06b2961041c6",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach H",
+        "mean"
+      ],
+      "after": 0.7832836175406022,
+      "before": 0.752115,
+      "error_type": "aggregation_error",
+      "repair": 0.752115
+    }
+  ],
+  "split": "scale_test_unseen"
+}

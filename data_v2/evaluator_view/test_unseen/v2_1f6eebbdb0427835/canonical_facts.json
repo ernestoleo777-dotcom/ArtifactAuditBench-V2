@@ -1,0 +1,123 @@
+{
+  "models": [
+    "System V",
+    "Variant R"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "error_bar",
+    "errors": [
+      0.015889626730751918,
+      0.012470701838653508
+    ],
+    "labels": [
+      "System V",
+      "Variant R"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        9.0,
+        5.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "upper left",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7142607764656336,
+      0.6847274372202389
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "error_bar",
+    "errors": [
+      0.012470701838653508,
+      0.015889626730751918
+    ],
+    "labels": [
+      "System V",
+      "Variant R"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        9.0,
+        5.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "upper left",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7142607764656336,
+      0.6847274372202389
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "System V": {
+      "Macro-F1": 0.7142607764656336,
+      "ci95_high": 0.7387029029313319,
+      "ci95_low": 0.6898186499999353,
+      "max": 0.7497172265820776,
+      "mean": 0.7142607764656336,
+      "median": 0.7142187927784225,
+      "runs": [
+        0.7497172265820776,
+        0.7460777576065994,
+        0.6874770192845595,
+        0.7190186718705259,
+        0.709418913686319,
+        0.6738550697637199
+      ],
+      "se": 0.012470701838653508,
+      "std": 0.030546856239089086
+    },
+    "Variant R": {
+      "Macro-F1": 0.6847274372202389,
+      "ci95_high": 0.7158705333402976,
+      "ci95_low": 0.6535843411001802,
+      "max": 0.7271550200145184,
+      "mean": 0.6847274372202389,
+      "median": 0.6836607546903515,
+      "runs": [
+        0.6210031944915251,
+        0.6936004255895494,
+        0.7271550200145184,
+        0.6737210837911535,
+        0.7213339689773526,
+        0.6715509304573345
+      ],
+      "se": 0.015889626730751918,
+      "std": 0.03892147769363022
+    }
+  }
+}

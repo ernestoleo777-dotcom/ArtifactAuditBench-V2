@@ -1,0 +1,35 @@
+{
+  "case_id": "v2_88b0425080be43d3",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Variant C",
+        "Method X"
+      ],
+      "after": [
+        "Method X",
+        "Variant C",
+        "Approach H",
+        "Procedure N",
+        "System V"
+      ],
+      "before": [
+        "Variant C",
+        "Method X",
+        "Approach H",
+        "Procedure N",
+        "System V"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Variant C",
+        "Method X",
+        "Approach H",
+        "Procedure N",
+        "System V"
+      ]
+    }
+  ],
+  "split": "scale_test_unseen"
+}

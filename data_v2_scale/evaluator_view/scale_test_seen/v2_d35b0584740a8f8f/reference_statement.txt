@@ -1,0 +1,1 @@
+Compared with Module A, Full Model improves Macro-F1 by 2.08 points. The full model contributes the largest improvement over Module A.

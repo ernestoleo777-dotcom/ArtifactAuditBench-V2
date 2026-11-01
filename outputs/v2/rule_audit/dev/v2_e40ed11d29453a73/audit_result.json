@@ -1,0 +1,95 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_e40ed11d29453a73",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.49341404205188155,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Model Q",
+        "mean"
+      ],
+      "confidence": 1.0,
+      "error_type": "selective_reporting",
+      "evidence": {
+        "column": "mean",
+        "error_type": "aggregation_error",
+        "expected": 0.726227,
+        "model": "Model Q",
+        "reported": 0.764475
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.726227
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "confidence": 1.0,
+      "error_type": "axis_scale_error",
+      "evidence": {
+        "matched_candidate": "candidate_axis_scale_error_selective_reporting.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "error_bar",
+          "errors": [
+            0.006630604341976041,
+            0.010261713095553987,
+            0.014753804789802583
+          ],
+          "labels": [
+            "Model Q",
+            "System K",
+            "System V"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 120,
+            "figsize": [
+              6.4,
+              4.8
+            ],
+            "font": "DejaVu Serif",
+            "grid": true,
+            "horizontal": true,
+            "legend_loc": "upper right",
+            "legend_outside": true,
+            "marker": "x",
+            "palette": [
+              "#4C78A8",
+              "#F58518",
+              "#54A24B",
+              "#E45756",
+              "#72B7B2"
+            ],
+            "precision": 3
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7262273343750587,
+            0.7065319853222977,
+            0.7349942102862986
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

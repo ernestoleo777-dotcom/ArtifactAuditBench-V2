@@ -1,0 +1,1 @@
+Approach T is consistently better than Method P for Macro-F1.

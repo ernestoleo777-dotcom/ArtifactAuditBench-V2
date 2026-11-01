@@ -1,0 +1,1 @@
+Variant C is consistently better than Model Q for Macro-F1.

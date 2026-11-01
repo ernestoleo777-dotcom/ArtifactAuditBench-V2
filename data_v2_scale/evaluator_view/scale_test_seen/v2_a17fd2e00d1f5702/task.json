@@ -1,0 +1,46 @@
+{
+  "case_id": "v2_a17fd2e00d1f5702",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "after": [
+        "Module A",
+        "Baseline",
+        "Module B",
+        "Full Model"
+      ],
+      "before": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ]
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_a17fd2e00d1f5702",
+    "evaluator": "evaluator_view/scale_test_seen/v2_a17fd2e00d1f5702"
+  },
+  "seed": 1553881,
+  "split": "scale_test_seen",
+  "style_fingerprint": "c46d826453a3",
+  "template_family": "test_seen",
+  "template_fingerprint": "935495580030",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

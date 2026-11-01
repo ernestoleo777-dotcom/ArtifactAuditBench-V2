@@ -1,0 +1,26 @@
+{
+  "case_id": "v2_3cc9e130d8ccf978",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "after": "Accuracy",
+      "before": "Macro-F1",
+      "error_type": "metric_name_mismatch",
+      "repair": "Macro-F1"
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "ablation conclusion"
+      ],
+      "after": "Module B",
+      "before": "Full Model",
+      "error_type": "ablation_conclusion_error",
+      "repair": "Full Model"
+    }
+  ],
+  "split": "scale_test_unseen"
+}

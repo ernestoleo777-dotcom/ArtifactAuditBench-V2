@@ -1,0 +1,1 @@
+Method P and System V remain close (0.711 versus 0.706), with Method P ahead. The confidence intervals overlap, showing a statistically significant improvement.

@@ -1,0 +1,18 @@
+{
+  "case_id": "v2_b1fd8b9ae7e5c8ff",
+  "chart_type": "scatter",
+  "errors": [],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/dev/v2_b1fd8b9ae7e5c8ff",
+    "evaluator": "evaluator_view/dev/v2_b1fd8b9ae7e5c8ff"
+  },
+  "seed": 133941,
+  "split": "dev",
+  "style_fingerprint": "f454a6dbaa7b",
+  "template_fingerprint": "fbceae5044e2",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

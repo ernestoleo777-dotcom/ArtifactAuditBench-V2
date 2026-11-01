@@ -1,0 +1,1 @@
+Variant R obtains the best RMSE: 0.522.

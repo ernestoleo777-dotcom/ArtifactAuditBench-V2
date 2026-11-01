@@ -1,0 +1,1 @@
+Variant R obtains the best Macro-F1: 0.808.

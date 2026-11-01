@@ -1,0 +1,1 @@
+Variant R yields a 1.36% relative improvement in Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

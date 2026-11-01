@@ -1,0 +1,29 @@
+{
+  "case_id": "v2_88c2b805fc57a1fd",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 7.657126754442516,
+      "before": 0.15712675444251653,
+      "error_type": "relative_improvement_error",
+      "repair": 0.15712675444251653
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/dev/v2_88c2b805fc57a1fd",
+    "evaluator": "evaluator_view/dev/v2_88c2b805fc57a1fd"
+  },
+  "seed": 138926,
+  "split": "dev",
+  "style_fingerprint": "16c750d8f202",
+  "template_fingerprint": "1c02619d6e14",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

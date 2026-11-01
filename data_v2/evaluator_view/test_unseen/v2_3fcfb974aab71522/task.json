@@ -1,0 +1,53 @@
+{
+  "case_id": "v2_3fcfb974aab71522",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "System V",
+        "reported subset"
+      ],
+      "after": 0.7585274354952538,
+      "before": 0.740023,
+      "error_type": "selective_reporting",
+      "repair": 0.740023
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.6903727308320526,
+        0.7635759321369724
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/test_unseen/v2_3fcfb974aab71522",
+    "evaluator": "evaluator_view/test_unseen/v2_3fcfb974aab71522"
+  },
+  "seed": 345965,
+  "split": "test_unseen",
+  "style_fingerprint": "889274d662ef",
+  "template_fingerprint": "34149437ddfb",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

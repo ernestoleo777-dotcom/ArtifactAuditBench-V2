@@ -1,0 +1,53 @@
+{
+  "case_id": "v2_25c85f11d790f3eb",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method P",
+        "Approach T"
+      ],
+      "after": [
+        "Approach T",
+        "Method P",
+        "Variant C",
+        "Model Q"
+      ],
+      "before": [
+        "Method P",
+        "Approach T",
+        "Variant C",
+        "Model Q"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method P",
+        "Approach T",
+        "Variant C",
+        "Model Q"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "ci95_low"
+      ],
+      "after": 0.7882604799999999,
+      "before": 0.703804,
+      "error_type": "numeric_copy_error",
+      "repair": 0.703804
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 10.657375330660988,
+      "before": 3.157375330660988,
+      "error_type": "relative_improvement_error",
+      "repair": 3.157375330660988
+    }
+  ],
+  "split": "scale_test_unseen"
+}

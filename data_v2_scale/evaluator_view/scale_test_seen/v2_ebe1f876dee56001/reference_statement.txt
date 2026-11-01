@@ -1,0 +1,1 @@
+Compared with Variant R, Variant C improves Macro-F1 by 0.55 points. The confidence intervals overlap, showing no statistically reliable gain.

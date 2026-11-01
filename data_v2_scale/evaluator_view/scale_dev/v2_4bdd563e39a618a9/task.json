@@ -1,0 +1,41 @@
+{
+  "case_id": "v2_4bdd563e39a618a9",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant C",
+        "ROC-AUC"
+      ],
+      "after": 0.90183744,
+      "before": 0.805212,
+      "error_type": "numeric_copy_error",
+      "repair": 0.805212
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Method P",
+      "before": "Procedure N",
+      "error_type": "ranking_error",
+      "repair": "Procedure N"
+    }
+  ],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/scale_dev/v2_4bdd563e39a618a9",
+    "evaluator": "evaluator_view/scale_dev/v2_4bdd563e39a618a9"
+  },
+  "seed": 569833,
+  "split": "scale_dev",
+  "style_fingerprint": "8a461a8e0da1",
+  "template_family": "dev",
+  "template_fingerprint": "d2f17f4c3bac",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

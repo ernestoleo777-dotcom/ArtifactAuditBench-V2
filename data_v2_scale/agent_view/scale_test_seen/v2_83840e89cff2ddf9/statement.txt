@@ -1,0 +1,1 @@
+Across methods, Model Q achieves the highest Macro-F1 at 0.769. The confidence intervals overlap, showing no statistically reliable gain.

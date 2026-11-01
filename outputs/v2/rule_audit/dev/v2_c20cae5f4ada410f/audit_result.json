@@ -1,0 +1,38 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_c20cae5f4ada410f",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.05346037494018674,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "confidence": 0.95,
+      "error_type": "ranking_error",
+      "evidence": {
+        "affected_elements": [
+          "best model"
+        ],
+        "error_type": "ranking_error",
+        "expected": "Method X",
+        "reported": "Variant R"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Method X"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

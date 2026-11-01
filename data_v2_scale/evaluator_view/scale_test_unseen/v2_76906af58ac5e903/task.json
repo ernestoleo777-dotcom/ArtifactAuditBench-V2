@@ -1,0 +1,49 @@
+{
+  "case_id": "v2_76906af58ac5e903",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Variant R",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "Variant R",
+        "System V",
+        "Variant C",
+        "System K"
+      ],
+      "before": [
+        "Variant R",
+        "Approach H",
+        "System V",
+        "Variant C",
+        "System K"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Variant R",
+        "Approach H",
+        "System V",
+        "Variant C",
+        "System K"
+      ]
+    }
+  ],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_76906af58ac5e903",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_76906af58ac5e903"
+  },
+  "seed": 2525965,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "0b709fa85dae",
+  "template_family": "test_unseen",
+  "template_fingerprint": "34149437ddfb",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

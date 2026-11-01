@@ -1,0 +1,67 @@
+{
+  "case_id": "v2_25c85f11d790f3eb",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method P",
+        "Approach T"
+      ],
+      "after": [
+        "Approach T",
+        "Method P",
+        "Variant C",
+        "Model Q"
+      ],
+      "before": [
+        "Method P",
+        "Approach T",
+        "Variant C",
+        "Model Q"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method P",
+        "Approach T",
+        "Variant C",
+        "Model Q"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "ci95_low"
+      ],
+      "after": 0.7882604799999999,
+      "before": 0.703804,
+      "error_type": "numeric_copy_error",
+      "repair": 0.703804
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 10.657375330660988,
+      "before": 3.157375330660988,
+      "error_type": "relative_improvement_error",
+      "repair": 3.157375330660988
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_25c85f11d790f3eb",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_25c85f11d790f3eb"
+  },
+  "seed": 2557869,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "abd1bb0cf7ef",
+  "template_family": "test_unseen",
+  "template_fingerprint": "524675385f92",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

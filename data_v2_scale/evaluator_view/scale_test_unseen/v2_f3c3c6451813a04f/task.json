@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_f3c3c6451813a04f",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Approach T",
+      "before": "System K",
+      "error_type": "ranking_error",
+      "repair": "System K"
+    }
+  ],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_f3c3c6451813a04f",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_f3c3c6451813a04f"
+  },
+  "seed": 2540920,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "5513be20fa50",
+  "template_family": "test_unseen",
+  "template_fingerprint": "d41b650a2830",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "models": [
+    "Approach H",
+    "Model Q",
+    "System K"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Approach H",
+      "Model Q",
+      "System K"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        6.4,
+        4.8
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "o",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8428731762065096,
+      0.8707824838478104,
+      0.80875
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Approach H",
+      "Model Q",
+      "System K"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        6.4,
+        4.8
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "o",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8428731762065096,
+      0.8707824838478104,
+      0.80875
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Approach H": {
+      "Accuracy": 0.8444444444444444,
+      "Macro-F1": 0.8428731762065096,
+      "Precision": 0.8271604938271605,
+      "ROC-AUC": 0.9100885397181694,
+      "Recall": 0.8271604938271605
+    },
+    "Model Q": {
+      "Accuracy": 0.8722222222222222,
+      "Macro-F1": 0.8707824838478104,
+      "Precision": 0.8625,
+      "ROC-AUC": 0.9522384337199152,
+      "Recall": 0.8518518518518519
+    },
+    "System K": {
+      "Accuracy": 0.8111111111111111,
+      "Macro-F1": 0.80875,
+      "Precision": 0.7974683544303798,
+      "ROC-AUC": 0.8688115725152762,
+      "Recall": 0.7777777777777778
+    }
+  }
+}

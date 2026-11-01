@@ -1,0 +1,113 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_47a0da1036fc5861",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.08298904215916991,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Model Q",
+        "Accuracy"
+      ],
+      "confidence": 1.0,
+      "error_type": "numeric_copy_error",
+      "evidence": {
+        "column": "Accuracy",
+        "error_type": "numeric_copy_error",
+        "expected": 0.833333,
+        "model": "Model Q",
+        "reported": 0.933333
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.833333
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "confidence": 0.95,
+      "error_type": "relative_improvement_error",
+      "evidence": {
+        "affected_elements": [
+          "relative_improvement_percent"
+        ],
+        "error_type": "relative_improvement_error",
+        "expected": 5.37,
+        "reported": [
+          12.87
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": 5.37
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Model Q",
+        "Approach T"
+      ],
+      "confidence": 1.0,
+      "error_type": "legend_swap",
+      "evidence": {
+        "matched_candidate": "candidate_legend_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "bar",
+          "labels": [
+            "Model Q",
+            "Approach T",
+            "System K"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 110,
+            "figsize": [
+              5.0,
+              6.0
+            ],
+            "font": "DejaVu Sans Mono",
+            "grid": false,
+            "horizontal": false,
+            "legend_loc": "upper right",
+            "legend_outside": false,
+            "marker": "s",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 2
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.8323189665880015,
+            0.8770339088312011,
+            0.8323189665880015
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

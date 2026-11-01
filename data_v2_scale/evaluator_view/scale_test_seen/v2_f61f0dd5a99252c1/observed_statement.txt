@@ -1,0 +1,2 @@
+Evaluation on Macro-F1 finds Variant R consistently better than Method X.
+ Relative improvement: 18.37%.

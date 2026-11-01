@@ -1,0 +1,75 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_fb4ed6e360a9e5a2",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.2206689161248505,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Method P"
+      ],
+      "confidence": 1.0,
+      "error_type": "legend_swap",
+      "evidence": {
+        "matched_candidate": "candidate_legend_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "multi_panel",
+          "labels": [
+            "Method X",
+            "Method P",
+            "Variant R",
+            "Model Q",
+            "Approach T"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 100,
+            "figsize": [
+              7.0,
+              4.0
+            ],
+            "font": "DejaVu Serif",
+            "grid": false,
+            "horizontal": false,
+            "legend_loc": "best",
+            "legend_outside": false,
+            "marker": "s",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 3
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7718203786964013,
+            0.7520471764072726,
+            0.717956211781331,
+            0.71068109094928,
+            0.6796275648143479
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

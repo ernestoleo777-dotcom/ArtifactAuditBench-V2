@@ -1,0 +1,18 @@
+{
+  "case_id": "v2_a02d39ecac745687",
+  "chart_type": "bar",
+  "errors": [],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/dev/v2_a02d39ecac745687",
+    "evaluator": "evaluator_view/dev/v2_a02d39ecac745687"
+  },
+  "seed": 116992,
+  "split": "dev",
+  "style_fingerprint": "27d71f56c27f",
+  "template_fingerprint": "325f1bcf6929",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+For Macro-F1, Procedure N outperforms Approach H; the absolute gap is 0.004.

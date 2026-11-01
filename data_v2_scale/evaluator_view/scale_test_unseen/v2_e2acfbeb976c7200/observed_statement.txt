@@ -1,0 +1,1 @@
+Ranking by Macro-F1 places Approach H before Variant C. The confidence intervals overlap, showing a statistically significant improvement.

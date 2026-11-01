@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this public software release and identify the camera-ready manuscript separately; official publication disposition is unverified."
+type: software
+title: "ArtifactAuditBench V2"
+version: "2.0.0-public.1"
+date-released: 2026-11-02
+license: Apache-2.0
+authors:
+  - family-names: Li
+    given-names: Hongchen
+repository-code: "https://github.com/ernestoleo777-dotcom/ArtifactAuditBench-V2"
+preferred-citation:
+  type: unpublished
+  title: "ArtifactAuditBench V2: A Multimodal Benchmark for Auditing Scientific Experiment Artifacts"
+  authors:
+    - family-names: Li
+      given-names: Hongchen
+  year: 2026
+  notes: "Camera-ready manuscript. Author records report ICTAI 2026 #175 acceptance and a later withdrawal request pending official confirmation; final publication disposition is unverified."

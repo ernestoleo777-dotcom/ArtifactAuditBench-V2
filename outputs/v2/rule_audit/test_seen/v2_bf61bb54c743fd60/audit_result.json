@@ -1,0 +1,111 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_bf61bb54c743fd60",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.11201066593639553,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "Weighted-F1"
+      ],
+      "confidence": 1.0,
+      "error_type": "numeric_copy_error",
+      "evidence": {
+        "column": "Weighted-F1",
+        "error_type": "numeric_copy_error",
+        "expected": 0.804215,
+        "model": "Approach T",
+        "reported": 0.900721
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.804215
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "confidence": 0.95,
+      "error_type": "relative_improvement_error",
+      "evidence": {
+        "affected_elements": [
+          "relative_improvement_percent"
+        ],
+        "error_type": "relative_improvement_error",
+        "expected": 9.57,
+        "reported": [
+          17.07
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": 9.57
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "Approach H"
+      ],
+      "confidence": 1.0,
+      "error_type": "legend_swap",
+      "evidence": {
+        "matched_candidate": "candidate_legend_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "grouped_bar",
+          "labels": [
+            "Approach T",
+            "Approach H"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 120,
+            "figsize": [
+              5.0,
+              5.0
+            ],
+            "font": "DejaVu Sans",
+            "grid": true,
+            "horizontal": true,
+            "legend_loc": "best",
+            "legend_outside": true,
+            "marker": "x",
+            "palette": [
+              "#4C78A8",
+              "#F58518",
+              "#54A24B",
+              "#E45756",
+              "#72B7B2"
+            ],
+            "precision": 2
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.8037939391910808,
+            0.7336093898747869
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

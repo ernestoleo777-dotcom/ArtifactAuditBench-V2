@@ -1,0 +1,32 @@
+{
+  "case_id": "v2_0995f0b1e9fe983b",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "after": [
+        "Module A",
+        "Baseline",
+        "Module B",
+        "Full Model"
+      ],
+      "before": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ]
+    }
+  ],
+  "split": "test_seen"
+}

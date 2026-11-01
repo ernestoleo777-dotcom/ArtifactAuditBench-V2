@@ -1,0 +1,1 @@
+Reported Macro-F1: Model Q=0.777, Approach T=0.757. The confidence intervals overlap, showing no statistically reliable gain.

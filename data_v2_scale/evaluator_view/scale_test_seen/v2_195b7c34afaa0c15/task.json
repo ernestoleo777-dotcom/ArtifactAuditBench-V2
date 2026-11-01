@@ -1,0 +1,67 @@
+{
+  "case_id": "v2_195b7c34afaa0c15",
+  "chart_type": "scatter",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "after": [
+        "Module A",
+        "Baseline",
+        "Module B",
+        "Full Model"
+      ],
+      "before": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Module A",
+        "ci95_low"
+      ],
+      "after": 0.68880336,
+      "before": 0.615003,
+      "error_type": "numeric_copy_error",
+      "repair": 0.615003
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 12.007420066845828,
+      "before": 4.507420066845827,
+      "error_type": "relative_improvement_error",
+      "repair": 4.507420066845827
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_195b7c34afaa0c15",
+    "evaluator": "evaluator_view/scale_test_seen/v2_195b7c34afaa0c15"
+  },
+  "seed": 1548896,
+  "split": "scale_test_seen",
+  "style_fingerprint": "e64b96ff7e19",
+  "template_family": "test_seen",
+  "template_fingerprint": "77e63d89a38f",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

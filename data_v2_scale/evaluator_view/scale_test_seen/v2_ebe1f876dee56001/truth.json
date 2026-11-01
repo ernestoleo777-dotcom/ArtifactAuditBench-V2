@@ -1,0 +1,40 @@
+{
+  "case_id": "v2_ebe1f876dee56001",
+  "errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Variant C",
+        "reported subset"
+      ],
+      "after": 0.7584141185388101,
+      "before": 0.730423,
+      "error_type": "selective_reporting",
+      "repair": 0.730423
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.7035704842794298,
+        0.7624766099654309
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    }
+  ],
+  "split": "scale_test_seen"
+}

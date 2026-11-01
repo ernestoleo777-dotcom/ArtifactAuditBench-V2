@@ -1,0 +1,67 @@
+{
+  "case_id": "v2_b1f0cac00ac751fc",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "Variant C"
+      ],
+      "after": [
+        "Variant C",
+        "Approach T",
+        "Procedure N",
+        "Model Q"
+      ],
+      "before": [
+        "Approach T",
+        "Variant C",
+        "Procedure N",
+        "Model Q"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach T",
+        "Variant C",
+        "Procedure N",
+        "Model Q"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Model Q",
+        "ROC-AUC"
+      ],
+      "after": 0.9254828799999999,
+      "before": 0.826324,
+      "error_type": "numeric_copy_error",
+      "repair": 0.826324
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 14.285919735554714,
+      "before": 6.785919735554713,
+      "error_type": "relative_improvement_error",
+      "repair": 6.785919735554713
+    }
+  ],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_b1f0cac00ac751fc",
+    "evaluator": "evaluator_view/scale_test_seen/v2_b1f0cac00ac751fc"
+  },
+  "seed": 1524968,
+  "split": "scale_test_seen",
+  "style_fingerprint": "c8d7b65fbdb0",
+  "template_family": "test_seen",
+  "template_fingerprint": "57b6a047ff89",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

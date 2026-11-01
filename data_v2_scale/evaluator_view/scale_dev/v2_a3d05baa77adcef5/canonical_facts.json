@@ -1,0 +1,109 @@
+{
+  "models": [
+    "Approach H",
+    "Model Q",
+    "Approach T",
+    "Procedure N"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach H",
+      "Model Q",
+      "Approach T",
+      "Procedure N"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        7.0,
+        4.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "o",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4982313255374693,
+      0.6777545267575464,
+      0.7989750082840323,
+      0.9251356762837366
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach H",
+      "Model Q",
+      "Approach T",
+      "Procedure N"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        7.0,
+        4.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "o",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4982313255374693,
+      0.6777545267575464,
+      0.7989750082840323,
+      0.9251356762837366
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Approach H": {
+      "MAE": 0.38446423267116864,
+      "R2": 0.9764674095496988,
+      "RMSE": 0.4982313255374693
+    },
+    "Approach T": {
+      "MAE": 0.6477340881289881,
+      "R2": 0.9394834631190421,
+      "RMSE": 0.7989750082840323
+    },
+    "Model Q": {
+      "MAE": 0.5398951365615664,
+      "R2": 0.956453572560359,
+      "RMSE": 0.6777545267575464
+    },
+    "Procedure N": {
+      "MAE": 0.7403613863137781,
+      "R2": 0.9188630766604007,
+      "RMSE": 0.9251356762837366
+    }
+  }
+}

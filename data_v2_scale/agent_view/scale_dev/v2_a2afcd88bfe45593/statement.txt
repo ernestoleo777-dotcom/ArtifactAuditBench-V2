@@ -1,0 +1,1 @@
+Module B remains competitive with Module A (0.666 vs 0.645). The module B contributes the largest improvement over Module A.

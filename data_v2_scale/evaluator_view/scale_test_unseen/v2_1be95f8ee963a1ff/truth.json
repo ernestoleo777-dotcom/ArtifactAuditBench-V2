@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_1be95f8ee963a1ff",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Baseline",
+        "std"
+      ],
+      "after": 0.062322999999999996,
+      "before": 0.032323,
+      "error_type": "numeric_copy_error",
+      "repair": 0.032323
+    }
+  ],
+  "split": "scale_test_unseen"
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_f1596abadad23068",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System K",
+        "MAE"
+      ],
+      "after": 0.46171887999999994,
+      "before": 0.412249,
+      "error_type": "numeric_copy_error",
+      "repair": 0.412249
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Approach H",
+      "before": "System K",
+      "error_type": "ranking_error",
+      "repair": "System K"
+    }
+  ],
+  "split": "scale_dev"
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_713a09040f7b1a1a",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System K",
+      "before": "Variant C",
+      "error_type": "ranking_error",
+      "repair": "Variant C"
+    }
+  ],
+  "split": "scale_test_seen"
+}

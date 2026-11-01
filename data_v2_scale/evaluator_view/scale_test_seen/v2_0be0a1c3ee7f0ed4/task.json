@@ -1,0 +1,40 @@
+{
+  "case_id": "v2_0be0a1c3ee7f0ed4",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach H",
+        "Method P"
+      ],
+      "after": [
+        0.7575077888943252,
+        0.7606286959228136
+      ],
+      "before": [
+        0.7606286959228136,
+        0.7575077888943252
+      ],
+      "error_type": "series_data_swap",
+      "repair": [
+        0.7606286959228136,
+        0.7575077888943252
+      ]
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_0be0a1c3ee7f0ed4",
+    "evaluator": "evaluator_view/scale_test_seen/v2_0be0a1c3ee7f0ed4"
+  },
+  "seed": 1521977,
+  "split": "scale_test_seen",
+  "style_fingerprint": "832567ab0e4f",
+  "template_family": "test_seen",
+  "template_fingerprint": "a92ceff79791",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

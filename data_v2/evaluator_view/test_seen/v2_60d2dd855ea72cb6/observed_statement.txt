@@ -1,0 +1,1 @@
+Although close to System K, Model Q remains competitive and leads 0.712 to 0.707. The confidence intervals overlap, showing no statistically reliable gain.

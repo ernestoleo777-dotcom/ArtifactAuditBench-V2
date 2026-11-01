@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_5bfd2b1db238710d",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Module B",
+      "before": "Full Model",
+      "error_type": "ranking_error",
+      "repair": "Full Model"
+    }
+  ],
+  "split": "scale_dev"
+}

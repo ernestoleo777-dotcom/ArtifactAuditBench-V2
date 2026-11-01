@@ -1,0 +1,99 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_192e48e5cf6c574b",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.11596600012853742,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Full Model",
+        "std"
+      ],
+      "confidence": 1.0,
+      "error_type": "numeric_copy_error",
+      "evidence": {
+        "column": "std",
+        "error_type": "numeric_copy_error",
+        "expected": 0.030437,
+        "model": "Full Model",
+        "reported": 0.060437
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.030437
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "confidence": 1.0,
+      "error_type": "series_data_swap",
+      "evidence": {
+        "matched_candidate": "candidate_series_data_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "error_bar",
+          "errors": [
+            0.007641689455582736,
+            0.00990386697534629,
+            0.012516641606920892,
+            0.00962500249740413
+          ],
+          "labels": [
+            "Baseline",
+            "Module A",
+            "Module B",
+            "Full Model"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 90,
+            "figsize": [
+              7.0,
+              4.0
+            ],
+            "font": "DejaVu Sans",
+            "grid": false,
+            "horizontal": true,
+            "legend_loc": "best",
+            "legend_outside": false,
+            "marker": "x",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 2
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.6020834268426711,
+            0.6485011583520146,
+            0.621952726201522,
+            0.6623352031874232
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

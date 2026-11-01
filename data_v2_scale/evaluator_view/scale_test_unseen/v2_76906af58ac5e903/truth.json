@@ -1,0 +1,35 @@
+{
+  "case_id": "v2_76906af58ac5e903",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Variant R",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "Variant R",
+        "System V",
+        "Variant C",
+        "System K"
+      ],
+      "before": [
+        "Variant R",
+        "Approach H",
+        "System V",
+        "Variant C",
+        "System K"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Variant R",
+        "Approach H",
+        "System V",
+        "Variant C",
+        "System K"
+      ]
+    }
+  ],
+  "split": "scale_test_unseen"
+}

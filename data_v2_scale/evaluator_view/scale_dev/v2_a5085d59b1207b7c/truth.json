@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_a5085d59b1207b7c",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "after": "Accuracy",
+      "before": "Macro-F1",
+      "error_type": "metric_name_mismatch",
+      "repair": "Macro-F1"
+    }
+  ],
+  "split": "scale_dev"
+}

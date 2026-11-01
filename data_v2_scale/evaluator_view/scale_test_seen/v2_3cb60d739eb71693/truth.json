@@ -1,0 +1,42 @@
+{
+  "case_id": "v2_3cb60d739eb71693",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "after": [
+        "Module A",
+        "Baseline",
+        "Module B",
+        "Full Model"
+      ],
+      "before": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 12.608753091462752,
+      "before": 5.108753091462753,
+      "error_type": "relative_improvement_error",
+      "repair": 5.108753091462753
+    }
+  ],
+  "split": "scale_test_seen"
+}

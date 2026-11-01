@@ -1,0 +1,1 @@
+System K yields a 4.74% relative improvement in Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

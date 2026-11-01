@@ -1,0 +1,1 @@
+With 0.756 on Macro-F1, Method P leads the comparison. The confidence intervals overlap, showing no statistically reliable gain.

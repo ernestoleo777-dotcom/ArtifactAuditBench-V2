@@ -1,0 +1,187 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_ae019004a47312f8",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.22741058398969471,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "confidence": 0.95,
+      "error_type": "relative_improvement_error",
+      "evidence": {
+        "affected_elements": [
+          "relative_improvement_percent"
+        ],
+        "error_type": "relative_improvement_error",
+        "expected": 3.08,
+        "reported": [
+          10.58
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": 3.08
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach H",
+        "Approach T"
+      ],
+      "confidence": 1.0,
+      "error_type": "legend_swap",
+      "evidence": {
+        "matched_candidate": "candidate_legend_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "scatter",
+          "labels": [
+            "Approach H",
+            "Approach T",
+            "Model Q",
+            "System V"
+          ],
+          "metric": "Macro-F1",
+          "scatter_x": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          ],
+          "scatter_y": [
+            [
+              0.7627457772569628,
+              0.746889786480038,
+              0.7475288827363535,
+              0.7812013968970419,
+              0.7529283016782918,
+              0.7422315100962661,
+              0.7748611724541526,
+              0.7713828732864124,
+              0.7484780286761774
+            ],
+            [
+              0.746155187105749,
+              0.7586945679017213,
+              0.7612423568063277,
+              0.7313697312825058,
+              0.7362292082059189,
+              0.7509368683917925,
+              0.7214501216727,
+              0.7320349444953884,
+              0.6861374635728268
+            ],
+            [
+              0.719656045312581,
+              0.7916379345284337,
+              0.6563093012568305,
+              0.712751332240787,
+              0.7360819237787484,
+              0.7219175915073798,
+              0.6903682280496564,
+              0.7511621299742456,
+              0.7236760291272385
+            ],
+            [
+              0.7061493074370014,
+              0.6913766611203679,
+              0.7450499848973021,
+              0.6906386306158712,
+              0.6674697355264525,
+              0.7000725250428839,
+              0.7516020700840246,
+              0.6814601406410679,
+              0.6671622151396608
+            ]
+          ],
+          "style": {
+            "dpi": 120,
+            "figsize": [
+              7.0,
+              4.0
+            ],
+            "font": "DejaVu Sans",
+            "grid": true,
+            "horizontal": false,
+            "legend_loc": "upper right",
+            "legend_outside": false,
+            "marker": "o",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 2
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7586941921735219,
+            0.7360278277149922,
+            0.7226178350862111,
+            0.7001090300560704
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

@@ -1,0 +1,102 @@
+{
+  "models": [
+    "Method X",
+    "System K",
+    "System V"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": [
+      0.4327407170547983,
+      0.8198945373214809
+    ],
+    "chart_type": "bar",
+    "labels": [
+      "Method X",
+      "System K",
+      "System V"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "lower left",
+      "legend_outside": true,
+      "marker": "x",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 4
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.45944098052146604,
+      0.5856053876559111,
+      0.7931942738548131
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "bar",
+    "labels": [
+      "Method X",
+      "System K",
+      "System V"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "lower left",
+      "legend_outside": true,
+      "marker": "x",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 4
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.45944098052146604,
+      0.5856053876559111,
+      0.7931942738548131
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Method X": {
+      "MAE": 0.37083383114889784,
+      "R2": 0.9809359287229222,
+      "RMSE": 0.45944098052146604
+    },
+    "System K": {
+      "MAE": 0.46294371907644855,
+      "R2": 0.9690282089881509,
+      "RMSE": 0.5856053876559111
+    },
+    "System V": {
+      "MAE": 0.6297437663758747,
+      "R2": 0.9431781546890292,
+      "RMSE": 0.7931942738548131
+    }
+  }
+}

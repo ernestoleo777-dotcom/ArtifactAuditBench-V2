@@ -1,0 +1,1 @@
+Model Q improves upon Method P by 1.32 percentage points on Macro-F1. The confidence intervals overlap, showing a statistically significant improvement.

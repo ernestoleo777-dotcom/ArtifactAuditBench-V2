@@ -1,0 +1,1 @@
+Approach T achieves the highest Macro-F1 (0.882).

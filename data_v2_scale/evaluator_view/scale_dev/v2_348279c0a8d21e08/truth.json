@@ -1,0 +1,26 @@
+{
+  "case_id": "v2_348279c0a8d21e08",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Model Q",
+        "System V"
+      ],
+      "after": [
+        "System V",
+        "Model Q"
+      ],
+      "before": [
+        "Model Q",
+        "System V"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Model Q",
+        "System V"
+      ]
+    }
+  ],
+  "split": "scale_dev"
+}

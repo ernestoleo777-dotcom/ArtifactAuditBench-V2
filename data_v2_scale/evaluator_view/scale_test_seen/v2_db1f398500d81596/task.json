@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_db1f398500d81596",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System V",
+      "before": "Approach H",
+      "error_type": "ranking_error",
+      "repair": "Approach H"
+    }
+  ],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_db1f398500d81596",
+    "evaluator": "evaluator_view/scale_test_seen/v2_db1f398500d81596"
+  },
+  "seed": 1584788,
+  "split": "scale_test_seen",
+  "style_fingerprint": "5b2371c5449b",
+  "template_family": "test_seen",
+  "template_fingerprint": "57b6a047ff89",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

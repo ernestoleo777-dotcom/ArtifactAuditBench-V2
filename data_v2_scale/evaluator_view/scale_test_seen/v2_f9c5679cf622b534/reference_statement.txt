@@ -1,0 +1,1 @@
+Reported Macro-F1: Procedure N=0.728, System K=0.717. The confidence intervals overlap, showing no statistically reliable gain.

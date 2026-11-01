@@ -1,0 +1,1 @@
+Relative to Variant C, Method P changes Macro-F1 by 2.85%. The confidence intervals overlap, showing no statistically reliable gain.

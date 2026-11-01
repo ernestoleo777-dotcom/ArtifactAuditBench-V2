@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_0fa6872e4f7039e6",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant C",
+        "ci95_high"
+      ],
+      "after": 0.8400224000000001,
+      "before": 0.75002,
+      "error_type": "numeric_copy_error",
+      "repair": 0.75002
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/dev/v2_0fa6872e4f7039e6",
+    "evaluator": "evaluator_view/dev/v2_0fa6872e4f7039e6"
+  },
+  "seed": 117989,
+  "split": "dev",
+  "style_fingerprint": "3388c425d58c",
+  "template_fingerprint": "9e4b664b6bc5",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

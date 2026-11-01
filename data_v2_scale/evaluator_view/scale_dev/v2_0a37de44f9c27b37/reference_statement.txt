@@ -1,0 +1,1 @@
+Variant R achieves the highest Macro-F1 (0.794).

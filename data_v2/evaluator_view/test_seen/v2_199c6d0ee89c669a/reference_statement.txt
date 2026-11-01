@@ -1,0 +1,1 @@
+Reported Macro-F1: Procedure N=0.772, Model Q=0.759. The confidence intervals overlap, showing no statistically reliable gain.

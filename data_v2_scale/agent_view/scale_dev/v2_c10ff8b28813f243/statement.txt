@@ -1,0 +1,2 @@
+System V is consistently better than Approach T for Macro-F1.
+ Relative improvement: 10.25%.

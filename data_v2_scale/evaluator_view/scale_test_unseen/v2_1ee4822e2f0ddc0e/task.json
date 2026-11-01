@@ -1,0 +1,19 @@
+{
+  "case_id": "v2_1ee4822e2f0ddc0e",
+  "chart_type": "scatter",
+  "errors": [],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_1ee4822e2f0ddc0e",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_1ee4822e2f0ddc0e"
+  },
+  "seed": 2532944,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "fd9e8981c646",
+  "template_family": "test_unseen",
+  "template_fingerprint": "3cbe967f961d",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

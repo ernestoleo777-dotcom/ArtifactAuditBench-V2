@@ -1,0 +1,1 @@
+Method X trails Approach T on the reported Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

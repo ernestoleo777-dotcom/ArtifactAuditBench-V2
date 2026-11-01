@@ -1,0 +1,1 @@
+With 0.483 on RMSE, System K leads the comparison.

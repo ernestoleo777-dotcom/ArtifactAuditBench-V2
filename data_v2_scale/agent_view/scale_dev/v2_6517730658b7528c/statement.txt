@@ -1,0 +1,1 @@
+Approach T yields a 1.15% relative improvement in Macro-F1. The confidence intervals overlap, showing a statistically significant improvement.

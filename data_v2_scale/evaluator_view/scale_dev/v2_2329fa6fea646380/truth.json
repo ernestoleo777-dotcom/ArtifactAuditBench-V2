@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_2329fa6fea646380",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Model Q",
+        "mean"
+      ],
+      "after": 0.7441302494625293,
+      "before": 0.711677,
+      "error_type": "aggregation_error",
+      "repair": 0.711677
+    }
+  ],
+  "split": "scale_dev"
+}

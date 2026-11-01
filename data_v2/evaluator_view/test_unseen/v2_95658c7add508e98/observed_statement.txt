@@ -1,0 +1,1 @@
+With 0.739 on Macro-F1, Procedure N leads the comparison. The confidence intervals overlap, showing no statistically reliable gain.

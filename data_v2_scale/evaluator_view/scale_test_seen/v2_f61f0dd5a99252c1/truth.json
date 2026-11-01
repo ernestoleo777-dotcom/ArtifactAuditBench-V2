@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_f61f0dd5a99252c1",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 18.373753356253992,
+      "before": 10.87375335625399,
+      "error_type": "relative_improvement_error",
+      "repair": 10.87375335625399
+    }
+  ],
+  "split": "scale_test_seen"
+}

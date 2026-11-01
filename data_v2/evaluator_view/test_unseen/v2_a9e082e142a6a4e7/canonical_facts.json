@@ -1,0 +1,250 @@
+{
+  "models": [
+    "Model Q",
+    "System K",
+    "System V"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "confusion_heatmap",
+    "labels": [
+      "Model Q",
+      "System K",
+      "System V"
+    ],
+    "matrix": [
+      [
+        33,
+        4,
+        9,
+        6
+      ],
+      [
+        4,
+        45,
+        3,
+        1
+      ],
+      [
+        8,
+        4,
+        34,
+        4
+      ],
+      [
+        4,
+        7,
+        6,
+        48
+      ]
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 180,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "upper left",
+      "legend_outside": false,
+      "marker": "^",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7226964346448919,
+      0.7621077444517459,
+      0.6848510944223767
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "confusion_heatmap",
+    "labels": [
+      "Model Q",
+      "System K",
+      "System V"
+    ],
+    "matrix": [
+      [
+        33,
+        4,
+        9,
+        6
+      ],
+      [
+        4,
+        45,
+        3,
+        1
+      ],
+      [
+        8,
+        4,
+        34,
+        4
+      ],
+      [
+        4,
+        7,
+        6,
+        48
+      ]
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 180,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "upper left",
+      "legend_outside": false,
+      "marker": "^",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7226964346448919,
+      0.7621077444517459,
+      0.6848510944223767
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Model Q": {
+      "Accuracy": 0.7272727272727273,
+      "Macro-F1": 0.7226964346448919,
+      "Micro-F1": 0.7272727272727273,
+      "Weighted-F1": 0.726584097176489,
+      "confusion_matrix": [
+        [
+          33,
+          4,
+          9,
+          6
+        ],
+        [
+          4,
+          45,
+          3,
+          1
+        ],
+        [
+          8,
+          4,
+          34,
+          4
+        ],
+        [
+          4,
+          7,
+          6,
+          48
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.6346153846153846,
+        "Class 1": 0.8490566037735849,
+        "Class 2": 0.68,
+        "Class 3": 0.7384615384615385
+      }
+    },
+    "System K": {
+      "Accuracy": 0.7636363636363637,
+      "Macro-F1": 0.7621077444517459,
+      "Micro-F1": 0.7636363636363637,
+      "Weighted-F1": 0.7627887096459824,
+      "confusion_matrix": [
+        [
+          36,
+          4,
+          3,
+          9
+        ],
+        [
+          4,
+          38,
+          2,
+          9
+        ],
+        [
+          5,
+          3,
+          39,
+          3
+        ],
+        [
+          2,
+          4,
+          4,
+          55
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.6923076923076923,
+        "Class 1": 0.7169811320754716,
+        "Class 2": 0.78,
+        "Class 3": 0.8461538461538461
+      }
+    },
+    "System V": {
+      "Accuracy": 0.6863636363636364,
+      "Macro-F1": 0.6848510944223767,
+      "Micro-F1": 0.6863636363636364,
+      "Weighted-F1": 0.6861411643119377,
+      "confusion_matrix": [
+        [
+          38,
+          4,
+          2,
+          8
+        ],
+        [
+          4,
+          37,
+          6,
+          6
+        ],
+        [
+          8,
+          7,
+          31,
+          4
+        ],
+        [
+          4,
+          10,
+          6,
+          45
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.7307692307692307,
+        "Class 1": 0.6981132075471698,
+        "Class 2": 0.62,
+        "Class 3": 0.6923076923076923
+      }
+    }
+  }
+}

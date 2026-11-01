@@ -1,0 +1,1 @@
+Compared with System V, Method X improves Macro-F1 by 2.75 points. The confidence intervals overlap, showing no statistically reliable gain.

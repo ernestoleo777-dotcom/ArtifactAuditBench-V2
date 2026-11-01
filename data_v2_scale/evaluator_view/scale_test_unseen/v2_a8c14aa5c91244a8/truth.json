@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_a8c14aa5c91244a8",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System V",
+        "Accuracy"
+      ],
+      "after": 0.8043638399999999,
+      "before": 0.718182,
+      "error_type": "numeric_copy_error",
+      "repair": 0.718182
+    }
+  ],
+  "split": "scale_test_unseen"
+}

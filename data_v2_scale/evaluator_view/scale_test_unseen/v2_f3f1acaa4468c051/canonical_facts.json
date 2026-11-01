@@ -1,0 +1,93 @@
+{
+  "models": [
+    "System K",
+    "Variant C"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "System K",
+      "Variant C"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 180,
+      "figsize": [
+        8.0,
+        4.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "upper left",
+      "legend_outside": false,
+      "marker": "s",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8411297440423654,
+      0.869281045751634
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "System K",
+      "Variant C"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 180,
+      "figsize": [
+        8.0,
+        4.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "upper left",
+      "legend_outside": false,
+      "marker": "s",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8411297440423654,
+      0.869281045751634
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "System K": {
+      "Accuracy": 0.8444444444444444,
+      "Macro-F1": 0.8411297440423654,
+      "Precision": 0.8076923076923077,
+      "ROC-AUC": 0.9101720647773279,
+      "Recall": 0.8289473684210527
+    },
+    "Variant C": {
+      "Accuracy": 0.8722222222222222,
+      "Macro-F1": 0.869281045751634,
+      "Precision": 0.8441558441558441,
+      "ROC-AUC": 0.9462297570850202,
+      "Recall": 0.8552631578947368
+    }
+  }
+}

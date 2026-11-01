@@ -1,0 +1,36 @@
+{
+  "case_id": "v2_ae449ebf2142253b",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 15.191894290813007,
+      "before": 7.691894290813006,
+      "error_type": "relative_improvement_error",
+      "repair": 7.691894290813006
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "after": "Micro-F1",
+      "before": "Macro-F1",
+      "error_type": "metric_name_mismatch",
+      "repair": "Macro-F1"
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System K",
+      "before": "Approach T",
+      "error_type": "ranking_error",
+      "repair": "Approach T"
+    }
+  ],
+  "split": "scale_test_seen"
+}

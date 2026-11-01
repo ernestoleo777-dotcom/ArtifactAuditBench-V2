@@ -1,0 +1,119 @@
+{
+  "models": [
+    "System K",
+    "Approach T",
+    "Variant R",
+    "Method X",
+    "Variant C"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "System K",
+      "Approach T",
+      "Variant R",
+      "Method X",
+      "Variant C"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "best",
+      "legend_outside": true,
+      "marker": "s",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.484037153985609,
+      0.7118230204255122,
+      0.7380657619670246,
+      0.8844230112329303,
+      1.0269552590790907
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "System K",
+      "Approach T",
+      "Variant R",
+      "Method X",
+      "Variant C"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "best",
+      "legend_outside": true,
+      "marker": "s",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.484037153985609,
+      0.7118230204255122,
+      0.7380657619670246,
+      0.8844230112329303,
+      1.0269552590790907
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Approach T": {
+      "MAE": 0.5868962248432641,
+      "R2": 0.9484503163878455,
+      "RMSE": 0.7118230204255122
+    },
+    "Method X": {
+      "MAE": 0.7178813695717681,
+      "R2": 0.9204203520679325,
+      "RMSE": 0.8844230112329303
+    },
+    "System K": {
+      "MAE": 0.3789852699448668,
+      "R2": 0.9761636725130461,
+      "RMSE": 0.484037153985609
+    },
+    "Variant C": {
+      "MAE": 0.8396526690569867,
+      "R2": 0.8927036390681502,
+      "RMSE": 1.0269552590790907
+    },
+    "Variant R": {
+      "MAE": 0.6014100326308767,
+      "R2": 0.9445792926092519,
+      "RMSE": 0.7380657619670246
+    }
+  }
+}

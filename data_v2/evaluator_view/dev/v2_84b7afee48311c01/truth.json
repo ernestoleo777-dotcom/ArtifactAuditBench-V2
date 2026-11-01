@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_84b7afee48311c01",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant R",
+        "Recall"
+      ],
+      "after": 0.8586670399999999,
+      "before": 0.766667,
+      "error_type": "numeric_copy_error",
+      "repair": 0.766667
+    }
+  ],
+  "split": "dev"
+}

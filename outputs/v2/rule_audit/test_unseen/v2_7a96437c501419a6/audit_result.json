@@ -1,0 +1,91 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_7a96437c501419a6",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.10902179102413356,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "confidence": 0.95,
+      "error_type": "relative_improvement_error",
+      "evidence": {
+        "affected_elements": [
+          "relative_improvement_percent"
+        ],
+        "error_type": "relative_improvement_error",
+        "expected": 28.7,
+        "reported": [
+          36.2
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": 28.7
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Method P"
+      ],
+      "confidence": 1.0,
+      "error_type": "legend_swap",
+      "evidence": {
+        "matched_candidate": "candidate_legend_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "bar",
+          "labels": [
+            "Method X",
+            "Method P"
+          ],
+          "metric": "RMSE",
+          "style": {
+            "dpi": 180,
+            "figsize": [
+              8.0,
+              4.0
+            ],
+            "font": "DejaVu Sans Mono",
+            "grid": false,
+            "horizontal": false,
+            "legend_loc": "lower center",
+            "legend_outside": true,
+            "marker": "D",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 4
+          },
+          "title": "RMSE comparison",
+          "values": [
+            0.45769496060220577,
+            0.6418924653135537
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

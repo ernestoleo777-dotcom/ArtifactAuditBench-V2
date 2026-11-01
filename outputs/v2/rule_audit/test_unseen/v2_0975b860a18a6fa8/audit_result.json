@@ -1,0 +1,58 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_0975b860a18a6fa8",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.4000075829681009,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Approach T",
+        "mean"
+      ],
+      "confidence": 1.0,
+      "error_type": "selective_reporting",
+      "evidence": {
+        "column": "mean",
+        "error_type": "aggregation_error",
+        "expected": 0.725587,
+        "model": "Approach T",
+        "reported": 0.742524
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.725587
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "confidence": 0.95,
+      "error_type": "ranking_error",
+      "evidence": {
+        "affected_elements": [
+          "best model"
+        ],
+        "error_type": "ranking_error",
+        "expected": "Approach T",
+        "reported": "Method P"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Approach T"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

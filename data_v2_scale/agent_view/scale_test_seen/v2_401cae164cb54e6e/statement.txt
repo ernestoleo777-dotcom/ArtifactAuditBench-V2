@@ -1,0 +1,1 @@
+Reported Macro-F1: Variant C=0.745, Approach H=0.728. The confidence intervals overlap, showing no statistically reliable gain.

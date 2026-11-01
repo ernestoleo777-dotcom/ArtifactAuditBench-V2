@@ -1,0 +1,50 @@
+{
+  "case_id": "v2_c10ff8b28813f243",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "System V"
+      ],
+      "after": [
+        "System V",
+        "Approach T",
+        "Procedure N"
+      ],
+      "before": [
+        "Approach T",
+        "System V",
+        "Procedure N"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach T",
+        "System V",
+        "Procedure N"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "Recall"
+      ],
+      "after": 0.896,
+      "before": 0.8,
+      "error_type": "numeric_copy_error",
+      "repair": 0.8
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 10.253058954393747,
+      "before": 2.7530589543937465,
+      "error_type": "relative_improvement_error",
+      "repair": 2.7530589543937465
+    }
+  ],
+  "split": "scale_dev"
+}

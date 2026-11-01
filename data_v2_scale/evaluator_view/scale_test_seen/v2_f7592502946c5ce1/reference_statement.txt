@@ -1,0 +1,1 @@
+Although close to System V, Approach T remains competitive and leads 0.718 to 0.704. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,108 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_60d2dd855ea72cb6",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.30797250010073185,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Model Q",
+        "mean"
+      ],
+      "confidence": 1.0,
+      "error_type": "selective_reporting",
+      "evidence": {
+        "column": "mean",
+        "error_type": "aggregation_error",
+        "expected": 0.712228,
+        "model": "Model Q",
+        "reported": 0.751839
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.712228
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "confidence": 0.95,
+      "error_type": "ranking_error",
+      "evidence": {
+        "affected_elements": [
+          "best model"
+        ],
+        "error_type": "ranking_error",
+        "expected": "Model Q",
+        "reported": "System K"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Model Q"
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "confidence": 1.0,
+      "error_type": "axis_scale_error",
+      "evidence": {
+        "matched_candidate": "candidate_axis_scale_error_selective_reporting.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "bar",
+          "labels": [
+            "Model Q",
+            "System K"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 100,
+            "figsize": [
+              6.4,
+              4.8
+            ],
+            "font": "DejaVu Sans",
+            "grid": false,
+            "horizontal": true,
+            "legend_loc": "upper right",
+            "legend_outside": true,
+            "marker": "s",
+            "palette": [
+              "#4C78A8",
+              "#F58518",
+              "#54A24B",
+              "#E45756",
+              "#72B7B2"
+            ],
+            "precision": 3
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7122276459040858,
+            0.7065588713899559
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

@@ -1,0 +1,2 @@
+Variant C records 0.776 Weighted-F1; Variant C records 0.713.
+ Relative improvement: 16.35%.

@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_c47667b94dab4dc5",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_c47667b94dab4dc5",
+    "evaluator": "evaluator_view/scale_test_seen/v2_c47667b94dab4dc5"
+  },
+  "seed": 1607719,
+  "split": "scale_test_seen",
+  "style_fingerprint": "0a4a60800861",
+  "template_family": "test_seen",
+  "template_fingerprint": "09f8d2201da1",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "case_id": "v2_7c42764d2c51443f",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.6817890683191787,
+        0.7142354868701399
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    },
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Model Q",
+        "reported subset"
+      ],
+      "after": 0.7425187918261517,
+      "before": 0.711998,
+      "error_type": "selective_reporting",
+      "repair": 0.711998
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_7c42764d2c51443f",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_7c42764d2c51443f"
+  },
+  "seed": 2642614,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "8e078e3778b6",
+  "template_family": "test_unseen",
+  "template_fingerprint": "3cbe967f961d",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

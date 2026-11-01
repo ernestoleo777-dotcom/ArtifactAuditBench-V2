@@ -1,0 +1,1 @@
+Procedure N and System V remain close (0.750 versus 0.718), with Procedure N ahead. The 95% confidence intervals do not overlap, indicating a statistically reliable difference.

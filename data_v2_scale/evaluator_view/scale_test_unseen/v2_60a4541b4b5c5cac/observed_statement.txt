@@ -1,0 +1,1 @@
+Model Q and Procedure N remain close (0.497 versus 0.682), with Model Q ahead.

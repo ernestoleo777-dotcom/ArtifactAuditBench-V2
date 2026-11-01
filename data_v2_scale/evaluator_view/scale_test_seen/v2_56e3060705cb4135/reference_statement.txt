@@ -1,0 +1,1 @@
+The best observed Macro-F1 is obtained by Full Model (0.674). The full model contributes the largest improvement over Module A.

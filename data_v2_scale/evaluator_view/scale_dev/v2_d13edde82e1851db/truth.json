@@ -1,0 +1,35 @@
+{
+  "case_id": "v2_d13edde82e1851db",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Variant R",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "Variant R",
+        "System K",
+        "Method P",
+        "System V"
+      ],
+      "before": [
+        "Variant R",
+        "Approach H",
+        "System K",
+        "Method P",
+        "System V"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Variant R",
+        "Approach H",
+        "System K",
+        "Method P",
+        "System V"
+      ]
+    }
+  ],
+  "split": "scale_dev"
+}

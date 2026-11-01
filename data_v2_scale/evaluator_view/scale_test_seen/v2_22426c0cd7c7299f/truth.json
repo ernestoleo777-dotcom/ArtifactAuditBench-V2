@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_22426c0cd7c7299f",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "Micro-F1"
+      ],
+      "after": 0.7381819199999999,
+      "before": 0.659091,
+      "error_type": "numeric_copy_error",
+      "repair": 0.659091
+    }
+  ],
+  "split": "scale_test_seen"
+}

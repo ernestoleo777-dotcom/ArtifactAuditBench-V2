@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_0975b860a18a6fa8",
+  "errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Approach T",
+        "reported subset"
+      ],
+      "after": 0.7425240867209866,
+      "before": 0.725587,
+      "error_type": "selective_reporting",
+      "repair": 0.725587
+    }
+  ],
+  "split": "test_unseen"
+}

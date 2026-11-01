@@ -1,0 +1,1 @@
+The best observed Micro-F1 is obtained by Approach T (0.777).

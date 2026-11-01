@@ -1,0 +1,53 @@
+{
+  "case_id": "v2_aff97194f478f881",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "after": [
+        "Module A",
+        "Baseline",
+        "Module B",
+        "Full Model"
+      ],
+      "before": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Full Model",
+        "ci95_low"
+      ],
+      "after": 0.7450329600000001,
+      "before": 0.665208,
+      "error_type": "numeric_copy_error",
+      "repair": 0.665208
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 12.737660598843215,
+      "before": 5.237660598843215,
+      "error_type": "relative_improvement_error",
+      "repair": 5.237660598843215
+    }
+  ],
+  "split": "scale_dev"
+}

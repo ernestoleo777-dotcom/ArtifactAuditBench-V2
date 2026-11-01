@@ -1,0 +1,57 @@
+{
+  "case_id": "v2_c25aa0f069764f6b",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "after": [
+        0.6490202692847293,
+        0.6145500531136481,
+        0.6302650240958613,
+        0.6634243521456296
+      ],
+      "before": [
+        0.6145500531136481,
+        0.6490202692847293,
+        0.6302650240958613,
+        0.6634243521456296
+      ],
+      "error_type": "series_data_swap",
+      "repair": [
+        0.6145500531136481,
+        0.6490202692847293,
+        0.6302650240958613,
+        0.6634243521456296
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Module B",
+        "mean"
+      ],
+      "after": 0.7058968,
+      "before": 0.630265,
+      "error_type": "numeric_copy_error",
+      "repair": 0.630265
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_c25aa0f069764f6b",
+    "evaluator": "evaluator_view/scale_test_seen/v2_c25aa0f069764f6b"
+  },
+  "seed": 1623671,
+  "split": "scale_test_seen",
+  "style_fingerprint": "d5fbfc9f66f1",
+  "template_family": "test_seen",
+  "template_fingerprint": "935495580030",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

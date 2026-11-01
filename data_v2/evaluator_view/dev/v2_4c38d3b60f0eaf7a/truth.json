@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_4c38d3b60f0eaf7a",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System V",
+        "Weighted-F1"
+      ],
+      "after": 0.90114752,
+      "before": 0.804596,
+      "error_type": "numeric_copy_error",
+      "repair": 0.804596
+    }
+  ],
+  "split": "dev"
+}

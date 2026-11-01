@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_44d68cdc1c3a7892",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    }
+  ],
+  "split": "scale_test_unseen"
+}

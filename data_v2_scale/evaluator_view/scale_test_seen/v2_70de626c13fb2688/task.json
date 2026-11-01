@@ -1,0 +1,59 @@
+{
+  "case_id": "v2_70de626c13fb2688",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Model Q",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "Model Q",
+        "Variant R",
+        "System V",
+        "Method X"
+      ],
+      "before": [
+        "Model Q",
+        "Approach H",
+        "Variant R",
+        "System V",
+        "Method X"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Model Q",
+        "Approach H",
+        "Variant R",
+        "System V",
+        "Method X"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 9.83284693638155,
+      "before": 2.33284693638155,
+      "error_type": "relative_improvement_error",
+      "repair": 2.33284693638155
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_70de626c13fb2688",
+    "evaluator": "evaluator_view/scale_test_seen/v2_70de626c13fb2688"
+  },
+  "seed": 1592764,
+  "split": "scale_test_seen",
+  "style_fingerprint": "1ff16e59735a",
+  "template_family": "test_seen",
+  "template_fingerprint": "119f9c9d5f88",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

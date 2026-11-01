@@ -1,0 +1,13 @@
+{
+  "provider": "openrouter",
+  "model_env": "ARTIFACT_AUDIT_MODEL",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "base_url_env": "OPENROUTER_BASE_URL",
+  "default_base_url": "https://openrouter.ai/api/v1",
+  "temperature": 0,
+  "max_output_tokens": 2400,
+  "max_retries": 3,
+  "timeout_seconds": 180,
+  "prompt_version": "single_pass_tool_v1",
+  "schema_version": "1.0.0"
+}

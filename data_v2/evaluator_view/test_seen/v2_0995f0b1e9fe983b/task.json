@@ -1,0 +1,45 @@
+{
+  "case_id": "v2_0995f0b1e9fe983b",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "after": [
+        "Module A",
+        "Baseline",
+        "Module B",
+        "Full Model"
+      ],
+      "before": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Baseline",
+        "Module A",
+        "Module B",
+        "Full Model"
+      ]
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/test_seen/v2_0995f0b1e9fe983b",
+    "evaluator": "evaluator_view/test_seen/v2_0995f0b1e9fe983b"
+  },
+  "seed": 253911,
+  "split": "test_seen",
+  "style_fingerprint": "8fd6421f7334",
+  "template_fingerprint": "935495580030",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

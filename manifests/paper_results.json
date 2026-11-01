@@ -1,0 +1,107 @@
+{
+  "manuscript_pdf_sha256": "dda1a283595140321d88f7e28c690dcb4aadf52f001db9fbf43867aa9189996a",
+  "computed_from_saved_labels": {
+    "ruleaudit": {
+      "scope": "RESCORE_SAVED_STRUCTURED_LABELS_NOT_MODEL_RERUN",
+      "method": "ruleaudit",
+      "planned_tasks": 120,
+      "available_predictions": 120,
+      "failure_policy": "exclude",
+      "missing_task_ids": [],
+      "metrics": {
+        "task_count": 120,
+        "multi_label_micro_f1": 0.8708487084870847,
+        "multi_label_macro_f1": 0.8949990717534577,
+        "exact_set_match": 0.7916666666666666,
+        "partial_localization_score": 0.8875,
+        "clean_false_positive_rate": 0.1
+      },
+      "provider_calls": 0
+    },
+    "direct": {
+      "scope": "RESCORE_SAVED_STRUCTURED_LABELS_NOT_MODEL_RERUN",
+      "method": "direct",
+      "planned_tasks": 120,
+      "available_predictions": 120,
+      "failure_policy": "exclude",
+      "missing_task_ids": [],
+      "metrics": {
+        "task_count": 120,
+        "multi_label_micro_f1": 0.3909090909090909,
+        "multi_label_macro_f1": 0.36811509354079014,
+        "exact_set_match": 0.4083333333333333,
+        "partial_localization_score": 0.22708333333333333,
+        "clean_false_positive_rate": 0.23333333333333334
+      },
+      "provider_calls": 0
+    },
+    "tool": {
+      "scope": "RESCORE_SAVED_STRUCTURED_LABELS_NOT_MODEL_RERUN",
+      "method": "tool",
+      "planned_tasks": 120,
+      "available_predictions": 119,
+      "failure_policy": "exclude",
+      "missing_task_ids": [
+        "test_seen/v2_449a4b53b64285c4"
+      ],
+      "metrics": {
+        "task_count": 119,
+        "multi_label_micro_f1": 0.6068376068376069,
+        "multi_label_macro_f1": 0.5234702062643238,
+        "exact_set_match": 0.5294117647058824,
+        "partial_localization_score": 0.3032212885154062,
+        "clean_false_positive_rate": 0.16666666666666666
+      },
+      "provider_calls": 0
+    },
+    "ruleaudit_scale": {
+      "scope": "RESCORE_SAVED_STRUCTURED_LABELS_NOT_MODEL_RERUN",
+      "method": "ruleaudit_scale",
+      "planned_tasks": 360,
+      "available_predictions": 360,
+      "failure_policy": "exclude",
+      "missing_task_ids": [],
+      "metrics": {
+        "task_count": 360,
+        "multi_label_micro_f1": 0.878228782287823,
+        "multi_label_macro_f1": 0.8977263085746059,
+        "exact_set_match": 0.7944444444444444,
+        "partial_localization_score": 0.9009259259259259,
+        "clean_false_positive_rate": 0.12222222222222222
+      },
+      "provider_calls": 0
+    },
+    "tool_count_as_miss": {
+      "scope": "RESCORE_SAVED_STRUCTURED_LABELS_NOT_MODEL_RERUN",
+      "method": "tool",
+      "planned_tasks": 120,
+      "available_predictions": 119,
+      "failure_policy": "count_as_miss",
+      "missing_task_ids": [
+        "test_seen/v2_449a4b53b64285c4"
+      ],
+      "metrics": {
+        "task_count": 120,
+        "multi_label_micro_f1": 0.6016949152542371,
+        "multi_label_macro_f1": 0.5189261664261664,
+        "exact_set_match": 0.525,
+        "partial_localization_score": 0.3006944444444445,
+        "clean_false_positive_rate": 0.16666666666666666
+      },
+      "provider_calls": 0
+    }
+  },
+  "not_reproduced": [
+    "evidence_only_control",
+    "cross_model_60_task_diagnostic",
+    "provider_execution_reliability",
+    "evidence_ablation",
+    "hybrid_gate_diagnostic"
+  ],
+  "reported_nonincremental_hybrid": {
+    "micro_f1": 0.8708,
+    "exact_set": 0.7917,
+    "clean_fpr": 0.1,
+    "new_gain_established": false
+  }
+}

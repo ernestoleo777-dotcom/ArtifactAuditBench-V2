@@ -1,0 +1,39 @@
+{
+  "case_id": "v2_3e39b7be650890e2",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "Variant R"
+      ],
+      "after": [
+        "Variant R",
+        "Approach T"
+      ],
+      "before": [
+        "Approach T",
+        "Variant R"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach T",
+        "Variant R"
+      ]
+    }
+  ],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/test_seen/v2_3e39b7be650890e2",
+    "evaluator": "evaluator_view/test_seen/v2_3e39b7be650890e2"
+  },
+  "seed": 244938,
+  "split": "test_seen",
+  "style_fingerprint": "ac97b93eaeff",
+  "template_fingerprint": "57b6a047ff89",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

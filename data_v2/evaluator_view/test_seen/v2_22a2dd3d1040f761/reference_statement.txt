@@ -1,0 +1,1 @@
+Compared with Approach H, Variant R improves Macro-F1 by 0.47 points. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,41 @@
+{
+  "case_id": "v2_f1596abadad23068",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System K",
+        "MAE"
+      ],
+      "after": 0.46171887999999994,
+      "before": 0.412249,
+      "error_type": "numeric_copy_error",
+      "repair": 0.412249
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Approach H",
+      "before": "System K",
+      "error_type": "ranking_error",
+      "repair": "System K"
+    }
+  ],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/scale_dev/v2_f1596abadad23068",
+    "evaluator": "evaluator_view/scale_dev/v2_f1596abadad23068"
+  },
+  "seed": 575815,
+  "split": "scale_dev",
+  "style_fingerprint": "a0c27e828a40",
+  "template_family": "dev",
+  "template_fingerprint": "3197110b0e30",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_e066c1854c3905ff",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Model Q",
+        "ROC-AUC"
+      ],
+      "after": 0.94973648,
+      "before": 0.847979,
+      "error_type": "numeric_copy_error",
+      "repair": 0.847979
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System K",
+      "before": "Method P",
+      "error_type": "ranking_error",
+      "repair": "Method P"
+    }
+  ],
+  "split": "scale_test_unseen"
+}

@@ -1,0 +1,39 @@
+{
+  "case_id": "v2_f0fc2b5d47ed38e4",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "System K",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "System K"
+      ],
+      "before": [
+        "System K",
+        "Approach H"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "System K",
+        "Approach H"
+      ]
+    }
+  ],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/test_seen/v2_f0fc2b5d47ed38e4",
+    "evaluator": "evaluator_view/test_seen/v2_f0fc2b5d47ed38e4"
+  },
+  "seed": 220013,
+  "split": "test_seen",
+  "style_fingerprint": "b03f03038376",
+  "template_fingerprint": "8ba3acda2848",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

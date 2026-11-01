@@ -1,0 +1,43 @@
+{
+  "case_id": "v2_422aac14c62ebf6d",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Method P"
+      ],
+      "after": [
+        0.786051282051282,
+        0.7439920595377385,
+        0.6906140100099472
+      ],
+      "before": [
+        0.7439920595377385,
+        0.786051282051282,
+        0.6906140100099472
+      ],
+      "error_type": "series_data_swap",
+      "repair": [
+        0.7439920595377385,
+        0.786051282051282,
+        0.6906140100099472
+      ]
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_dev/v2_422aac14c62ebf6d",
+    "evaluator": "evaluator_view/scale_dev/v2_422aac14c62ebf6d"
+  },
+  "seed": 516992,
+  "split": "scale_dev",
+  "style_fingerprint": "a79e33382811",
+  "template_family": "dev",
+  "template_fingerprint": "325f1bcf6929",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

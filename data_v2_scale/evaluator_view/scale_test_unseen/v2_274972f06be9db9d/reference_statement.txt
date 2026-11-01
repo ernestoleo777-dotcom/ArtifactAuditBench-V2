@@ -1,0 +1,1 @@
+Relative to Approach T, Variant R changes Macro-F1 by 4.33%. The confidence intervals overlap, showing no statistically reliable gain.

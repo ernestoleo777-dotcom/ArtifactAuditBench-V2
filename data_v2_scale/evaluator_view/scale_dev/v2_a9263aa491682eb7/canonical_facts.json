@@ -1,0 +1,93 @@
+{
+  "models": [
+    "Model Q",
+    "Variant C"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "bar",
+    "labels": [
+      "Model Q",
+      "Variant C"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Sans",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "x",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7696557320765318,
+      0.8366657279639538
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "bar",
+    "labels": [
+      "Model Q",
+      "Variant C"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Sans",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "x",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7696557320765318,
+      0.8366657279639538
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Model Q": {
+      "Accuracy": 0.7722222222222223,
+      "Macro-F1": 0.7696557320765318,
+      "Precision": 0.7317073170731707,
+      "ROC-AUC": 0.8831307181351047,
+      "Recall": 0.759493670886076
+    },
+    "Variant C": {
+      "Accuracy": 0.8388888888888889,
+      "Macro-F1": 0.8366657279639538,
+      "Precision": 0.8125,
+      "ROC-AUC": 0.9347035969419727,
+      "Recall": 0.8227848101265823
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Ranking by Macro-F1 places Approach H before Procedure N. The confidence intervals overlap, showing no statistically reliable gain.

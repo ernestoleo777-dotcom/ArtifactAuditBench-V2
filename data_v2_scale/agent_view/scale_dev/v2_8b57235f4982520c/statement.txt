@@ -1,0 +1,1 @@
+System K obtains the best RMSE: 0.420.

@@ -1,0 +1,1 @@
+The best observed RMSE is obtained by Variant R (0.526).

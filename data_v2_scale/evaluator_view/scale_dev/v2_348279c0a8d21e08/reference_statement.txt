@@ -1,0 +1,1 @@
+Model Q remains competitive with System V (0.476 vs 0.665).

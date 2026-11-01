@@ -1,0 +1,1 @@
+Relative to Method P, Method X changes Macro-F1 by 4.61%. The confidence intervals overlap, showing no statistically reliable gain.

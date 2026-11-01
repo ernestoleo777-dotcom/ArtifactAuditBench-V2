@@ -1,0 +1,1 @@
+Reported Macro-F1: Method X=0.717, Approach T=0.693. The confidence intervals overlap, showing no statistically reliable gain.

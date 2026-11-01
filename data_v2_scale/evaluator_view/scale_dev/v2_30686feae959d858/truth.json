@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_30686feae959d858",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "se"
+      ],
+      "after": 0.037247,
+      "before": 0.007247,
+      "error_type": "numeric_copy_error",
+      "repair": 0.007247
+    }
+  ],
+  "split": "scale_dev"
+}

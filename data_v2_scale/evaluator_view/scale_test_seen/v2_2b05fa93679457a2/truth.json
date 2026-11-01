@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_2b05fa93679457a2",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "RMSE"
+      ],
+      "after": 0.9654366400000001,
+      "before": 0.861997,
+      "error_type": "numeric_copy_error",
+      "repair": 0.861997
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System K",
+      "before": "Variant R",
+      "error_type": "ranking_error",
+      "repair": "Variant R"
+    }
+  ],
+  "split": "scale_test_seen"
+}

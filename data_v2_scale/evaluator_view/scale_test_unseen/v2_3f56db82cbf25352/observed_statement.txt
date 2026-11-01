@@ -1,0 +1,1 @@
+Approach T and Variant R remain close (0.499 versus 0.581), with Approach T ahead.

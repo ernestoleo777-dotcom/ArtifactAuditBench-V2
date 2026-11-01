@@ -1,0 +1,1 @@
+Ordering systems by Macro-F1 puts Method X ahead of Method P. The confidence intervals overlap, showing no statistically reliable gain.

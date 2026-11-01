@@ -1,0 +1,40 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_aebe92d22f8cc48e",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.054014707915484905,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "confidence": 0.95,
+      "error_type": "relative_improvement_error",
+      "evidence": {
+        "affected_elements": [
+          "relative_improvement_percent"
+        ],
+        "error_type": "relative_improvement_error",
+        "expected": 0.29,
+        "reported": [
+          7.79
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": 0.29
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_274972f06be9db9d",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant R",
+        "ci95_low"
+      ],
+      "after": 0.81119024,
+      "before": 0.724277,
+      "error_type": "numeric_copy_error",
+      "repair": 0.724277
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Approach T",
+      "before": "Variant R",
+      "error_type": "ranking_error",
+      "repair": "Variant R"
+    }
+  ],
+  "split": "scale_test_unseen"
+}

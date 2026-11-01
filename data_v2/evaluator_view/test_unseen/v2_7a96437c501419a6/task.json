@@ -1,0 +1,49 @@
+{
+  "case_id": "v2_7a96437c501419a6",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Method P"
+      ],
+      "after": [
+        "Method P",
+        "Method X"
+      ],
+      "before": [
+        "Method X",
+        "Method P"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method X",
+        "Method P"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 36.19600667790524,
+      "before": 28.69600667790524,
+      "error_type": "relative_improvement_error",
+      "repair": 28.69600667790524
+    }
+  ],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/test_unseen/v2_7a96437c501419a6",
+    "evaluator": "evaluator_view/test_unseen/v2_7a96437c501419a6"
+  },
+  "seed": 340980,
+  "split": "test_unseen",
+  "style_fingerprint": "9d72bf0855f9",
+  "template_fingerprint": "d41b650a2830",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

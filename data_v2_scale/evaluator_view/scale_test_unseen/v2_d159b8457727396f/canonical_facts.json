@@ -1,0 +1,115 @@
+{
+  "models": [
+    "System K",
+    "Approach H"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "System K",
+      "Approach H"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        8.0,
+        4.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "lower center",
+      "legend_outside": false,
+      "marker": "s",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7329469287160765,
+      0.7113079816621601
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "System K",
+      "Approach H"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        8.0,
+        4.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": false,
+      "legend_loc": "lower center",
+      "legend_outside": false,
+      "marker": "s",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7329469287160765,
+      0.7113079816621601
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Approach H": {
+      "Macro-F1": 0.7113079816621601,
+      "ci95_high": 0.741076181522321,
+      "ci95_low": 0.6815397818019993,
+      "max": 0.7568294111937873,
+      "mean": 0.7113079816621601,
+      "median": 0.7084619831634096,
+      "runs": [
+        0.6862914894809277,
+        0.7489455915633424,
+        0.7568294111937873,
+        0.7128500154206818,
+        0.6588574314080842,
+        0.7040739509061372
+      ],
+      "se": 0.015188136157076674,
+      "std": 0.03720318372875363
+    },
+    "System K": {
+      "Macro-F1": 0.7329469287160765,
+      "ci95_high": 0.7519748532229213,
+      "ci95_low": 0.7139190042092316,
+      "max": 0.761327189704843,
+      "mean": 0.7329469287160765,
+      "median": 0.7359710596419367,
+      "runs": [
+        0.7400081061576572,
+        0.7277155702527901,
+        0.7319340131262161,
+        0.7458947141857,
+        0.761327189704843,
+        0.6908019788692522
+      ],
+      "se": 0.009708303140738688,
+      "std": 0.023780388963069127
+    }
+  }
+}

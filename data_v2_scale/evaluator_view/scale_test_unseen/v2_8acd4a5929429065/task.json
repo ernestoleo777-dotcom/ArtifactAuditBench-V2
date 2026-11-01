@@ -1,0 +1,33 @@
+{
+  "case_id": "v2_8acd4a5929429065",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.6151347212877886,
+        0.6654196133397903
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_8acd4a5929429065",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_8acd4a5929429065"
+  },
+  "seed": 2528956,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "d849e14ee918",
+  "template_family": "test_unseen",
+  "template_fingerprint": "05990ddc69da",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

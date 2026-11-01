@@ -1,0 +1,2 @@
+Ranking by Macro-F1 places Approach H before Model Q.
+ Relative improvement: 6.77%.

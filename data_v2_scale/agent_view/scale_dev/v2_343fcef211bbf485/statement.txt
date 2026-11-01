@@ -1,0 +1,2 @@
+Approach H obtains the best Accuracy: 0.808.
+ Relative improvement: 12.68%.

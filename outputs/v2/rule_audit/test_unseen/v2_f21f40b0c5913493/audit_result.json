@@ -1,0 +1,162 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_f21f40b0c5913493",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.44707975001074374,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Method X",
+        "mean"
+      ],
+      "confidence": 1.0,
+      "error_type": "aggregation_error",
+      "evidence": {
+        "column": "mean",
+        "error_type": "aggregation_error",
+        "expected": 0.765103,
+        "model": "Method X",
+        "reported": 0.777408
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.765103
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "confidence": 1.0,
+      "error_type": "axis_scale_error",
+      "evidence": {
+        "matched_candidate": "candidate_axis_scale_error.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "line",
+          "labels": [
+            "Method X",
+            "Model Q",
+            "Variant R",
+            "Approach H",
+            "System V"
+          ],
+          "metric": "Macro-F1",
+          "series": [
+            [
+              0.7533282239680533,
+              0.7671905043715135,
+              0.7729526402602818,
+              0.7625657154812997,
+              0.7419319244606166,
+              0.7670301559895975,
+              0.7750764271451737,
+              0.7774077475045008,
+              0.7684471349725149
+            ],
+            [
+              0.7460918185130262,
+              0.8240415112367068,
+              0.7881781521617366,
+              0.7412934500279936,
+              0.7713683002424111,
+              0.754485256048327,
+              0.7455370098529307,
+              0.7502430608468745,
+              0.7419443547975824
+            ],
+            [
+              0.6763531282590635,
+              0.7228115365355409,
+              0.7581303453005802,
+              0.670952214492037,
+              0.7324698223259092,
+              0.7503159857123578,
+              0.7336904205943142,
+              0.7556760130544478,
+              0.705275343392622
+            ],
+            [
+              0.7457573295420034,
+              0.8026576587221894,
+              0.729216862354379,
+              0.7788971967296635,
+              0.7356053512561643,
+              0.7199752662895316,
+              0.7117796427037018,
+              0.6741827926597939,
+              0.6977010732400508
+            ],
+            [
+              0.6420689896495229,
+              0.7033906797097008,
+              0.7196036070579295,
+              0.6740604627662151,
+              0.653700506164497,
+              0.7046831591463798,
+              0.6790247485261369,
+              0.6645041056272704,
+              0.7053826196730143
+            ]
+          ],
+          "series_x": [
+            "Run 1",
+            "Run 2",
+            "Run 3",
+            "Run 4",
+            "Run 5",
+            "Run 6",
+            "Run 7",
+            "Run 8",
+            "Run 9"
+          ],
+          "style": {
+            "dpi": 180,
+            "figsize": [
+              9.0,
+              5.0
+            ],
+            "font": "DejaVu Sans Mono",
+            "grid": true,
+            "horizontal": false,
+            "legend_loc": "upper left",
+            "legend_outside": true,
+            "marker": "s",
+            "palette": [
+              "#2E86AB",
+              "#A23B72",
+              "#F18F01",
+              "#C73E1D",
+              "#6A994E"
+            ],
+            "precision": 2
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7651033860170613,
+            0.7625758793030655,
+            0.7228527566296525,
+            0.7328636859441642,
+            0.6829354309245185
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

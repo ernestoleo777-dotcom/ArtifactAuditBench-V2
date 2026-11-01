@@ -1,0 +1,92 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_1f6eebbdb0427835",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.2761546669062227,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "confidence": 0.95,
+      "error_type": "significance_overclaim",
+      "evidence": {
+        "affected_elements": [
+          "significance"
+        ],
+        "error_type": "significance_overclaim",
+        "expected": false,
+        "reported": true
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": false
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "error bars"
+      ],
+      "confidence": 1.0,
+      "error_type": "error_bar_error",
+      "evidence": {
+        "matched_candidate": "candidate_error_bar_error.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "error_bar",
+          "errors": [
+            0.012470701838653508,
+            0.015889626730751918
+          ],
+          "labels": [
+            "System V",
+            "Variant R"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 110,
+            "figsize": [
+              9.0,
+              5.0
+            ],
+            "font": "DejaVu Sans Mono",
+            "grid": false,
+            "horizontal": false,
+            "legend_loc": "upper left",
+            "legend_outside": true,
+            "marker": "D",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 3
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7142607764656336,
+            0.6847274372202389
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

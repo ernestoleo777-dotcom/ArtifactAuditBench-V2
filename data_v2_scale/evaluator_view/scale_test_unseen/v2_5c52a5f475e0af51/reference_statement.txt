@@ -1,0 +1,1 @@
+With 0.682 on Macro-F1, Full Model leads the comparison. The full model contributes the largest improvement over Module A.

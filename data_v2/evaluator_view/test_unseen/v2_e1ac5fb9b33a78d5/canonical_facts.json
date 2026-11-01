@@ -1,0 +1,115 @@
+{
+  "models": [
+    "Approach T",
+    "Procedure N"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Approach T",
+      "Procedure N"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 140,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": true,
+      "marker": "^",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7220885931709295,
+      0.7031475774119658
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Approach T",
+      "Procedure N"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 140,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": true,
+      "marker": "^",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7220885931709295,
+      0.7031475774119658
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Approach T": {
+      "Macro-F1": 0.7220885931709295,
+      "ci95_high": 0.7458551415561051,
+      "ci95_low": 0.698322044785754,
+      "max": 0.7504189140298336,
+      "mean": 0.7220885931709295,
+      "median": 0.7305294750237648,
+      "runs": [
+        0.7451175159054362,
+        0.7172197579486351,
+        0.6992165469619207,
+        0.7504189140298336,
+        0.7438391920988944,
+        0.6767196320808571
+      ],
+      "se": 0.012126012810767492,
+      "std": 0.029702544000832384
+    },
+    "Procedure N": {
+      "Macro-F1": 0.7031475774119658,
+      "ci95_high": 0.722369541412912,
+      "ci95_low": 0.6839256134110195,
+      "max": 0.7352717072512494,
+      "mean": 0.7031475774119658,
+      "median": 0.7041831901469833,
+      "runs": [
+        0.7228010264602537,
+        0.6786358765067017,
+        0.7352717072512494,
+        0.673810473959624,
+        0.7028332123176019,
+        0.7055331679763647
+      ],
+      "se": 0.009807304701804043,
+      "std": 0.024022892271418236
+    }
+  }
+}

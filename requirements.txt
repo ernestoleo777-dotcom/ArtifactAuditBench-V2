@@ -1,0 +1,6 @@
+numpy>=2.0,<3
+matplotlib>=3.9,<4
+Pillow>=10,<13
+jsonschema>=4.20,<5
+pytest>=8,<10
+pandas>=2,<4

@@ -1,0 +1,50 @@
+{
+  "case_id": "v2_8e31b0764f9ad7c3",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 12.10478749011077,
+      "before": 4.60478749011077,
+      "error_type": "relative_improvement_error",
+      "repair": 4.60478749011077
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "after": "Micro-F1",
+      "before": "Macro-F1",
+      "error_type": "metric_name_mismatch",
+      "repair": "Macro-F1"
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System K",
+      "before": "Variant R",
+      "error_type": "ranking_error",
+      "repair": "Variant R"
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_8e31b0764f9ad7c3",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_8e31b0764f9ad7c3"
+  },
+  "seed": 2522974,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "6f26d1c15f60",
+  "template_family": "test_unseen",
+  "template_fingerprint": "3cbe967f961d",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

@@ -1,0 +1,1 @@
+System K outperforms System V on Macro-F1 by 0.003. The confidence intervals overlap, showing no statistically reliable gain.

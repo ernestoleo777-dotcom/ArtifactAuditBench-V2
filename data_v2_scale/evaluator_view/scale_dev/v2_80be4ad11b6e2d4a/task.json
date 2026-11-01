@@ -1,0 +1,40 @@
+{
+  "case_id": "v2_80be4ad11b6e2d4a",
+  "chart_type": "scatter",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "after": "Weighted-F1",
+      "before": "Macro-F1",
+      "error_type": "metric_name_mismatch",
+      "repair": "Macro-F1"
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "ablation conclusion"
+      ],
+      "after": "Module B",
+      "before": "Full Model",
+      "error_type": "ablation_conclusion_error",
+      "repair": "Full Model"
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_dev/v2_80be4ad11b6e2d4a",
+    "evaluator": "evaluator_view/scale_dev/v2_80be4ad11b6e2d4a"
+  },
+  "seed": 526962,
+  "split": "scale_dev",
+  "style_fingerprint": "2eb58a3dc339",
+  "template_family": "dev",
+  "template_fingerprint": "325f1bcf6929",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

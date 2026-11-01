@@ -1,0 +1,48 @@
+{
+  "case_id": "v2_fb4ed6e360a9e5a2",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Method P"
+      ],
+      "after": [
+        "Method P",
+        "Method X",
+        "Variant R",
+        "Model Q",
+        "Approach T"
+      ],
+      "before": [
+        "Method X",
+        "Method P",
+        "Variant R",
+        "Model Q",
+        "Approach T"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method X",
+        "Method P",
+        "Variant R",
+        "Model Q",
+        "Approach T"
+      ]
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/test_seen/v2_fb4ed6e360a9e5a2",
+    "evaluator": "evaluator_view/test_seen/v2_fb4ed6e360a9e5a2"
+  },
+  "seed": 237959,
+  "split": "test_seen",
+  "style_fingerprint": "b83c10e4fc1c",
+  "template_fingerprint": "09f8d2201da1",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

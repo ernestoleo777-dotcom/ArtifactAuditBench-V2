@@ -1,0 +1,1 @@
+Across methods, Approach H achieves the highest Macro-F1 at 0.867.

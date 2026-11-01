@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_da89d8ad1a8605c7",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.7071093590446695,
+        0.7590780533787164
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    },
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Approach T",
+        "reported subset"
+      ],
+      "after": 0.7842699876060347,
+      "before": 0.755494,
+      "error_type": "selective_reporting",
+      "repair": 0.755494
+    }
+  ],
+  "split": "scale_test_seen"
+}

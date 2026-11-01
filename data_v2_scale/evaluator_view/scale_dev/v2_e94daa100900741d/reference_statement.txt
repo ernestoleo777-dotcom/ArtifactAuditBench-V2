@@ -1,0 +1,1 @@
+System K records 0.782 Macro-F1; Approach T records 0.766. The confidence intervals overlap, showing no statistically reliable gain.

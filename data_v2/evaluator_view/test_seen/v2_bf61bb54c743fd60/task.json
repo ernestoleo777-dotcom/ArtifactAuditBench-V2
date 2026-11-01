@@ -1,0 +1,60 @@
+{
+  "case_id": "v2_bf61bb54c743fd60",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "Approach T"
+      ],
+      "before": [
+        "Approach T",
+        "Approach H"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach T",
+        "Approach H"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "Weighted-F1"
+      ],
+      "after": 0.9007208,
+      "before": 0.804215,
+      "error_type": "numeric_copy_error",
+      "repair": 0.804215
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 17.067018945637145,
+      "before": 9.567018945637145,
+      "error_type": "relative_improvement_error",
+      "repair": 9.567018945637145
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/test_seen/v2_bf61bb54c743fd60",
+    "evaluator": "evaluator_view/test_seen/v2_bf61bb54c743fd60"
+  },
+  "seed": 256902,
+  "split": "test_seen",
+  "style_fingerprint": "487a6a4e9533",
+  "template_fingerprint": "7a13a03ef864",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_62cf4804cc653e81",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "after": "Weighted-F1",
+      "before": "Macro-F1",
+      "error_type": "metric_name_mismatch",
+      "repair": "Macro-F1"
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_62cf4804cc653e81",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_62cf4804cc653e81"
+  },
+  "seed": 2516992,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "170e8b454be1",
+  "template_family": "test_unseen",
+  "template_fingerprint": "091138c58db4",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

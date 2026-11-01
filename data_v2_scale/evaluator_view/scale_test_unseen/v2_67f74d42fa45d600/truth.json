@@ -1,0 +1,53 @@
+{
+  "case_id": "v2_67f74d42fa45d600",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Model Q",
+        "Method X"
+      ],
+      "after": [
+        "Method X",
+        "Model Q",
+        "Variant R",
+        "Variant C"
+      ],
+      "before": [
+        "Model Q",
+        "Method X",
+        "Variant R",
+        "Variant C"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Model Q",
+        "Method X",
+        "Variant R",
+        "Variant C"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant R",
+        "std"
+      ],
+      "after": 0.062971,
+      "before": 0.032971,
+      "error_type": "numeric_copy_error",
+      "repair": 0.032971
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 7.662248326605912,
+      "before": 0.16224832660591237,
+      "error_type": "relative_improvement_error",
+      "repair": 0.16224832660591237
+    }
+  ],
+  "split": "scale_test_unseen"
+}

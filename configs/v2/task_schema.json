@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["case_id", "split", "experiment_type", "chart_type", "seed", "errors", "paths", "versions"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^v2_[0-9a-f]{16}$"},
+    "split": {"enum": ["dev", "test_seen", "test_unseen"]},
+    "experiment_type": {"enum": ["binary_classification", "regression", "multiclass", "repeated_runs", "ablation"]},
+    "chart_type": {"enum": ["bar", "grouped_bar", "line", "scatter", "error_bar", "confusion_heatmap", "multi_panel"]},
+    "seed": {"type": "integer"},
+    "errors": {"type": "array", "items": {"type": "object", "required": ["error_type", "affected_artifact", "affected_elements", "before", "after", "repair"]}},
+    "paths": {"type": "object"},
+    "versions": {"type": "object"}
+  }
+}

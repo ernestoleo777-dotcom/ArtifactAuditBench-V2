@@ -1,0 +1,50 @@
+{
+  "case_id": "v2_2eb4387507fd611a",
+  "chart_type": "confusion_heatmap",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 7.877620412345523,
+      "before": 0.3776204123455238,
+      "error_type": "relative_improvement_error",
+      "repair": 0.3776204123455238
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "after": "Weighted-F1",
+      "before": "Macro-F1",
+      "error_type": "metric_name_mismatch",
+      "repair": "Macro-F1"
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System V",
+      "before": "Method P",
+      "error_type": "ranking_error",
+      "repair": "Method P"
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_2eb4387507fd611a",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_2eb4387507fd611a"
+  },
+  "seed": 2562854,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "d7be1876dd93",
+  "template_family": "test_unseen",
+  "template_fingerprint": "3cbe967f961d",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

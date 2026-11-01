@@ -1,0 +1,13 @@
+{
+  "benchmark_hashes": {
+    "evaluator_view": "9ef749d3657fd6adfd4d042a8b60948dfa81ad5f0ee73a9f8ed562a21b17ac41",
+    "split_manifest": "2b7da0f7a77603529343a10dd6a05376da49053ec346f5ba9725ce6083ec5b2c",
+    "test_seen": "dff41b4312570fcecdeb7040d4abe99091f21ff9431beae6127ff45464f14d2f",
+    "test_unseen": "4ba081c8593c537fc8167634708af7a8f3605871f5b7bbbe3ccbaca655d45a4f"
+  },
+  "dev_complete": true,
+  "prompt_path": "configs/prompts/direct_mllm_v1.txt",
+  "prompt_sha256": "d0f7cdd5b8b9bb913b127aeebc0fd67c504fc3da7d0bcc846709f9defa775e6c",
+  "prompt_version": "direct_mllm_v1",
+  "status": "frozen_after_dev"
+}

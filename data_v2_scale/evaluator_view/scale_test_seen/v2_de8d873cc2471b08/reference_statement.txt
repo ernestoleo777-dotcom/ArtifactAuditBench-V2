@@ -1,0 +1,1 @@
+The result from Approach H yields a relative Macro-F1 change of 2.53%. The confidence intervals overlap, showing no statistically reliable gain.

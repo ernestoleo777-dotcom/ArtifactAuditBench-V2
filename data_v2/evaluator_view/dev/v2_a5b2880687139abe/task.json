@@ -1,0 +1,29 @@
+{
+  "case_id": "v2_a5b2880687139abe",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Method X",
+      "before": "Variant R",
+      "error_type": "ranking_error",
+      "repair": "Variant R"
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/dev/v2_a5b2880687139abe",
+    "evaluator": "evaluator_view/dev/v2_a5b2880687139abe"
+  },
+  "seed": 112007,
+  "split": "dev",
+  "style_fingerprint": "f8d0127d5977",
+  "template_fingerprint": "ab03acc18f05",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

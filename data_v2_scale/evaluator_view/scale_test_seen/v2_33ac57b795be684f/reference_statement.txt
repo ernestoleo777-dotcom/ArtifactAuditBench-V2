@@ -1,0 +1,1 @@
+For Macro-F1, System V outperforms Approach H; the absolute gap is 0.017.

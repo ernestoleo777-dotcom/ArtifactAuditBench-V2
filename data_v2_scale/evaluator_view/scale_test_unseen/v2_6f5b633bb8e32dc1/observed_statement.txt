@@ -1,0 +1,1 @@
+With 0.504 on RMSE, Variant R leads the comparison.

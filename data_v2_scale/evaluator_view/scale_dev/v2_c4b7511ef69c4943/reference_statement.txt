@@ -1,0 +1,1 @@
+Method P yields a 2.78% relative improvement in Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

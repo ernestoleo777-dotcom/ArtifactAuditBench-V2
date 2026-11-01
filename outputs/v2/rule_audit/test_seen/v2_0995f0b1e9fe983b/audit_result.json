@@ -1,0 +1,93 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_0995f0b1e9fe983b",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.0976623750757426,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "confidence": 0.95,
+      "error_type": "ranking_error",
+      "evidence": {
+        "affected_elements": [
+          "best model"
+        ],
+        "error_type": "ranking_error",
+        "expected": "Full Model",
+        "reported": "Module A"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Full Model"
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Baseline",
+        "Module A"
+      ],
+      "confidence": 1.0,
+      "error_type": "legend_swap",
+      "evidence": {
+        "matched_candidate": "candidate_legend_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "grouped_bar",
+          "labels": [
+            "Baseline",
+            "Module A",
+            "Module B",
+            "Full Model"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 120,
+            "figsize": [
+              6.4,
+              4.8
+            ],
+            "font": "DejaVu Sans",
+            "grid": true,
+            "horizontal": false,
+            "legend_loc": "upper right",
+            "legend_outside": true,
+            "marker": "s",
+            "palette": [
+              "#4C78A8",
+              "#F58518",
+              "#54A24B",
+              "#E45756",
+              "#72B7B2"
+            ],
+            "precision": 2
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.6010442079159312,
+            0.6252040919228412,
+            0.6086034700968684,
+            0.6612388704953102
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

@@ -1,0 +1,1 @@
+Across methods, Variant R achieves the highest Macro-F1 at 0.796.

@@ -1,0 +1,1 @@
+A margin of 0.035 separates Variant R from System V on Macro-F1. The 95% confidence intervals do not overlap, indicating a statistically reliable difference.

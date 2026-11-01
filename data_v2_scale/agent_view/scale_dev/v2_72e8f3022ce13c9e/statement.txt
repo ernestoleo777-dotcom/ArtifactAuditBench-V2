@@ -1,0 +1,1 @@
+System V obtains the best Macro-F1: 0.708. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,102 @@
+{
+  "models": [
+    "Approach T",
+    "Variant R",
+    "Method X"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": [
+      0.47238835927056627,
+      0.8576286959268301
+    ],
+    "chart_type": "bar",
+    "labels": [
+      "Approach T",
+      "Variant R",
+      "Method X"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "lower center",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 2
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4989566583503086,
+      0.5811404652108287,
+      0.8310603968470878
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "bar",
+    "labels": [
+      "Approach T",
+      "Variant R",
+      "Method X"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "lower center",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 2
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4989566583503086,
+      0.5811404652108287,
+      0.8310603968470878
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Approach T": {
+      "MAE": 0.39676741948426236,
+      "R2": 0.97870194629513,
+      "RMSE": 0.4989566583503086
+    },
+    "Method X": {
+      "MAE": 0.6621810455063853,
+      "R2": 0.9409146997276235,
+      "RMSE": 0.8310603968470878
+    },
+    "Variant R": {
+      "MAE": 0.4543377627792255,
+      "R2": 0.971108073170338,
+      "RMSE": 0.5811404652108287
+    }
+  }
+}

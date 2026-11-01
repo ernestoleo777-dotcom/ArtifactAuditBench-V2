@@ -1,0 +1,1 @@
+Evaluation on Macro-F1 finds Approach T consistently better than Approach H.

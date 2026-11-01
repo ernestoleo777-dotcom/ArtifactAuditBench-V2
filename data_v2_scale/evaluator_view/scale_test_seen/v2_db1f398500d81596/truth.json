@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_db1f398500d81596",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System V",
+      "before": "Approach H",
+      "error_type": "ranking_error",
+      "repair": "Approach H"
+    }
+  ],
+  "split": "scale_test_seen"
+}

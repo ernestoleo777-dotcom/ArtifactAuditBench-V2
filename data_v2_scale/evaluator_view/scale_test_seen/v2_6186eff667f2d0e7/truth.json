@@ -1,0 +1,26 @@
+{
+  "case_id": "v2_6186eff667f2d0e7",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Variant R",
+        "Procedure N"
+      ],
+      "after": [
+        "Procedure N",
+        "Variant R"
+      ],
+      "before": [
+        "Variant R",
+        "Procedure N"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Variant R",
+        "Procedure N"
+      ]
+    }
+  ],
+  "split": "scale_test_seen"
+}

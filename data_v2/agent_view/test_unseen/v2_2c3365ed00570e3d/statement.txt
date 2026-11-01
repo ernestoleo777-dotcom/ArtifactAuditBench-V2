@@ -1,0 +1,1 @@
+Relative to Method P, Procedure N changes Macro-F1 by 3.93%. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,1 @@
+A margin of 0.002 separates Variant R from Model Q on Macro-F1. The confidence intervals overlap, showing a statistically significant improvement.

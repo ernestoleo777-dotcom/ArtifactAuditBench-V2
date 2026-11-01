@@ -1,0 +1,132 @@
+{
+  "models": [
+    "Approach T",
+    "Variant C",
+    "System V",
+    "Method X",
+    "Model Q"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": [
+      0.7297974815116411,
+      0.8275477705747512
+    ],
+    "chart_type": "bar",
+    "labels": [
+      "Approach T",
+      "Variant C",
+      "System V",
+      "Method X",
+      "Model Q"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        7.0,
+        4.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "lower left",
+      "legend_outside": true,
+      "marker": "o",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.785687429502444,
+      0.8208063713290195,
+      0.7465502675302731,
+      0.7365388807573728,
+      0.7659442724458205
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "bar",
+    "labels": [
+      "Approach T",
+      "Variant C",
+      "System V",
+      "Method X",
+      "Model Q"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 120,
+      "figsize": [
+        7.0,
+        4.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "lower left",
+      "legend_outside": true,
+      "marker": "o",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.785687429502444,
+      0.8208063713290195,
+      0.7465502675302731,
+      0.7365388807573728,
+      0.7659442724458205
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Approach T": {
+      "Accuracy": 0.7888888888888889,
+      "Macro-F1": 0.785687429502444,
+      "Precision": 0.82,
+      "ROC-AUC": 0.8756913021618904,
+      "Recall": 0.803921568627451
+    },
+    "Method X": {
+      "Accuracy": 0.7388888888888889,
+      "Macro-F1": 0.7365388807573728,
+      "Precision": 0.7894736842105263,
+      "ROC-AUC": 0.7880844645550528,
+      "Recall": 0.7352941176470589
+    },
+    "Model Q": {
+      "Accuracy": 0.7666666666666667,
+      "Macro-F1": 0.7659442724458205,
+      "Precision": 0.8409090909090909,
+      "ROC-AUC": 0.8323278029160383,
+      "Recall": 0.7254901960784313
+    },
+    "System V": {
+      "Accuracy": 0.75,
+      "Macro-F1": 0.7465502675302731,
+      "Precision": 0.7878787878787878,
+      "ROC-AUC": 0.845148315736551,
+      "Recall": 0.7647058823529411
+    },
+    "Variant C": {
+      "Accuracy": 0.8222222222222222,
+      "Macro-F1": 0.8208063713290195,
+      "Precision": 0.8723404255319149,
+      "ROC-AUC": 0.9413021618903972,
+      "Recall": 0.803921568627451
+    }
+  }
+}

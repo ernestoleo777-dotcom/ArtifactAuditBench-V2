@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_95658c7add508e98",
+  "chart_type": "error_bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Procedure N",
+        "reported subset"
+      ],
+      "after": 0.7485904311427196,
+      "before": 0.738952,
+      "error_type": "selective_reporting",
+      "repair": 0.738952
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/test_unseen/v2_95658c7add508e98",
+    "evaluator": "evaluator_view/test_unseen/v2_95658c7add508e98"
+  },
+  "seed": 370890,
+  "split": "test_unseen",
+  "style_fingerprint": "3520782e66e7",
+  "template_fingerprint": "d41b650a2830",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

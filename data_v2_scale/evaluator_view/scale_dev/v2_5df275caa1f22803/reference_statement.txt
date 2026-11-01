@@ -1,0 +1,1 @@
+Variant R records 0.765 Macro-F1; System V records 0.754. The confidence intervals overlap, showing no statistically reliable gain.

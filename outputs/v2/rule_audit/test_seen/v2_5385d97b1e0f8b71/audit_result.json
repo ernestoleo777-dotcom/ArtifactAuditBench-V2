@@ -1,0 +1,96 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_5385d97b1e0f8b71",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.2728446249384433,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "confidence": 1.0,
+      "error_type": "axis_scale_error",
+      "evidence": {
+        "matched_candidate": "candidate_axis_scale_error.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "confusion_heatmap",
+          "labels": [
+            "Variant R",
+            "Variant C",
+            "Method X"
+          ],
+          "matrix": [
+            [
+              39,
+              3,
+              5,
+              5
+            ],
+            [
+              2,
+              48,
+              3,
+              7
+            ],
+            [
+              2,
+              7,
+              48,
+              5
+            ],
+            [
+              2,
+              1,
+              1,
+              42
+            ]
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 90,
+            "figsize": [
+              5.0,
+              5.0
+            ],
+            "font": "DejaVu Sans",
+            "grid": false,
+            "horizontal": false,
+            "legend_loc": "lower left",
+            "legend_outside": true,
+            "marker": "x",
+            "palette": [
+              "#4C78A8",
+              "#F58518",
+              "#54A24B",
+              "#E45756",
+              "#72B7B2"
+            ],
+            "precision": 2
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.8043922723728666,
+            0.7457677411898885,
+            0.6326107580465011
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

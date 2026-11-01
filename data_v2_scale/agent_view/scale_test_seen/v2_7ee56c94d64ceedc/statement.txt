@@ -1,0 +1,2 @@
+Evaluation on Macro-F1 finds Procedure N consistently better than Variant C.
+ Relative improvement: 12.95%.

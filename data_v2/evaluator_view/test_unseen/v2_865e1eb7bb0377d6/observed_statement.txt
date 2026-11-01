@@ -1,0 +1,1 @@
+System V and Approach T remain close (0.773 versus 0.754), with System V ahead. The confidence intervals overlap, showing a statistically significant improvement.

@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_4bdd563e39a618a9",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant C",
+        "ROC-AUC"
+      ],
+      "after": 0.90183744,
+      "before": 0.805212,
+      "error_type": "numeric_copy_error",
+      "repair": 0.805212
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Method P",
+      "before": "Procedure N",
+      "error_type": "ranking_error",
+      "repair": "Procedure N"
+    }
+  ],
+  "split": "scale_dev"
+}

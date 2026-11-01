@@ -1,0 +1,1 @@
+Relative to System V, Variant C changes Macro-F1 by 1.19%. The confidence intervals overlap, showing no statistically reliable gain.

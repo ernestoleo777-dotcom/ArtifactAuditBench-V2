@@ -1,0 +1,43 @@
+{
+  "case_id": "v2_dc66091af905c3c0",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach H",
+        "Method P"
+      ],
+      "after": [
+        "Method P",
+        "Approach H",
+        "Method X"
+      ],
+      "before": [
+        "Approach H",
+        "Method P",
+        "Method X"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach H",
+        "Method P",
+        "Method X"
+      ]
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_dev/v2_dc66091af905c3c0",
+    "evaluator": "evaluator_view/scale_dev/v2_dc66091af905c3c0"
+  },
+  "seed": 566842,
+  "split": "scale_dev",
+  "style_fingerprint": "5600099febde",
+  "template_family": "dev",
+  "template_fingerprint": "325f1bcf6929",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

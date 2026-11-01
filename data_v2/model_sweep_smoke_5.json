@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "source_manifest": "data_v2/model_sweep_subset_60.json",
+  "selection_rule": "Five-task API smoke subset selected before any Package A model calls. Includes at least one clean task, at least two single-error tasks, at least one combination task, and visual-semantic coverage via series_data_swap.",
+  "task_count": 5,
+  "splits": {
+    "dev": [
+      "v2_520c180c4b2b6278",
+      "v2_06f8049906d44b2d",
+      "v2_192e48e5cf6c574b",
+      "v2_49bd727f1e905d7a"
+    ],
+    "test_seen": [
+      "v2_214f183c722aaf94"
+    ],
+    "test_unseen": []
+  },
+  "cases": [
+    {
+      "split": "dev",
+      "task_id": "v2_520c180c4b2b6278",
+      "case_type": "clean",
+      "error_types": [],
+      "chart_type": "line",
+      "experiment_type": "ablation"
+    },
+    {
+      "split": "test_seen",
+      "task_id": "v2_214f183c722aaf94",
+      "case_type": "single_error",
+      "error_types": [
+        "series_data_swap"
+      ],
+      "chart_type": "scatter",
+      "experiment_type": "ablation"
+    },
+    {
+      "split": "dev",
+      "task_id": "v2_06f8049906d44b2d",
+      "case_type": "single_error",
+      "error_types": [
+        "ranking_error"
+      ],
+      "chart_type": "scatter",
+      "experiment_type": "repeated_runs"
+    },
+    {
+      "split": "dev",
+      "task_id": "v2_192e48e5cf6c574b",
+      "case_type": "combination",
+      "error_types": [
+        "series_data_swap",
+        "numeric_copy_error"
+      ],
+      "chart_type": "error_bar",
+      "experiment_type": "ablation"
+    },
+    {
+      "split": "dev",
+      "task_id": "v2_49bd727f1e905d7a",
+      "case_type": "single_error",
+      "error_types": [
+        "relative_improvement_error"
+      ],
+      "chart_type": "grouped_bar",
+      "experiment_type": "binary_classification"
+    }
+  ],
+  "counts": {
+    "by_split": {
+      "dev": 4,
+      "test_seen": 1,
+      "test_unseen": 0
+    },
+    "by_case_type": {
+      "clean": 1,
+      "single_error": 3,
+      "combination": 1
+    },
+    "by_error_family": {
+      "series_data_swap": 2,
+      "ranking_error": 1,
+      "numeric_copy_error": 1,
+      "relative_improvement_error": 1
+    },
+    "by_chart_type": {
+      "line": 1,
+      "scatter": 2,
+      "error_bar": 1,
+      "grouped_bar": 1
+    },
+    "by_experiment_type": {
+      "ablation": 3,
+      "repeated_runs": 1,
+      "binary_classification": 1
+    }
+  }
+}

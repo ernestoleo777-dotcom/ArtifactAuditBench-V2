@@ -1,0 +1,109 @@
+{
+  "models": [
+    "Method X",
+    "Approach H",
+    "System K",
+    "Model Q"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Approach H",
+      "Method X",
+      "System K",
+      "Model Q"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Sans",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "best",
+      "legend_outside": false,
+      "marker": "x",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.477734320473918,
+      0.6560067598464495,
+      0.808630259047567,
+      0.9266674092672043
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Method X",
+      "Approach H",
+      "System K",
+      "Model Q"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Sans",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "best",
+      "legend_outside": false,
+      "marker": "x",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.477734320473918,
+      0.6560067598464495,
+      0.808630259047567,
+      0.9266674092672043
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Approach H": {
+      "MAE": 0.521423588968944,
+      "R2": 0.9618290187888494,
+      "RMSE": 0.6560067598464495
+    },
+    "Method X": {
+      "MAE": 0.38025769137971965,
+      "R2": 0.9797563146202704,
+      "RMSE": 0.477734320473918
+    },
+    "Model Q": {
+      "MAE": 0.749449961181989,
+      "R2": 0.9238334169031929,
+      "RMSE": 0.9266674092672043
+    },
+    "System K": {
+      "MAE": 0.6361491923655301,
+      "R2": 0.9420015119693328,
+      "RMSE": 0.808630259047567
+    }
+  }
+}

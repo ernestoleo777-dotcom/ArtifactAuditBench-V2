@@ -1,0 +1,38 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_a72f47b1f92c3793",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.03399141691625118,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Module B",
+        "ci95_high"
+      ],
+      "confidence": 1.0,
+      "error_type": "numeric_copy_error",
+      "evidence": {
+        "column": "ci95_high",
+        "error_type": "numeric_copy_error",
+        "expected": 0.63818,
+        "model": "Module B",
+        "reported": 0.714762
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.63818
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

@@ -1,0 +1,1 @@
+Procedure N records 0.776 Macro-F1; Variant C records 0.713.

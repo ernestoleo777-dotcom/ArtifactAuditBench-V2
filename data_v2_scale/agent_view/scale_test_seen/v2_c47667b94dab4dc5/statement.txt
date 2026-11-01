@@ -1,0 +1,1 @@
+Reported Macro-F1: Method X=0.781, System V=0.764. The confidence intervals overlap, showing a statistically significant improvement.

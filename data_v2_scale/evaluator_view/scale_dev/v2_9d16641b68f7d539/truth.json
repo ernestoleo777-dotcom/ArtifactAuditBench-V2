@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_9d16641b68f7d539",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant R",
+        "mean"
+      ],
+      "after": 0.8247292393444192,
+      "before": 0.785453,
+      "error_type": "aggregation_error",
+      "repair": 0.785453
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    }
+  ],
+  "split": "scale_dev"
+}

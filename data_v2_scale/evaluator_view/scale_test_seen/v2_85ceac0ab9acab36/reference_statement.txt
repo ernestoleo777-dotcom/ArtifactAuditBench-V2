@@ -1,0 +1,1 @@
+Although close to Approach H, Method X remains competitive and leads 0.733 to 0.723. The confidence intervals overlap, showing no statistically reliable gain.

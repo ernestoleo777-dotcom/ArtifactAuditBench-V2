@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_979b21f9ef29492f",
+  "errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Procedure N",
+        "reported subset"
+      ],
+      "after": 0.7512945072425596,
+      "before": 0.721234,
+      "error_type": "selective_reporting",
+      "repair": 0.721234
+    }
+  ],
+  "split": "scale_test_unseen"
+}

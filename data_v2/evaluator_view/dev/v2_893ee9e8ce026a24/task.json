@@ -1,0 +1,51 @@
+{
+  "case_id": "v2_893ee9e8ce026a24",
+  "chart_type": "error_bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "error bars"
+      ],
+      "after": [
+        0.007739790708613257,
+        0.008614523698655053,
+        0.0057922083826973435
+      ],
+      "before": [
+        0.0057922083826973435,
+        0.008614523698655053,
+        0.007739790708613257
+      ],
+      "error_type": "error_bar_error",
+      "repair": [
+        0.0057922083826973435,
+        0.008614523698655053,
+        0.007739790708613257
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/dev/v2_893ee9e8ce026a24",
+    "evaluator": "evaluator_view/dev/v2_893ee9e8ce026a24"
+  },
+  "seed": 120980,
+  "split": "dev",
+  "style_fingerprint": "f7f593cf7a81",
+  "template_fingerprint": "5491f3079bf0",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

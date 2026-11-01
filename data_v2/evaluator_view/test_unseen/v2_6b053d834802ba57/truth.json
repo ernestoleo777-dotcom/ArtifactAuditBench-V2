@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_6b053d834802ba57",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Method P",
+        "mean"
+      ],
+      "after": 0.7408538023612085,
+      "before": 0.711753,
+      "error_type": "aggregation_error",
+      "repair": 0.711753
+    }
+  ],
+  "split": "test_unseen"
+}

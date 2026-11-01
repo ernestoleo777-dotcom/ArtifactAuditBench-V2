@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_9769935fc2f81efe",
+  "chart_type": "scatter",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "ablation conclusion"
+      ],
+      "after": "Module B",
+      "before": "Full Model",
+      "error_type": "ablation_conclusion_error",
+      "repair": "Full Model"
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_9769935fc2f81efe",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_9769935fc2f81efe"
+  },
+  "seed": 2567839,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "c2a0c0bec8f2",
+  "template_family": "test_unseen",
+  "template_fingerprint": "524675385f92",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

@@ -1,0 +1,1 @@
+Model Q improves upon Approach T by 0.06 percentage points on Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

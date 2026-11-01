@@ -1,0 +1,37 @@
+{
+  "case_id": "v2_8ffda84a759aad59",
+  "chart_type": "multi_panel",
+  "experiment_type": "binary_classification",
+  "files": {
+    "claim": "statement.txt",
+    "figure": "visual.png",
+    "raw": "observations.csv",
+    "table": "results.csv"
+  },
+  "metric_directions": {
+    "Macro-F1": "maximize"
+  },
+  "model_count": 2,
+  "primary_metric": "Macro-F1",
+  "render_config": {
+    "dpi": 180,
+    "figsize": [
+      9.0,
+      5.0
+    ],
+    "font": "DejaVu Sans Mono",
+    "grid": true,
+    "horizontal": true,
+    "legend_loc": "upper left",
+    "legend_outside": true,
+    "marker": "D",
+    "palette": [
+      "#6B5B95",
+      "#88B04B",
+      "#F7CAC9",
+      "#92A8D1",
+      "#955251"
+    ],
+    "precision": 2
+  }
+}

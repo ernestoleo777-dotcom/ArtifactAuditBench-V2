@@ -1,0 +1,1 @@
+Relative to System V, Model Q changes Macro-F1 by 2.42%. The confidence intervals overlap, showing no statistically reliable gain.

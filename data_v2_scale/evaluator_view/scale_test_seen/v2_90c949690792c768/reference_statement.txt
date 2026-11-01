@@ -1,0 +1,1 @@
+Reported Macro-F1: Full Model=0.667, Module A=0.644. The full model contributes the largest improvement over Module A.

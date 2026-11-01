@@ -1,0 +1,198 @@
+{
+  "models": [
+    "Approach H",
+    "System K",
+    "Method X"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach H",
+      "System K",
+      "Method X"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "best",
+      "legend_outside": true,
+      "marker": "o",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 2
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8094448502490199,
+      0.7097342068192495,
+      0.62826806698966
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach H",
+      "System K",
+      "Method X"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 90,
+      "figsize": [
+        5.0,
+        5.0
+      ],
+      "font": "DejaVu Serif",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "best",
+      "legend_outside": true,
+      "marker": "o",
+      "palette": [
+        "#4C78A8",
+        "#F58518",
+        "#54A24B",
+        "#E45756",
+        "#72B7B2"
+      ],
+      "precision": 2
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8094448502490199,
+      0.7097342068192495,
+      0.62826806698966
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Approach H": {
+      "Accuracy": 0.8090909090909091,
+      "Macro-F1": 0.8094448502490199,
+      "Micro-F1": 0.8090909090909091,
+      "Weighted-F1": 0.8107813531467475,
+      "confusion_matrix": [
+        [
+          46,
+          4,
+          2,
+          3
+        ],
+        [
+          3,
+          39,
+          1,
+          6
+        ],
+        [
+          1,
+          5,
+          45,
+          7
+        ],
+        [
+          1,
+          6,
+          3,
+          48
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.8363636363636363,
+        "Class 1": 0.7959183673469388,
+        "Class 2": 0.7758620689655172,
+        "Class 3": 0.8275862068965517
+      }
+    },
+    "Method X": {
+      "Accuracy": 0.6272727272727273,
+      "Macro-F1": 0.62826806698966,
+      "Micro-F1": 0.6272727272727273,
+      "Weighted-F1": 0.628068662488351,
+      "confusion_matrix": [
+        [
+          36,
+          5,
+          11,
+          3
+        ],
+        [
+          8,
+          31,
+          6,
+          4
+        ],
+        [
+          8,
+          7,
+          38,
+          5
+        ],
+        [
+          11,
+          5,
+          9,
+          33
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.6545454545454545,
+        "Class 1": 0.6326530612244898,
+        "Class 2": 0.6551724137931034,
+        "Class 3": 0.5689655172413793
+      }
+    },
+    "System K": {
+      "Accuracy": 0.7136363636363636,
+      "Macro-F1": 0.7097342068192495,
+      "Micro-F1": 0.7136363636363636,
+      "Weighted-F1": 0.7129220201044522,
+      "confusion_matrix": [
+        [
+          41,
+          5,
+          3,
+          6
+        ],
+        [
+          2,
+          29,
+          12,
+          6
+        ],
+        [
+          3,
+          11,
+          40,
+          4
+        ],
+        [
+          5,
+          1,
+          5,
+          47
+        ]
+      ],
+      "per_class_recall": {
+        "Class 0": 0.7454545454545455,
+        "Class 1": 0.5918367346938775,
+        "Class 2": 0.6896551724137931,
+        "Class 3": 0.8103448275862069
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_f9c5679cf622b534",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System K",
+      "before": "Procedure N",
+      "error_type": "ranking_error",
+      "repair": "Procedure N"
+    }
+  ],
+  "split": "scale_test_seen"
+}

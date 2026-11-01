@@ -1,0 +1,1 @@
+A margin of 0.075 separates Approach H from Variant C on Macro-F1.

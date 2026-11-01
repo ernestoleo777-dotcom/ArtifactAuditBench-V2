@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_d1c666a6ea27f827",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Variant C",
+        "RMSE"
+      ],
+      "after": 0.92418256,
+      "before": 0.825163,
+      "error_type": "numeric_copy_error",
+      "repair": 0.825163
+    }
+  ],
+  "split": "scale_dev"
+}

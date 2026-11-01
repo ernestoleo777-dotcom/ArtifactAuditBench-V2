@@ -1,0 +1,1 @@
+Approach T and Approach H remain close (0.483 versus 0.658), with Approach T ahead.

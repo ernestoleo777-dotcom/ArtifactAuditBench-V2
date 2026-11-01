@@ -1,0 +1,32 @@
+{
+  "case_id": "v2_c598b370843fe0cf",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "System V",
+        "Method X"
+      ],
+      "after": [
+        "Method X",
+        "System V",
+        "Procedure N",
+        "Method P"
+      ],
+      "before": [
+        "System V",
+        "Method X",
+        "Procedure N",
+        "Method P"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "System V",
+        "Method X",
+        "Procedure N",
+        "Method P"
+      ]
+    }
+  ],
+  "split": "scale_test_seen"
+}

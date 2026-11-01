@@ -1,0 +1,1 @@
+A margin of 0.010 separates Procedure N from System V on Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,17 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_63c8ba0ca3c385a5",
+  "error_detected": false,
+  "execution_status": "success",
+  "execution_time_seconds": 0.0292408331297338,
+  "partial_success": false,
+  "predicted_errors": [],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

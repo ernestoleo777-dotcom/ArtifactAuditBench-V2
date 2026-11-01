@@ -1,0 +1,32 @@
+{
+  "case_id": "v2_5385d97b1e0f8b71",
+  "chart_type": "confusion_heatmap",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.6188682369003919,
+        0.8181347935189758
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/test_seen/v2_5385d97b1e0f8b71",
+    "evaluator": "evaluator_view/test_seen/v2_5385d97b1e0f8b71"
+  },
+  "seed": 236962,
+  "split": "test_seen",
+  "style_fingerprint": "6bdc5b443db7",
+  "template_fingerprint": "7a13a03ef864",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

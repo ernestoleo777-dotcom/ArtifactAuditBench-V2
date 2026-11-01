@@ -1,0 +1,19 @@
+{
+  "case_id": "v2_7458e25a5ac02ac0",
+  "chart_type": "bar",
+  "errors": [],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_7458e25a5ac02ac0",
+    "evaluator": "evaluator_view/scale_test_seen/v2_7458e25a5ac02ac0"
+  },
+  "seed": 1608716,
+  "split": "scale_test_seen",
+  "style_fingerprint": "eda80bf4f703",
+  "template_family": "test_seen",
+  "template_fingerprint": "77e63d89a38f",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

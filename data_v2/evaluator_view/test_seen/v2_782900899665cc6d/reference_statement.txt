@@ -1,0 +1,1 @@
+Evaluation on Macro-F1 finds Method X consistently better than Variant R.

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-02",
+  "local_python": "3.13.13",
+  "tests": "21 passed",
+  "main_data": {
+    "tasks": 120,
+    "errors": 0
+  },
+  "scale_data": {
+    "tasks": 360,
+    "errors": 0
+  },
+  "original_main_freeze": "PASS",
+  "saved_label_anchors": "MATCH",
+  "fresh_ruleaudit_main": {
+    "tasks": 120,
+    "original_outputs_overwritten": false,
+    "metrics_match_saved_main": true,
+    "metrics": {
+      "task_count": 120,
+      "multi_label_micro_f1": 0.8708487084870847,
+      "multi_label_macro_f1": 0.8949990717534577,
+      "exact_set_match": 0.7916666666666666,
+      "partial_localization_score": 0.8875,
+      "clean_false_positive_rate": 0.1
+    }
+  },
+  "model_provider_calls": 0,
+  "limitations": "Local identity and software/recalculation checks, not independent scientific confirmation; CI status is attached to GitHub commit."
+}

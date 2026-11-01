@@ -1,0 +1,1 @@
+System V records 0.744 Macro-F1; Model Q records 0.717. The confidence intervals overlap, showing no statistically reliable gain.

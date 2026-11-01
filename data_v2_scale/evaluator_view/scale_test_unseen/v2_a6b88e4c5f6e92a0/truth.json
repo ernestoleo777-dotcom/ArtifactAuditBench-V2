@@ -1,0 +1,36 @@
+{
+  "case_id": "v2_a6b88e4c5f6e92a0",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "System V",
+        "Model Q"
+      ],
+      "after": [
+        "Model Q",
+        "System V"
+      ],
+      "before": [
+        "System V",
+        "Model Q"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "System V",
+        "Model Q"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 17.668419758557416,
+      "before": 10.168419758557416,
+      "error_type": "relative_improvement_error",
+      "repair": 10.168419758557416
+    }
+  ],
+  "split": "scale_test_unseen"
+}

@@ -1,0 +1,122 @@
+{
+  "models": [
+    "Variant R",
+    "Procedure N",
+    "Method X",
+    "Model Q",
+    "Method P"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": [
+      0.4288244558738106,
+      1.1886827853534072
+    ],
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Variant R",
+      "Procedure N",
+      "Method X",
+      "Model Q",
+      "Method P"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        7.0,
+        4.0
+      ],
+      "font": "DejaVu Sans",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "lower left",
+      "legend_outside": false,
+      "marker": "o",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 2
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4812284785965414,
+      0.6666800687431158,
+      0.7840354560880083,
+      0.8788832432049938,
+      1.1362787626306765
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Variant R",
+      "Procedure N",
+      "Method X",
+      "Model Q",
+      "Method P"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 100,
+      "figsize": [
+        7.0,
+        4.0
+      ],
+      "font": "DejaVu Sans",
+      "grid": false,
+      "horizontal": false,
+      "legend_loc": "lower left",
+      "legend_outside": false,
+      "marker": "o",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 2
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4812284785965414,
+      0.6666800687431158,
+      0.7840354560880083,
+      0.8788832432049938,
+      1.1362787626306765
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Method P": {
+      "MAE": 0.9259538635198589,
+      "R2": 0.88187861953177,
+      "RMSE": 1.1362787626306765
+    },
+    "Method X": {
+      "MAE": 0.5864443932538663,
+      "R2": 0.9437619646241703,
+      "RMSE": 0.7840354560880083
+    },
+    "Model Q": {
+      "MAE": 0.6928523549959505,
+      "R2": 0.9293322761764733,
+      "RMSE": 0.8788832432049938
+    },
+    "Procedure N": {
+      "MAE": 0.5537792996448823,
+      "R2": 0.9593375373304343,
+      "RMSE": 0.6666800687431158
+    },
+    "Variant R": {
+      "MAE": 0.35994816867059043,
+      "R2": 0.9788133947157805,
+      "RMSE": 0.4812284785965414
+    }
+  }
+}

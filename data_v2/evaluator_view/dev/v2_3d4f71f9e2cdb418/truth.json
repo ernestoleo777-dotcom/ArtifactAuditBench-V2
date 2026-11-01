@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_3d4f71f9e2cdb418",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Procedure N",
+        "RMSE"
+      ],
+      "after": 0.69095264,
+      "before": 0.616922,
+      "error_type": "numeric_copy_error",
+      "repair": 0.616922
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Procedure N",
+      "before": "Variant R",
+      "error_type": "ranking_error",
+      "repair": "Variant R"
+    }
+  ],
+  "split": "dev"
+}

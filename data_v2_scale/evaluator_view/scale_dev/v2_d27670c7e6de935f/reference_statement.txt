@@ -1,0 +1,1 @@
+Method P obtains the best Macro-F1: 0.772. The confidence intervals overlap, showing no statistically reliable gain.

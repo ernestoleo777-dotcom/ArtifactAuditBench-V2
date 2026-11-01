@@ -1,0 +1,1 @@
+Variant C yields a 7.79% relative improvement in Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

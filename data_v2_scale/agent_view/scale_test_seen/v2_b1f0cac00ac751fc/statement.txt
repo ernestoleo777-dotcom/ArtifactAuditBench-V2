@@ -1,0 +1,2 @@
+Evaluation on Macro-F1 finds Variant C consistently better than Approach T.
+ Relative improvement: 14.29%.

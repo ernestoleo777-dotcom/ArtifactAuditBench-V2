@@ -1,0 +1,18 @@
+{
+  "case_id": "v2_c11613de81b79045",
+  "chart_type": "grouped_bar",
+  "errors": [],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/test_unseen/v2_c11613de81b79045",
+    "evaluator": "evaluator_view/test_unseen/v2_c11613de81b79045"
+  },
+  "seed": 339983,
+  "split": "test_unseen",
+  "style_fingerprint": "8577d7a25f48",
+  "template_fingerprint": "0e7e6ebb41fa",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

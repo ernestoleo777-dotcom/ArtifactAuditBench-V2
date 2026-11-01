@@ -1,0 +1,712 @@
+{
+  "cases": [
+    {
+      "case_type": "single_error",
+      "chart_type": "scatter",
+      "error_types": [
+        "ranking_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "dev",
+      "task_id": "v2_06f8049906d44b2d"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "error_bar",
+      "error_types": [
+        "series_data_swap",
+        "numeric_copy_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "dev",
+      "task_id": "v2_192e48e5cf6c574b"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "relative_improvement_error"
+      ],
+      "experiment_type": "binary_classification",
+      "split": "dev",
+      "task_id": "v2_49bd727f1e905d7a"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "confusion_heatmap",
+      "error_types": [
+        "numeric_copy_error"
+      ],
+      "experiment_type": "multiclass",
+      "split": "dev",
+      "task_id": "v2_4c38d3b60f0eaf7a"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "line",
+      "error_types": [],
+      "experiment_type": "ablation",
+      "split": "dev",
+      "task_id": "v2_520c180c4b2b6278"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "confusion_heatmap",
+      "error_types": [
+        "relative_improvement_error"
+      ],
+      "experiment_type": "multiclass",
+      "split": "dev",
+      "task_id": "v2_524bbfbd930021e0"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "metric_name_mismatch",
+        "ablation_conclusion_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "dev",
+      "task_id": "v2_755b1a73944699e4"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "bar",
+      "error_types": [
+        "numeric_copy_error"
+      ],
+      "experiment_type": "multiclass",
+      "split": "dev",
+      "task_id": "v2_7b25bfb878377eb1"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "grouped_bar",
+      "error_types": [],
+      "experiment_type": "binary_classification",
+      "split": "dev",
+      "task_id": "v2_7c43ffbf1b8598dc"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "relative_improvement_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "dev",
+      "task_id": "v2_88c2b805fc57a1fd"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "error_bar",
+      "error_types": [
+        "error_bar_error",
+        "significance_overclaim"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "dev",
+      "task_id": "v2_893ee9e8ce026a24"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "bar",
+      "error_types": [],
+      "experiment_type": "multiclass",
+      "split": "dev",
+      "task_id": "v2_a02d39ecac745687"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "bar",
+      "error_types": [
+        "numeric_copy_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "dev",
+      "task_id": "v2_a72f47b1f92c3793"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "scatter",
+      "error_types": [],
+      "experiment_type": "ablation",
+      "split": "dev",
+      "task_id": "v2_b1fd8b9ae7e5c8ff"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "bar",
+      "error_types": [
+        "aggregation_error",
+        "significance_overclaim"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "dev",
+      "task_id": "v2_b689ad79a7d20fc6"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "line",
+      "error_types": [
+        "ranking_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "dev",
+      "task_id": "v2_c20cae5f4ada410f"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "ranking_error"
+      ],
+      "experiment_type": "regression",
+      "split": "dev",
+      "task_id": "v2_c2333cd9ab1707d7"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "relative_improvement_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "dev",
+      "task_id": "v2_d163e439e71ad63c"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "error_bar",
+      "error_types": [
+        "axis_scale_error",
+        "selective_reporting"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "dev",
+      "task_id": "v2_e40ed11d29453a73"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "multi_panel",
+      "error_types": [],
+      "experiment_type": "binary_classification",
+      "split": "dev",
+      "task_id": "v2_fdbf7d56bc609966"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "multi_panel",
+      "error_types": [],
+      "experiment_type": "binary_classification",
+      "split": "test_seen",
+      "task_id": "v2_00d3c3eddc2cb576"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "scatter",
+      "error_types": [
+        "series_data_swap"
+      ],
+      "experiment_type": "ablation",
+      "split": "test_seen",
+      "task_id": "v2_214f183c722aaf94"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "metric_name_mismatch",
+        "ablation_conclusion_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "test_seen",
+      "task_id": "v2_21b1e3e2bfc7a8c8"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "selective_reporting",
+        "significance_overclaim",
+        "axis_scale_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_seen",
+      "task_id": "v2_22a2dd3d1040f761"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "axis_scale_error"
+      ],
+      "experiment_type": "regression",
+      "split": "test_seen",
+      "task_id": "v2_4521edb4c0659f2a"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "confusion_heatmap",
+      "error_types": [
+        "axis_scale_error"
+      ],
+      "experiment_type": "multiclass",
+      "split": "test_seen",
+      "task_id": "v2_5385d97b1e0f8b71"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "aggregation_error",
+        "significance_overclaim"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_seen",
+      "task_id": "v2_669d2b2b782329da"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "error_bar",
+      "error_types": [],
+      "experiment_type": "repeated_runs",
+      "split": "test_seen",
+      "task_id": "v2_6e04a73697fc06eb"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "confusion_heatmap",
+      "error_types": [
+        "relative_improvement_error",
+        "metric_name_mismatch",
+        "ranking_error"
+      ],
+      "experiment_type": "multiclass",
+      "split": "test_seen",
+      "task_id": "v2_782900899665cc6d"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "error_bar",
+      "error_types": [
+        "error_bar_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_seen",
+      "task_id": "v2_79e7a61eb1264dea"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "confusion_heatmap",
+      "error_types": [
+        "metric_name_mismatch"
+      ],
+      "experiment_type": "multiclass",
+      "split": "test_seen",
+      "task_id": "v2_7ece0c396b37c9bf"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "multi_panel",
+      "error_types": [],
+      "experiment_type": "ablation",
+      "split": "test_seen",
+      "task_id": "v2_937e07cfc27882a7"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "confusion_heatmap",
+      "error_types": [
+        "metric_name_mismatch"
+      ],
+      "experiment_type": "multiclass",
+      "split": "test_seen",
+      "task_id": "v2_a9ad5f9db71037ff"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "bar",
+      "error_types": [],
+      "experiment_type": "binary_classification",
+      "split": "test_seen",
+      "task_id": "v2_b4cd22b532e83127"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "legend_swap",
+        "numeric_copy_error",
+        "relative_improvement_error"
+      ],
+      "experiment_type": "multiclass",
+      "split": "test_seen",
+      "task_id": "v2_bf61bb54c743fd60"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "error_bar",
+      "error_types": [
+        "error_bar_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_seen",
+      "task_id": "v2_d2ff45c6204cbcfe"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "bar",
+      "error_types": [
+        "legend_swap"
+      ],
+      "experiment_type": "binary_classification",
+      "split": "test_seen",
+      "task_id": "v2_f0fc2b5d47ed38e4"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "grouped_bar",
+      "error_types": [],
+      "experiment_type": "multiclass",
+      "split": "test_seen",
+      "task_id": "v2_f1b72bba203993ff"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "line",
+      "error_types": [
+        "series_data_swap"
+      ],
+      "experiment_type": "ablation",
+      "split": "test_seen",
+      "task_id": "v2_f628dc801f23327b"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "legend_swap"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_seen",
+      "task_id": "v2_fb4ed6e360a9e5a2"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "series_data_swap"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_188372c98a402fd1"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "line",
+      "error_types": [
+        "ablation_conclusion_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "test_unseen",
+      "task_id": "v2_18a04b2e959872aa"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "grouped_bar",
+      "error_types": [
+        "legend_swap",
+        "numeric_copy_error",
+        "relative_improvement_error"
+      ],
+      "experiment_type": "binary_classification",
+      "split": "test_unseen",
+      "task_id": "v2_1f982147c3062680"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "error_bar",
+      "error_types": [
+        "ablation_conclusion_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "test_unseen",
+      "task_id": "v2_25be27e6235de9c4"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "bar",
+      "error_types": [
+        "ablation_conclusion_error"
+      ],
+      "experiment_type": "ablation",
+      "split": "test_unseen",
+      "task_id": "v2_276634bbc9b4c6b3"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "error_bar",
+      "error_types": [],
+      "experiment_type": "ablation",
+      "split": "test_unseen",
+      "task_id": "v2_278c9465e14a9887"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "scatter",
+      "error_types": [],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_2c3365ed00570e3d"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "bar",
+      "error_types": [
+        "selective_reporting",
+        "significance_overclaim",
+        "axis_scale_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_3fcfb974aab71522"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "bar",
+      "error_types": [
+        "legend_swap",
+        "numeric_copy_error",
+        "relative_improvement_error"
+      ],
+      "experiment_type": "binary_classification",
+      "split": "test_unseen",
+      "task_id": "v2_47a0da1036fc5861"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "bar",
+      "error_types": [
+        "aggregation_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_52d3d6fb380067d9"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "selective_reporting"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_728e563e2f77eacc"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "line",
+      "error_types": [
+        "significance_overclaim"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_7578150dd6e3ae02"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "scatter",
+      "error_types": [
+        "significance_overclaim"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_7cc6254f58987807"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "selective_reporting",
+        "significance_overclaim",
+        "axis_scale_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_865e1eb7bb0377d6"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "error_bar",
+      "error_types": [
+        "selective_reporting"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_95658c7add508e98"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "confusion_heatmap",
+      "error_types": [],
+      "experiment_type": "multiclass",
+      "split": "test_unseen",
+      "task_id": "v2_a9e082e142a6a4e7"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "scatter",
+      "error_types": [],
+      "experiment_type": "ablation",
+      "split": "test_unseen",
+      "task_id": "v2_c2a713e29be190cc"
+    },
+    {
+      "case_type": "clean",
+      "chart_type": "bar",
+      "error_types": [],
+      "experiment_type": "multiclass",
+      "split": "test_unseen",
+      "task_id": "v2_c896e351b3c6ce0b"
+    },
+    {
+      "case_type": "combination",
+      "chart_type": "confusion_heatmap",
+      "error_types": [
+        "relative_improvement_error",
+        "metric_name_mismatch",
+        "ranking_error"
+      ],
+      "experiment_type": "multiclass",
+      "split": "test_unseen",
+      "task_id": "v2_ddf91b3148680eb9"
+    },
+    {
+      "case_type": "single_error",
+      "chart_type": "multi_panel",
+      "error_types": [
+        "aggregation_error"
+      ],
+      "experiment_type": "repeated_runs",
+      "split": "test_unseen",
+      "task_id": "v2_e1ac5fb9b33a78d5"
+    }
+  ],
+  "counts": {
+    "by_case_type": {
+      "clean": 15,
+      "combination": 15,
+      "single_error": 30
+    },
+    "by_chart_type": {
+      "bar": 11,
+      "confusion_heatmap": 8,
+      "error_bar": 9,
+      "grouped_bar": 10,
+      "line": 5,
+      "multi_panel": 11,
+      "scatter": 6
+    },
+    "by_error_family": {
+      "ablation_conclusion_error": 5,
+      "aggregation_error": 4,
+      "axis_scale_error": 6,
+      "error_bar_error": 3,
+      "legend_swap": 5,
+      "metric_name_mismatch": 6,
+      "numeric_copy_error": 7,
+      "ranking_error": 5,
+      "relative_improvement_error": 9,
+      "selective_reporting": 6,
+      "series_data_swap": 4,
+      "significance_overclaim": 8
+    },
+    "by_experiment_type": {
+      "ablation": 16,
+      "binary_classification": 8,
+      "multiclass": 13,
+      "regression": 2,
+      "repeated_runs": 21
+    },
+    "by_split": {
+      "dev": 20,
+      "test_seen": 20,
+      "test_unseen": 20
+    },
+    "task_count": 60
+  },
+  "selection_rule": "20 tasks per split; within each split target 5 clean, 10 single-error, 5 combination; greedy coverage over error families and chart types. Labels are used only for stratified sampling, not for prompt tuning.",
+  "source_data_root": "data_v2",
+  "splits": {
+    "dev": [
+      "v2_06f8049906d44b2d",
+      "v2_192e48e5cf6c574b",
+      "v2_49bd727f1e905d7a",
+      "v2_4c38d3b60f0eaf7a",
+      "v2_520c180c4b2b6278",
+      "v2_524bbfbd930021e0",
+      "v2_755b1a73944699e4",
+      "v2_7b25bfb878377eb1",
+      "v2_7c43ffbf1b8598dc",
+      "v2_88c2b805fc57a1fd",
+      "v2_893ee9e8ce026a24",
+      "v2_a02d39ecac745687",
+      "v2_a72f47b1f92c3793",
+      "v2_b1fd8b9ae7e5c8ff",
+      "v2_b689ad79a7d20fc6",
+      "v2_c20cae5f4ada410f",
+      "v2_c2333cd9ab1707d7",
+      "v2_d163e439e71ad63c",
+      "v2_e40ed11d29453a73",
+      "v2_fdbf7d56bc609966"
+    ],
+    "test_seen": [
+      "v2_00d3c3eddc2cb576",
+      "v2_214f183c722aaf94",
+      "v2_21b1e3e2bfc7a8c8",
+      "v2_22a2dd3d1040f761",
+      "v2_4521edb4c0659f2a",
+      "v2_5385d97b1e0f8b71",
+      "v2_669d2b2b782329da",
+      "v2_6e04a73697fc06eb",
+      "v2_782900899665cc6d",
+      "v2_79e7a61eb1264dea",
+      "v2_7ece0c396b37c9bf",
+      "v2_937e07cfc27882a7",
+      "v2_a9ad5f9db71037ff",
+      "v2_b4cd22b532e83127",
+      "v2_bf61bb54c743fd60",
+      "v2_d2ff45c6204cbcfe",
+      "v2_f0fc2b5d47ed38e4",
+      "v2_f1b72bba203993ff",
+      "v2_f628dc801f23327b",
+      "v2_fb4ed6e360a9e5a2"
+    ],
+    "test_unseen": [
+      "v2_188372c98a402fd1",
+      "v2_18a04b2e959872aa",
+      "v2_1f982147c3062680",
+      "v2_25be27e6235de9c4",
+      "v2_276634bbc9b4c6b3",
+      "v2_278c9465e14a9887",
+      "v2_2c3365ed00570e3d",
+      "v2_3fcfb974aab71522",
+      "v2_47a0da1036fc5861",
+      "v2_52d3d6fb380067d9",
+      "v2_728e563e2f77eacc",
+      "v2_7578150dd6e3ae02",
+      "v2_7cc6254f58987807",
+      "v2_865e1eb7bb0377d6",
+      "v2_95658c7add508e98",
+      "v2_a9e082e142a6a4e7",
+      "v2_c2a713e29be190cc",
+      "v2_c896e351b3c6ce0b",
+      "v2_ddf91b3148680eb9",
+      "v2_e1ac5fb9b33a78d5"
+    ]
+  },
+  "task_count": 60,
+  "version": "1.0.0"
+}

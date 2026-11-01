@@ -1,0 +1,82 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_182ca7b9236fdd64",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.034840499982237816,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "confidence": 0.95,
+      "error_type": "metric_name_mismatch",
+      "evidence": {
+        "affected_elements": [
+          "metric name"
+        ],
+        "error_type": "metric_name_mismatch",
+        "expected": "Macro-F1",
+        "reported": [
+          "Micro-F1"
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Macro-F1"
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "confidence": 0.95,
+      "error_type": "ranking_error",
+      "evidence": {
+        "affected_elements": [
+          "best model"
+        ],
+        "error_type": "ranking_error",
+        "expected": "Method P",
+        "reported": "System K"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Method P"
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "confidence": 0.95,
+      "error_type": "relative_improvement_error",
+      "evidence": {
+        "affected_elements": [
+          "relative_improvement_percent"
+        ],
+        "error_type": "relative_improvement_error",
+        "expected": 2.91,
+        "reported": [
+          10.41
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": 2.91
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

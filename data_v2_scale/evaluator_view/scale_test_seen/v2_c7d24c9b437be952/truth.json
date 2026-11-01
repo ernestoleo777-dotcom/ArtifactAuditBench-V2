@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_c7d24c9b437be952",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System K",
+        "Recall"
+      ],
+      "after": 0.96510624,
+      "before": 0.861702,
+      "error_type": "numeric_copy_error",
+      "repair": 0.861702
+    }
+  ],
+  "split": "scale_test_seen"
+}

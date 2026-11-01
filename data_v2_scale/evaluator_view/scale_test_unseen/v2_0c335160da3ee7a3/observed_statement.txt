@@ -1,0 +1,2 @@
+Method P trails Method P on the reported Micro-F1.
+ Relative improvement: 13.11%.

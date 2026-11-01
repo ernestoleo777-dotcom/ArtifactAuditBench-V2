@@ -1,0 +1,41 @@
+{
+  "case_id": "v2_d80b8cbeeddfd393",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Module A",
+        "se"
+      ],
+      "after": 0.045104,
+      "before": 0.015104,
+      "error_type": "numeric_copy_error",
+      "repair": 0.015104
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Module A",
+      "before": "Full Model",
+      "error_type": "ranking_error",
+      "repair": "Full Model"
+    }
+  ],
+  "experiment_type": "ablation",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_d80b8cbeeddfd393",
+    "evaluator": "evaluator_view/scale_test_seen/v2_d80b8cbeeddfd393"
+  },
+  "seed": 1543911,
+  "split": "scale_test_seen",
+  "style_fingerprint": "aa5a2ec261f2",
+  "template_family": "test_seen",
+  "template_fingerprint": "935495580030",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

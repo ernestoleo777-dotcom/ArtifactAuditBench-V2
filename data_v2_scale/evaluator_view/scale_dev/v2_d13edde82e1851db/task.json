@@ -1,0 +1,49 @@
+{
+  "case_id": "v2_d13edde82e1851db",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Variant R",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "Variant R",
+        "System K",
+        "Method P",
+        "System V"
+      ],
+      "before": [
+        "Variant R",
+        "Approach H",
+        "System K",
+        "Method P",
+        "System V"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Variant R",
+        "Approach H",
+        "System K",
+        "Method P",
+        "System V"
+      ]
+    }
+  ],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/scale_dev/v2_d13edde82e1851db",
+    "evaluator": "evaluator_view/scale_dev/v2_d13edde82e1851db"
+  },
+  "seed": 539923,
+  "split": "scale_dev",
+  "style_fingerprint": "e0d3e7f60c61",
+  "template_family": "dev",
+  "template_fingerprint": "d2f17f4c3bac",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

@@ -1,0 +1,1 @@
+Reported Macro-F1: System K=0.725, Method X=0.716. The confidence intervals overlap, showing no statistically reliable gain.

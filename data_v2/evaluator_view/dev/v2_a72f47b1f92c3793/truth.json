@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_a72f47b1f92c3793",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Module B",
+        "ci95_high"
+      ],
+      "after": 0.7147616,
+      "before": 0.63818,
+      "error_type": "numeric_copy_error",
+      "repair": 0.63818
+    }
+  ],
+  "split": "dev"
+}

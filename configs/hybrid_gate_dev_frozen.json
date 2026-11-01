@@ -1,0 +1,13 @@
+{
+  "execution_failure_policy": "If Tool-agent has no scored output, keep the RuleAudit decision; no label is invented.",
+  "gate_version": "dev_frozen_conservative_v1",
+  "rule": "Use RuleAudit for all deterministic numeric, statistical, table, claim-template, and high-confidence candidate-rendering decisions.",
+  "selected_on": "development protocol only; no test metrics used for gate selection",
+  "tool_deference": "Use Tool-agent only for predeclared visual-semantic families when RuleAudit has no visual-semantic prediction.",
+  "visual_semantic_families": [
+    "axis_scale_error",
+    "error_bar_error",
+    "legend_swap",
+    "series_data_swap"
+  ]
+}

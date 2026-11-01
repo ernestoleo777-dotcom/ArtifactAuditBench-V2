@@ -1,0 +1,1 @@
+System K remains competitive with Approach H (0.780 vs 0.757). The confidence intervals overlap, showing no statistically reliable gain.

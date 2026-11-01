@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_d80b8cbeeddfd393",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Module A",
+        "se"
+      ],
+      "after": 0.045104,
+      "before": 0.015104,
+      "error_type": "numeric_copy_error",
+      "repair": 0.015104
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Module A",
+      "before": "Full Model",
+      "error_type": "ranking_error",
+      "repair": "Full Model"
+    }
+  ],
+  "split": "scale_test_seen"
+}

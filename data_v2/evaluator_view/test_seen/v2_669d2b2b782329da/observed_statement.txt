@@ -1,0 +1,1 @@
+The best observed Macro-F1 is obtained by Approach H (0.708). The confidence intervals overlap, showing a statistically significant improvement.

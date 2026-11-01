@@ -1,0 +1,1 @@
+Across methods, Method P achieves the highest Macro-F1 at 0.780. The confidence intervals overlap, showing a statistically significant improvement.

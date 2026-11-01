@@ -1,0 +1,1 @@
+Ordering systems by Macro-F1 puts System V ahead of System K. The confidence intervals overlap, showing no statistically reliable gain.

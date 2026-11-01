@@ -1,0 +1,1 @@
+Across methods, System V achieves the highest Macro-F1 at 0.860.

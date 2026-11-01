@@ -1,0 +1,1 @@
+Method X yields a 1.93% relative improvement in Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

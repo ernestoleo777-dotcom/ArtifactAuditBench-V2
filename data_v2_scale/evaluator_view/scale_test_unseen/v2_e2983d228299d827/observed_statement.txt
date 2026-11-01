@@ -1,0 +1,1 @@
+Approach T trails Variant C on the reported Macro-F1. The confidence intervals overlap, showing a statistically significant improvement.

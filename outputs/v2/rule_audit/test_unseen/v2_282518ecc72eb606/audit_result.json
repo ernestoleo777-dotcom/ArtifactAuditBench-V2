@@ -1,0 +1,38 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_282518ecc72eb606",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.06339945807121694,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach H",
+        "mean"
+      ],
+      "confidence": 1.0,
+      "error_type": "aggregation_error",
+      "evidence": {
+        "column": "mean",
+        "error_type": "aggregation_error",
+        "expected": 0.76128,
+        "model": "Approach H",
+        "reported": 0.826848
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.76128
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

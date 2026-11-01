@@ -1,0 +1,29 @@
+{
+  "case_id": "v2_c2333cd9ab1707d7",
+  "chart_type": "multi_panel",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Method P",
+      "before": "Procedure N",
+      "error_type": "ranking_error",
+      "repair": "Procedure N"
+    }
+  ],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/dev/v2_c2333cd9ab1707d7",
+    "evaluator": "evaluator_view/dev/v2_c2333cd9ab1707d7"
+  },
+  "seed": 135935,
+  "split": "dev",
+  "style_fingerprint": "a3a68378b15e",
+  "template_fingerprint": "3197110b0e30",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

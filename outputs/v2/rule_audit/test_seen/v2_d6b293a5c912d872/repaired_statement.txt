@@ -1,0 +1,1 @@
+Although close to Variant R, Variant R remains competitive and leads 0.764 to 0.747. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_b29edde5945a65f4",
+  "errors": [
+    {
+      "affected_artifact": "results.csv+visual.png",
+      "affected_elements": [
+        "Approach H",
+        "reported subset"
+      ],
+      "after": 0.7614305159218551,
+      "before": 0.736173,
+      "error_type": "selective_reporting",
+      "repair": 0.736173
+    }
+  ],
+  "split": "scale_test_unseen"
+}

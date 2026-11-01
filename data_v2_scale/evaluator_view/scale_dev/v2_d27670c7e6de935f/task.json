@@ -1,0 +1,31 @@
+{
+  "case_id": "v2_d27670c7e6de935f",
+  "chart_type": "scatter",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Method P",
+        "mean"
+      ],
+      "after": 0.8075478667037819,
+      "before": 0.772064,
+      "error_type": "aggregation_error",
+      "repair": 0.772064
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/scale_dev/v2_d27670c7e6de935f",
+    "evaluator": "evaluator_view/scale_dev/v2_d27670c7e6de935f"
+  },
+  "seed": 540920,
+  "split": "scale_dev",
+  "style_fingerprint": "ec46c79174db",
+  "template_family": "dev",
+  "template_fingerprint": "5491f3079bf0",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

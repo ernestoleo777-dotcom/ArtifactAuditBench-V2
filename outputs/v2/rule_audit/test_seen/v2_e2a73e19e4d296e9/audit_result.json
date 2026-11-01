@@ -1,0 +1,95 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_e2a73e19e4d296e9",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.13842604192905128,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "System K",
+        "R2"
+      ],
+      "confidence": 1.0,
+      "error_type": "numeric_copy_error",
+      "evidence": {
+        "column": "R2",
+        "error_type": "numeric_copy_error",
+        "expected": 0.914976,
+        "model": "System K",
+        "reported": 0.999
+      },
+      "repair_available": true,
+      "repair_result": {
+        "value": 0.914976
+      }
+    },
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Model Q",
+        "Procedure N"
+      ],
+      "confidence": 1.0,
+      "error_type": "series_data_swap",
+      "evidence": {
+        "matched_candidate": "candidate_series_data_swap.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "bar",
+          "labels": [
+            "Model Q",
+            "Procedure N",
+            "Method P",
+            "Approach H",
+            "System K"
+          ],
+          "metric": "RMSE",
+          "style": {
+            "dpi": 100,
+            "figsize": [
+              6.4,
+              4.8
+            ],
+            "font": "DejaVu Serif",
+            "grid": true,
+            "horizontal": true,
+            "legend_loc": "best",
+            "legend_outside": false,
+            "marker": "o",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 4
+          },
+          "title": "RMSE comparison",
+          "values": [
+            0.4791145261606864,
+            0.6516637389621204,
+            0.8367092633689914,
+            0.9434386773302303,
+            1.0186723715427475
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

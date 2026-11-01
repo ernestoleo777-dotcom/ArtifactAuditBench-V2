@@ -1,0 +1,1 @@
+Although close to Model Q, Variant R remains competitive and leads 0.739 to 0.711. The confidence intervals overlap, showing a statistically significant improvement.

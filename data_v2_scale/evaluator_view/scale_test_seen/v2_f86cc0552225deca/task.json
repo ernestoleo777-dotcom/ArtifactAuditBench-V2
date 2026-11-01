@@ -1,0 +1,33 @@
+{
+  "case_id": "v2_f86cc0552225deca",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.7654135338345864,
+        0.8558618769145085
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    }
+  ],
+  "experiment_type": "binary_classification",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_f86cc0552225deca",
+    "evaluator": "evaluator_view/scale_test_seen/v2_f86cc0552225deca"
+  },
+  "seed": 1569833,
+  "split": "scale_test_seen",
+  "style_fingerprint": "9ec0678da2c1",
+  "template_family": "test_seen",
+  "template_fingerprint": "8ba3acda2848",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

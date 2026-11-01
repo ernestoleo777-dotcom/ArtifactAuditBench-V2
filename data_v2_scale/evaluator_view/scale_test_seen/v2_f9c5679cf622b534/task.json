@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_f9c5679cf622b534",
+  "chart_type": "scatter",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System K",
+      "before": "Procedure N",
+      "error_type": "ranking_error",
+      "repair": "Procedure N"
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_f9c5679cf622b534",
+    "evaluator": "evaluator_view/scale_test_seen/v2_f9c5679cf622b534"
+  },
+  "seed": 1597749,
+  "split": "scale_test_seen",
+  "style_fingerprint": "1f6ddb87b393",
+  "template_family": "test_seen",
+  "template_fingerprint": "09f8d2201da1",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

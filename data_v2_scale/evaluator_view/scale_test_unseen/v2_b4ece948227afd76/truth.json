@@ -1,0 +1,16 @@
+{
+  "case_id": "v2_b4ece948227afd76",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "ablation conclusion"
+      ],
+      "after": "Module B",
+      "before": "Full Model",
+      "error_type": "ablation_conclusion_error",
+      "repair": "Full Model"
+    }
+  ],
+  "split": "scale_test_unseen"
+}

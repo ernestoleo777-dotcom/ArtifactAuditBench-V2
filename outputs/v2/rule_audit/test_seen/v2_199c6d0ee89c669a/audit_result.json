@@ -1,0 +1,74 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_199c6d0ee89c669a",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.2981898330617696,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "confidence": 1.0,
+      "error_type": "axis_scale_error",
+      "evidence": {
+        "matched_candidate": "candidate_axis_scale_error.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "multi_panel",
+          "labels": [
+            "Procedure N",
+            "Model Q",
+            "Approach H",
+            "System K",
+            "System V"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 120,
+            "figsize": [
+              7.0,
+              4.0
+            ],
+            "font": "DejaVu Sans",
+            "grid": false,
+            "horizontal": false,
+            "legend_loc": "upper right",
+            "legend_outside": true,
+            "marker": "s",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 3
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7722265417414402,
+            0.7589694903670381,
+            0.7188981649004812,
+            0.7307777680462407,
+            0.692026309108684
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

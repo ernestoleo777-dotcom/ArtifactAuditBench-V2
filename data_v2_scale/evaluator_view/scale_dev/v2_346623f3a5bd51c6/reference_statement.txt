@@ -1,0 +1,1 @@
+Approach H records 0.767 Macro-F1; Method X records 0.761. The confidence intervals overlap, showing no statistically reliable gain.

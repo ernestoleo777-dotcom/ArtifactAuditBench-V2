@@ -1,0 +1,2 @@
+Compared with Method P, System K improves Macro-F1 by 2.16 points.
+ Relative improvement: 2.91%.

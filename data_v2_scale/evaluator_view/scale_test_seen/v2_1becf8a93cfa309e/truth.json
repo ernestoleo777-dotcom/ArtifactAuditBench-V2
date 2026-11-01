@@ -1,0 +1,26 @@
+{
+  "case_id": "v2_1becf8a93cfa309e",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "Method X"
+      ],
+      "after": [
+        0.740417509746783,
+        0.7601378625899244
+      ],
+      "before": [
+        0.7601378625899244,
+        0.740417509746783
+      ],
+      "error_type": "series_data_swap",
+      "repair": [
+        0.7601378625899244,
+        0.740417509746783
+      ]
+    }
+  ],
+  "split": "scale_test_seen"
+}

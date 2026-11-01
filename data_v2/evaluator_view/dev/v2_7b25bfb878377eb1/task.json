@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_7b25bfb878377eb1",
+  "chart_type": "bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Procedure N",
+        "Weighted-F1"
+      ],
+      "after": 0.74979408,
+      "before": 0.669459,
+      "error_type": "numeric_copy_error",
+      "repair": 0.669459
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/dev/v2_7b25bfb878377eb1",
+    "evaluator": "evaluator_view/dev/v2_7b25bfb878377eb1"
+  },
+  "seed": 126962,
+  "split": "dev",
+  "style_fingerprint": "06cf2ddddfbc",
+  "template_fingerprint": "325f1bcf6929",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

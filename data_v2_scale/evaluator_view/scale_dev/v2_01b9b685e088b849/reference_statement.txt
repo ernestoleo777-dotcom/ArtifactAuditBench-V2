@@ -1,0 +1,1 @@
+Full Model outperforms Module A on Macro-F1 by 0.020. The full model contributes the largest improvement over Module A.

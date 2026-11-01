@@ -1,0 +1,1 @@
+Reported Macro-F1: Procedure N=0.747, Approach H=0.735. The confidence intervals overlap, showing a statistically significant improvement.

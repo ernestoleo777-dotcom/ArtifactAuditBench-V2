@@ -1,0 +1,1 @@
+Procedure N records 0.756 Macro-F1; Approach H records 0.733. The confidence intervals overlap, showing no statistically reliable gain.

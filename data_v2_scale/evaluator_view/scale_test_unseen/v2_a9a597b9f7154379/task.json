@@ -1,0 +1,30 @@
+{
+  "case_id": "v2_a9a597b9f7154379",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "System V",
+      "before": "Method P",
+      "error_type": "ranking_error",
+      "repair": "Method P"
+    }
+  ],
+  "experiment_type": "multiclass",
+  "paths": {
+    "agent": "agent_view/scale_test_unseen/v2_a9a597b9f7154379",
+    "evaluator": "evaluator_view/scale_test_unseen/v2_a9a597b9f7154379"
+  },
+  "seed": 2526962,
+  "split": "scale_test_unseen",
+  "style_fingerprint": "122a42361b8e",
+  "template_family": "test_unseen",
+  "template_fingerprint": "091138c58db4",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

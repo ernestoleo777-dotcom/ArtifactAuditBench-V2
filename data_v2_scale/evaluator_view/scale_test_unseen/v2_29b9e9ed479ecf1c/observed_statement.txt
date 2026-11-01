@@ -1,0 +1,2 @@
+Ranking by Macro-F1 places Module A before Full Model. The full model contributes the largest improvement over Full Model.
+ Relative improvement: 11.34%.

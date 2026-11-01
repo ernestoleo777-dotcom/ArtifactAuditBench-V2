@@ -1,0 +1,17 @@
+{
+  "case_id": "v2_60a4541b4b5c5cac",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Procedure N",
+        "R2"
+      ],
+      "after": 0.999,
+      "before": 0.953484,
+      "error_type": "numeric_copy_error",
+      "repair": 0.953484
+    }
+  ],
+  "split": "scale_test_unseen"
+}

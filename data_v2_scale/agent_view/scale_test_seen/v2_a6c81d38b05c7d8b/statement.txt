@@ -1,0 +1,2 @@
+Evaluation on Macro-F1 finds Model Q consistently better than Approach H.
+ Relative improvement: 10.81%.

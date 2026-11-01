@@ -1,0 +1,1 @@
+For Macro-F1, Model Q outperforms Method X; the absolute gap is 0.030. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,36 @@
+{
+  "case_id": "v2_7a96437c501419a6",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Method P"
+      ],
+      "after": [
+        "Method P",
+        "Method X"
+      ],
+      "before": [
+        "Method X",
+        "Method P"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method X",
+        "Method P"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 36.19600667790524,
+      "before": 28.69600667790524,
+      "error_type": "relative_improvement_error",
+      "repair": 28.69600667790524
+    }
+  ],
+  "split": "test_unseen"
+}

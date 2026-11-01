@@ -1,0 +1,80 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_755b1a73944699e4",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.029123750049620867,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "metric name"
+      ],
+      "confidence": 0.95,
+      "error_type": "metric_name_mismatch",
+      "evidence": {
+        "affected_elements": [
+          "metric name"
+        ],
+        "error_type": "metric_name_mismatch",
+        "expected": "Macro-F1",
+        "reported": [
+          "Accuracy"
+        ]
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Macro-F1"
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "confidence": 0.95,
+      "error_type": "ranking_error",
+      "evidence": {
+        "affected_elements": [
+          "best model"
+        ],
+        "error_type": "ranking_error",
+        "expected": "Full Model",
+        "reported": "Module B"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Full Model"
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "ablation conclusion"
+      ],
+      "confidence": 0.95,
+      "error_type": "ablation_conclusion_error",
+      "evidence": {
+        "affected_elements": [
+          "ablation conclusion"
+        ],
+        "error_type": "ablation_conclusion_error",
+        "expected": "Full Model",
+        "reported": "Module B"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Full Model"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

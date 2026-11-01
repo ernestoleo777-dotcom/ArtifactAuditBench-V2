@@ -1,0 +1,74 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_4521edb4c0659f2a",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.1756606251001358,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "confidence": 1.0,
+      "error_type": "axis_scale_error",
+      "evidence": {
+        "matched_candidate": "candidate_axis_scale_error.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "grouped_bar",
+          "labels": [
+            "Variant R",
+            "Procedure N",
+            "Method X",
+            "Model Q",
+            "Method P"
+          ],
+          "metric": "RMSE",
+          "style": {
+            "dpi": 100,
+            "figsize": [
+              7.0,
+              4.0
+            ],
+            "font": "DejaVu Sans",
+            "grid": false,
+            "horizontal": false,
+            "legend_loc": "lower left",
+            "legend_outside": false,
+            "marker": "o",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 2
+          },
+          "title": "RMSE comparison",
+          "values": [
+            0.4812284785965414,
+            0.6666800687431158,
+            0.7840354560880083,
+            0.8788832432049938,
+            1.1362787626306765
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

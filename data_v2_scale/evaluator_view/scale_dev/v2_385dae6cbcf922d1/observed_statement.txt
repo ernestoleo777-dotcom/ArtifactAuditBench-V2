@@ -1,0 +1,1 @@
+Method X outperforms Procedure N on Macro-F1 by 0.020. The confidence intervals overlap, showing no statistically reliable gain.

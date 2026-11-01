@@ -1,0 +1,36 @@
+{
+  "case_id": "v2_5bea7df1529b945f",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Approach T"
+      ],
+      "after": [
+        "Approach T",
+        "Method X"
+      ],
+      "before": [
+        "Method X",
+        "Approach T"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method X",
+        "Approach T"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 11.514869888475848,
+      "before": 4.0148698884758485,
+      "error_type": "relative_improvement_error",
+      "repair": 4.0148698884758485
+    }
+  ],
+  "split": "scale_dev"
+}

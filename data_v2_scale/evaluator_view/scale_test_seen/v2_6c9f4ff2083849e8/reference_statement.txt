@@ -1,0 +1,1 @@
+For Macro-F1, Variant R outperforms Method P; the absolute gap is 0.020. The confidence intervals overlap, showing no statistically reliable gain.

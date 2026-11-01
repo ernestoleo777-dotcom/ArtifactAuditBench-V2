@@ -1,0 +1,1 @@
+Reported Macro-F1: Variant R=0.778, System K=0.761. The confidence intervals overlap, showing no statistically reliable gain.

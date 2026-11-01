@@ -1,0 +1,1 @@
+For Macro-F1, Approach T outperforms Method X; the absolute gap is 0.013. The confidence intervals overlap, showing no statistically reliable gain.

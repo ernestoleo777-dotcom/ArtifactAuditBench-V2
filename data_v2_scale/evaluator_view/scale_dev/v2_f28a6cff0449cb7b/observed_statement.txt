@@ -1,0 +1,1 @@
+Method P outperforms Approach H on Macro-F1 by 0.015. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,24 @@
+{
+  "by_split": {
+    "dev": 30,
+    "test_seen": 45,
+    "test_unseen": 45
+  },
+  "mean_execution_time_seconds": 0.13046466871358764,
+  "predicted_error_instances": {
+    "ablation_conclusion_error": 8,
+    "aggregation_error": 12,
+    "axis_scale_error": 8,
+    "error_bar_error": 8,
+    "legend_swap": 11,
+    "metric_name_mismatch": 9,
+    "numeric_copy_error": 14,
+    "ranking_error": 31,
+    "relative_improvement_error": 14,
+    "selective_reporting": 7,
+    "series_data_swap": 7,
+    "significance_overclaim": 13
+  },
+  "task_count": 120,
+  "unknown_tasks": 3
+}

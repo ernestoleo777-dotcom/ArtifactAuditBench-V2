@@ -1,0 +1,1 @@
+Procedure N and Method P remain close (0.742 versus 0.735), with Procedure N ahead. The confidence intervals overlap, showing a statistically significant improvement.

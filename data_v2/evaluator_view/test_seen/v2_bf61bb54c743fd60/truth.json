@@ -1,0 +1,47 @@
+{
+  "case_id": "v2_bf61bb54c743fd60",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "Approach H"
+      ],
+      "after": [
+        "Approach H",
+        "Approach T"
+      ],
+      "before": [
+        "Approach T",
+        "Approach H"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach T",
+        "Approach H"
+      ]
+    },
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Approach T",
+        "Weighted-F1"
+      ],
+      "after": 0.9007208,
+      "before": 0.804215,
+      "error_type": "numeric_copy_error",
+      "repair": 0.804215
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 17.067018945637145,
+      "before": 9.567018945637145,
+      "error_type": "relative_improvement_error",
+      "repair": 9.567018945637145
+    }
+  ],
+  "split": "test_seen"
+}

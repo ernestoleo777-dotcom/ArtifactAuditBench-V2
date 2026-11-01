@@ -1,0 +1,27 @@
+{
+  "case_id": "v2_449a4b53b64285c4",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Module A",
+        "ci95_low"
+      ],
+      "after": 0.6998342399999999,
+      "before": 0.624852,
+      "error_type": "numeric_copy_error",
+      "repair": 0.624852
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "after": "Module A",
+      "before": "Full Model",
+      "error_type": "ranking_error",
+      "repair": "Full Model"
+    }
+  ],
+  "split": "test_seen"
+}

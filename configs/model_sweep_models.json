@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "purpose": "Package A multi-model generalization preflight configuration. No API keys are stored here.",
+  "provider_api_key_policy": "Read provider credentials only from environment variables, e.g. OPENROUTER_API_KEY.",
+  "models": [
+    {
+      "slug": "openai_gpt_4_1",
+      "model_id": "openai/gpt-4.1",
+      "provider": "openrouter",
+      "rationale": "Approved OpenRouter vision-capable model for the 5-task Package A smoke run only.",
+      "status": "approved_smoke_only"
+    },
+    {
+      "slug": "qwen2_5_vl_32b",
+      "model_id": "qwen/qwen2.5-vl-32b-instruct",
+      "provider": "openrouter",
+      "rationale": "Approved second OpenRouter vision-capable model for the 5-task Package A smoke run only.",
+      "status": "approved_smoke_only"
+    }
+  ]
+}

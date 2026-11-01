@@ -1,0 +1,1 @@
+A margin of 0.019 separates Approach T from Procedure N on Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

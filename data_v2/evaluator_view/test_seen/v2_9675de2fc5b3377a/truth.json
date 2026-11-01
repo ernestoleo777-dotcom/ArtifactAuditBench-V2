@@ -1,0 +1,29 @@
+{
+  "case_id": "v2_9675de2fc5b3377a",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Approach T",
+        "Model Q"
+      ],
+      "after": [
+        "Model Q",
+        "Approach T",
+        "Variant R"
+      ],
+      "before": [
+        "Approach T",
+        "Model Q",
+        "Variant R"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Approach T",
+        "Model Q",
+        "Variant R"
+      ]
+    }
+  ],
+  "split": "test_seen"
+}

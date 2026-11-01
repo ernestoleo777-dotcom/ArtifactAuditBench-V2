@@ -1,0 +1,122 @@
+{
+  "models": [
+    "Procedure N",
+    "Approach H",
+    "Model Q",
+    "Method P",
+    "System V"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": [
+      0.38965697210576505,
+      1.170737075185973
+    ],
+    "chart_type": "multi_panel",
+    "labels": [
+      "Procedure N",
+      "Approach H",
+      "Model Q",
+      "Method P",
+      "System V"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 180,
+      "figsize": [
+        9.0,
+        5.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "upper left",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#2E86AB",
+        "#A23B72",
+        "#F18F01",
+        "#C73E1D",
+        "#6A994E"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4435245654216415,
+      0.6397502256751672,
+      0.8476125890232141,
+      0.9756385213804216,
+      1.1168694818700966
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "multi_panel",
+    "labels": [
+      "Procedure N",
+      "Approach H",
+      "Model Q",
+      "Method P",
+      "System V"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 180,
+      "figsize": [
+        9.0,
+        5.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": false,
+      "horizontal": true,
+      "legend_loc": "upper left",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#2E86AB",
+        "#A23B72",
+        "#F18F01",
+        "#C73E1D",
+        "#6A994E"
+      ],
+      "precision": 3
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.4435245654216415,
+      0.6397502256751672,
+      0.8476125890232141,
+      0.9756385213804216,
+      1.1168694818700966
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Approach H": {
+      "MAE": 0.5023267706669816,
+      "R2": 0.9572379252877394,
+      "RMSE": 0.6397502256751672
+    },
+    "Method P": {
+      "MAE": 0.7969187536413144,
+      "R2": 0.900547489376432,
+      "RMSE": 0.9756385213804216
+    },
+    "Model Q": {
+      "MAE": 0.6843099050535962,
+      "R2": 0.9249358330570912,
+      "RMSE": 0.8476125890232141
+    },
+    "Procedure N": {
+      "MAE": 0.3545792382513355,
+      "R2": 0.9794470942585584,
+      "RMSE": 0.4435245654216415
+    },
+    "System V": {
+      "MAE": 0.8520703136941024,
+      "R2": 0.8696705025245282,
+      "RMSE": 1.1168694818700966
+    }
+  }
+}

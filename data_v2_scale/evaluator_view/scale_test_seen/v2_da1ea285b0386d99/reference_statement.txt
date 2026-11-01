@@ -1,0 +1,1 @@
+For Macro-F1, Full Model outperforms Module A; the absolute gap is 0.019. The full model contributes the largest improvement over Module A.

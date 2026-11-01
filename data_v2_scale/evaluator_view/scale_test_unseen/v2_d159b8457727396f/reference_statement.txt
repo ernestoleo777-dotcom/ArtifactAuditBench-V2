@@ -1,0 +1,1 @@
+With 0.733 on Macro-F1, System K leads the comparison. The confidence intervals overlap, showing no statistically reliable gain.

@@ -1,0 +1,1 @@
+Variant R outperforms Model Q on Macro-F1 by 0.044. The 95% confidence intervals do not overlap, indicating a statistically reliable difference.

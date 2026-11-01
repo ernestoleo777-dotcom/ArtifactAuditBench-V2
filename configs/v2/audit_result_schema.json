@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["case_id", "predicted_errors", "error_detected", "partial_success", "unknown", "read_files", "execution_status", "execution_time_seconds", "baseline_version"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "predicted_errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["error_type", "affected_artifact", "affected_elements", "evidence", "confidence", "repair_available", "repair_result"],
+        "properties": {
+          "error_type": {"type": "string"},
+          "affected_artifact": {"type": "string"},
+          "affected_elements": {"type": "array"},
+          "evidence": {"type": "object"},
+          "confidence": {"type": "number"},
+          "repair_available": {"type": "boolean"},
+          "repair_result": {}
+        }
+      }
+    },
+    "error_detected": {"type": "boolean"},
+    "partial_success": {"type": "boolean"},
+    "unknown": {"type": "array"},
+    "read_files": {"type": "array"},
+    "execution_status": {"type": "string"},
+    "execution_time_seconds": {"type": "number"},
+    "baseline_version": {"type": "string"}
+  }
+}

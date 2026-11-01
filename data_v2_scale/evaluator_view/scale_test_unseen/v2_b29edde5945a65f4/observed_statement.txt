@@ -1,0 +1,1 @@
+A margin of 0.017 separates Approach H from Variant R on Macro-F1. The confidence intervals overlap, showing no statistically reliable gain.

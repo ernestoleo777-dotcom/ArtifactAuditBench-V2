@@ -1,0 +1,1 @@
+Module B improves upon Module B by 0.89 percentage points on Macro-F1. The full model contributes the largest improvement over Module B.

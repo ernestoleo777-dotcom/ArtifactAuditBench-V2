@@ -1,0 +1,39 @@
+{
+  "case_id": "v2_0858ae5ea74feadf",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "System K",
+        "Procedure N"
+      ],
+      "after": [
+        "Procedure N",
+        "System K",
+        "Approach H"
+      ],
+      "before": [
+        "System K",
+        "Procedure N",
+        "Approach H"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "System K",
+        "Procedure N",
+        "Approach H"
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "relative_improvement_percent"
+      ],
+      "after": 28.475709630837596,
+      "before": 20.975709630837596,
+      "error_type": "relative_improvement_error",
+      "repair": 20.975709630837596
+    }
+  ],
+  "split": "scale_test_seen"
+}

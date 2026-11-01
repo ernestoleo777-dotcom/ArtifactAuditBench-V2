@@ -1,0 +1,102 @@
+{
+  "models": [
+    "Method P",
+    "System V",
+    "Method X"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": [
+      0.42225219829090316,
+      0.8367413069662069
+    ],
+    "chart_type": "bar",
+    "labels": [
+      "Method P",
+      "System V",
+      "Method X"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        9.0,
+        5.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "lower center",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.45083765406161375,
+      0.6522514915568947,
+      0.8081558511954963
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "bar",
+    "labels": [
+      "Method P",
+      "System V",
+      "Method X"
+    ],
+    "metric": "RMSE",
+    "style": {
+      "dpi": 110,
+      "figsize": [
+        9.0,
+        5.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "lower center",
+      "legend_outside": true,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "RMSE comparison",
+    "values": [
+      0.45083765406161375,
+      0.6522514915568947,
+      0.8081558511954963
+    ]
+  },
+  "primary_metric": "RMSE",
+  "summary": {
+    "Method P": {
+      "MAE": 0.36240837285283856,
+      "R2": 0.9791801659584358,
+      "RMSE": 0.45083765406161375
+    },
+    "Method X": {
+      "MAE": 0.6433847762567293,
+      "R2": 0.9330998418958171,
+      "RMSE": 0.8081558511954963
+    },
+    "System V": {
+      "MAE": 0.530032430608699,
+      "R2": 0.9564220232686838,
+      "RMSE": 0.6522514915568947
+    }
+  }
+}

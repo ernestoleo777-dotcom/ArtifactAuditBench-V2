@@ -1,0 +1,1 @@
+For Macro-F1, Method X outperforms Variant R; the absolute gap is 0.047.

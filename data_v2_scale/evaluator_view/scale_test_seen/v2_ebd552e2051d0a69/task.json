@@ -1,0 +1,19 @@
+{
+  "case_id": "v2_ebd552e2051d0a69",
+  "chart_type": "grouped_bar",
+  "errors": [],
+  "experiment_type": "regression",
+  "paths": {
+    "agent": "agent_view/scale_test_seen/v2_ebd552e2051d0a69",
+    "evaluator": "evaluator_view/scale_test_seen/v2_ebd552e2051d0a69"
+  },
+  "seed": 1525965,
+  "split": "scale_test_seen",
+  "style_fingerprint": "90f18b7145aa",
+  "template_family": "test_seen",
+  "template_fingerprint": "af53c2ad6a68",
+  "versions": {
+    "generator": "2.0.0-scale",
+    "injector": "2.0.0-scale"
+  }
+}

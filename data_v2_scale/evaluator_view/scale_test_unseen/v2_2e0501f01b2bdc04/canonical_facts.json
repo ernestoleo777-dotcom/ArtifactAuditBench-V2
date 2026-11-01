@@ -1,0 +1,105 @@
+{
+  "models": [
+    "Approach T",
+    "Procedure N",
+    "Model Q"
+  ],
+  "observed_plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach T",
+      "Procedure N",
+      "Model Q"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 140,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.8054054054054054,
+      0.7943873298138371,
+      0.7439386442355269
+    ]
+  },
+  "plot_spec": {
+    "axis_limits": null,
+    "chart_type": "grouped_bar",
+    "labels": [
+      "Approach T",
+      "Procedure N",
+      "Model Q"
+    ],
+    "metric": "Macro-F1",
+    "style": {
+      "dpi": 140,
+      "figsize": [
+        5.0,
+        6.0
+      ],
+      "font": "DejaVu Sans Mono",
+      "grid": true,
+      "horizontal": true,
+      "legend_loc": "upper right",
+      "legend_outside": false,
+      "marker": "D",
+      "palette": [
+        "#6B5B95",
+        "#88B04B",
+        "#F7CAC9",
+        "#92A8D1",
+        "#955251"
+      ],
+      "precision": 4
+    },
+    "title": "Macro-F1 comparison",
+    "values": [
+      0.7943873298138371,
+      0.8054054054054054,
+      0.7439386442355269
+    ]
+  },
+  "primary_metric": "Macro-F1",
+  "summary": {
+    "Approach T": {
+      "Accuracy": 0.7944444444444444,
+      "Macro-F1": 0.7943873298138371,
+      "Precision": 0.7849462365591398,
+      "ROC-AUC": 0.8749382716049383,
+      "Recall": 0.8111111111111111
+    },
+    "Model Q": {
+      "Accuracy": 0.7444444444444445,
+      "Macro-F1": 0.7439386442355269,
+      "Precision": 0.7682926829268293,
+      "ROC-AUC": 0.827962962962963,
+      "Recall": 0.7
+    },
+    "Procedure N": {
+      "Accuracy": 0.8055555555555556,
+      "Macro-F1": 0.8054054054054054,
+      "Precision": 0.7894736842105263,
+      "ROC-AUC": 0.9190123456790124,
+      "Recall": 0.8333333333333334
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "case_id": "v2_fb4ed6e360a9e5a2",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "Method X",
+        "Method P"
+      ],
+      "after": [
+        "Method P",
+        "Method X",
+        "Variant R",
+        "Model Q",
+        "Approach T"
+      ],
+      "before": [
+        "Method X",
+        "Method P",
+        "Variant R",
+        "Model Q",
+        "Approach T"
+      ],
+      "error_type": "legend_swap",
+      "repair": [
+        "Method X",
+        "Method P",
+        "Variant R",
+        "Model Q",
+        "Approach T"
+      ]
+    }
+  ],
+  "split": "test_seen"
+}

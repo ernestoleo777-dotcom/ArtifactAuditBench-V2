@@ -1,0 +1,1 @@
+Evaluation on Macro-F1 finds Variant C consistently better than Approach T. The confidence intervals overlap, showing no statistically reliable gain.

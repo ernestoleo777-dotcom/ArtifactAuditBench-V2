@@ -1,0 +1,35 @@
+{
+  "case_id": "v2_6517730658b7528c",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "error bars"
+      ],
+      "after": [
+        0.010414980618166887,
+        0.0030861943557776756
+      ],
+      "before": [
+        0.0030861943557776756,
+        0.010414980618166887
+      ],
+      "error_type": "error_bar_error",
+      "repair": [
+        0.0030861943557776756,
+        0.010414980618166887
+      ]
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    }
+  ],
+  "split": "scale_dev"
+}

@@ -1,0 +1,1 @@
+Approach H and System V remain close (0.755 versus 0.738), with Approach H ahead. The confidence intervals overlap, showing no statistically reliable gain.

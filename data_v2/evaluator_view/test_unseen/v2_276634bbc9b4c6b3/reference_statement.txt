@@ -1,0 +1,1 @@
+A margin of 0.002 separates Full Model from Module B on Macro-F1. The full model contributes the largest improvement over Module B.

@@ -1,0 +1,1 @@
+Approach T records 0.722 Macro-F1; Method X records 0.716. The confidence intervals overlap, showing no statistically reliable gain.

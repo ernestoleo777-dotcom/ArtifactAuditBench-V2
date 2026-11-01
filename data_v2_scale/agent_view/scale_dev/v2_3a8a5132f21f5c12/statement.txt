@@ -1,0 +1,1 @@
+Full Model improves upon Module A by 3.09 percentage points on Macro-F1. The full model contributes the largest improvement over Module A.

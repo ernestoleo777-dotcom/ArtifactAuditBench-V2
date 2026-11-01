@@ -1,0 +1,40 @@
+{
+  "case_id": "v2_3e9f93f747e5cc75",
+  "chart_type": "grouped_bar",
+  "errors": [
+    {
+      "affected_artifact": "results.csv",
+      "affected_elements": [
+        "Method P",
+        "mean"
+      ],
+      "after": 0.816188048771433,
+      "before": 0.734819,
+      "error_type": "aggregation_error",
+      "repair": 0.734819
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "significance"
+      ],
+      "after": "a statistically significant improvement",
+      "before": "no statistically reliable gain",
+      "error_type": "significance_overclaim",
+      "repair": "no statistically reliable gain"
+    }
+  ],
+  "experiment_type": "repeated_runs",
+  "paths": {
+    "agent": "agent_view/test_unseen/v2_3e9f93f747e5cc75",
+    "evaluator": "evaluator_view/test_unseen/v2_3e9f93f747e5cc75"
+  },
+  "seed": 360920,
+  "split": "test_unseen",
+  "style_fingerprint": "3fc9382d70b2",
+  "template_fingerprint": "d41b650a2830",
+  "versions": {
+    "generator": "2.0.0",
+    "injector": "2.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+name: Offline benchmark checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install public dependencies
+        run: python -m pip install -r requirements.lock.txt
+      - name: Verify release inventory and input boundary
+        run: python scripts/check_release.py
+      - name: Verify original benchmark freeze
+        run: python freeze_v2_benchmark.py
+      - name: Validate main and scale datasets separately
+        run: |
+          python -m artifactauditbench validate
+          python -m artifactauditbench validate --scale
+      - name: Offline core tests
+        run: python -m pytest -q tests
+      - name: Known dev demonstration
+        run: python -m artifactauditbench demo
+      - name: Recompute metrics from saved labels
+        run: |
+          python -m artifactauditbench rescore --method ruleaudit
+          python -m artifactauditbench rescore --method direct
+          python -m artifactauditbench rescore --method tool
+          python -m artifactauditbench rescore --method tool --failure-policy count_as_miss
+          python -m artifactauditbench rescore --method ruleaudit_scale
+      - name: Run RuleAudit on dev into a new output directory
+        run: python -m artifactauditbench ruleaudit --split dev --output runs/ci-dev
+      - name: Confirm checked-in assets remain unchanged
+        run: git diff --exit-code

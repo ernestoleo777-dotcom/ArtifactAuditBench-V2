@@ -1,0 +1,81 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_33c635e750f71982",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.2064735828898847,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "error bars"
+      ],
+      "confidence": 1.0,
+      "error_type": "error_bar_error",
+      "evidence": {
+        "matched_candidate": "candidate_error_bar_error.png",
+        "repair_spec": {
+          "axis_limits": null,
+          "chart_type": "error_bar",
+          "errors": [
+            0.007634048343260952,
+            0.007206424439343914,
+            0.004980214278048228,
+            0.012798457253310216,
+            0.01604776040361095
+          ],
+          "labels": [
+            "Variant R",
+            "Variant C",
+            "Procedure N",
+            "Model Q",
+            "System V"
+          ],
+          "metric": "Macro-F1",
+          "style": {
+            "dpi": 120,
+            "figsize": [
+              7.0,
+              4.0
+            ],
+            "font": "DejaVu Sans",
+            "grid": true,
+            "horizontal": true,
+            "legend_loc": "best",
+            "legend_outside": true,
+            "marker": "s",
+            "palette": [
+              "#6B5B95",
+              "#88B04B",
+              "#F7CAC9",
+              "#92A8D1",
+              "#955251"
+            ],
+            "precision": 3
+          },
+          "title": "Macro-F1 comparison",
+          "values": [
+            0.7579819867309621,
+            0.7581613766603044,
+            0.7231610093645624,
+            0.7169237153356668,
+            0.6799426724217728
+          ]
+        }
+      },
+      "repair_available": true,
+      "repair_result": {
+        "figure": "repaired_visual.png"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}

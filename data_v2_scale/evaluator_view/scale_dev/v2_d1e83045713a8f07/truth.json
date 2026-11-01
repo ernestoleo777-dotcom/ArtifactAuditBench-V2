@@ -1,0 +1,19 @@
+{
+  "case_id": "v2_d1e83045713a8f07",
+  "errors": [
+    {
+      "affected_artifact": "visual.png",
+      "affected_elements": [
+        "axis limits"
+      ],
+      "after": [
+        0.7031433189623144,
+        0.7474430491162309
+      ],
+      "before": null,
+      "error_type": "axis_scale_error",
+      "repair": null
+    }
+  ],
+  "split": "scale_dev"
+}

@@ -1,0 +1,2 @@
+Variant R is consistently better than Method X for Macro-F1.
+ Relative improvement: 6.99%.

@@ -1,0 +1,58 @@
+{
+  "baseline_version": "2.0.0",
+  "case_id": "v2_276634bbc9b4c6b3",
+  "error_detected": true,
+  "execution_status": "success",
+  "execution_time_seconds": 0.042936124838888645,
+  "partial_success": false,
+  "predicted_errors": [
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "best model"
+      ],
+      "confidence": 0.95,
+      "error_type": "ranking_error",
+      "evidence": {
+        "affected_elements": [
+          "best model"
+        ],
+        "error_type": "ranking_error",
+        "expected": "Full Model",
+        "reported": "Module B"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Full Model"
+      }
+    },
+    {
+      "affected_artifact": "statement.txt",
+      "affected_elements": [
+        "ablation conclusion"
+      ],
+      "confidence": 0.95,
+      "error_type": "ablation_conclusion_error",
+      "evidence": {
+        "affected_elements": [
+          "ablation conclusion"
+        ],
+        "error_type": "ablation_conclusion_error",
+        "expected": "Full Model",
+        "reported": "Module B"
+      },
+      "repair_available": true,
+      "repair_result": {
+        "expected": "Full Model"
+      }
+    }
+  ],
+  "read_files": [
+    "protocol.json",
+    "observations.csv",
+    "results.csv",
+    "statement.txt",
+    "visual.png"
+  ],
+  "unknown": []
+}
