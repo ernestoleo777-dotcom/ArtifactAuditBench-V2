@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this public software release and identify the camera-ready manuscript separately; official publication disposition is unverified."
+message: "If you use ArtifactAuditBench V2, cite the accepted ICTAI 2026 paper below."
 type: software
 title: "ArtifactAuditBench V2"
 version: "2.0.0-public.1"
@@ -10,10 +10,12 @@ authors:
     given-names: Hongchen
 repository-code: "https://github.com/ernestoleo777-dotcom/ArtifactAuditBench-V2"
 preferred-citation:
-  type: unpublished
+  type: conference-paper
   title: "ArtifactAuditBench V2: A Multimodal Benchmark for Auditing Scientific Experiment Artifacts"
   authors:
     - family-names: Li
       given-names: Hongchen
+  conference:
+    name: "ICTAI 2026"
   year: 2026
-  notes: "Camera-ready manuscript. Author records report ICTAI 2026 #175 acceptance and a later withdrawal request pending official confirmation; final publication disposition is unverified."
+  notes: "Accepted Full Paper, paper #175. Camera-ready completed."

@@ -6,6 +6,8 @@
 
 Hongchen Li · Institute for Advanced Study, Shenzhen University
 
+**Accepted as a Full Paper at ICTAI 2026 (paper #175). Camera-ready completed.**
+
 A controlled benchmark for checking consistency among machine-readable experimental observations, reported tables, rendered figures, and scientific claims. The main benchmark contains **120 synthetic tasks**, **12 error families**, and **7 chart families**. A separate **360-task synthetic scale check** is also included.
 
 [Quick start](#quick-start) · [Benchmark and data](docs/benchmark.md) · [Results and reproduction](docs/reproduction.md) · [Limits](docs/limitations.md) · [Citation](CITATION.cff)
@@ -82,7 +84,7 @@ RuleAudit uses raw experimental artifacts and known claim/rendering representati
 
 ## Publication, citation and licensing
 
-Local records report acceptance as ICTAI 2026 Full Paper #175, followed by a withdrawal request pending official confirmation. Official publication and withdrawal disposition have not been independently verified for this release. This repository is not evidence of publication. See [publication status](docs/publication_status.md); no DOI or proceedings claim is invented.
+**Accepted as a Full Paper at ICTAI 2026, paper #175.** The camera-ready manuscript is complete. See [publication status](docs/publication_status.md) for the current record. Proceedings and DOI links will be added when available.
 
 Use [CITATION.cff](CITATION.cff) for the software and manuscript identity. [Apache-2.0](LICENSE) covers author-owned code and original repository documentation. The separately scoped [data license](DATA_LICENSE.md) explicitly covers the included author-generated synthetic assets and structured annotations. It does not extend to excluded provider responses, manuscripts, model weights, conference templates or external dependencies. See [third-party notices](THIRD_PARTY_NOTICES.md).
 

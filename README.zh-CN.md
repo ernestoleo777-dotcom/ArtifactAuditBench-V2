@@ -6,6 +6,8 @@
 
 Hongchen Li · 深圳大学高等研究院
 
+**ICTAI 2026 Full Paper 已录用（论文编号 #175），Camera-ready 已完成。**
+
 用于检查科学实验的原始观测、报告表格、程序绘制图像与文字主张是否一致的受控基准。主基准包含 **120 个合成任务、12 类错误、7 类图形**，另附 **360 任务合成规模检查**，两者独立统计。
 
 [数据与任务](docs/benchmark.md) · [复算与结果对应](docs/reproduction.md) · [限制](docs/limitations.md) · [引用](CITATION.cff)
@@ -82,7 +84,7 @@ RuleAudit 能访问原始产物，并利用已知主张与渲染表示。这种�
 
 ## 论文状态、引用与许可
 
-本地记录为 ICTAI 2026 Full Paper #175 已接收，之后已请求撤稿、等待正式确认。本轮未独立确认最终出版或撤稿状态；GitHub 公开不代表论文正式发表。详见[状态说明](docs/publication_status.md)。
+**ICTAI 2026 Full Paper 已录用，论文编号 #175，Camera-ready 已完成。**详见[论文状态](docs/publication_status.md)；正式论文集及 DOI 链接待可用后补充。
 
 [CITATION.cff](CITATION.cff) 提供软件与稿件引用信息。[Apache-2.0](LICENSE) 覆盖作者拥有权利的源码和原创仓库文档。[数据许可](DATA_LICENSE.md) 另行明确覆盖本版作者生成的合成资产和结构化标注；不向未包含的 provider 回答、论文、模型权重、会议模板或外部依赖授予许可。详见[第三方说明](THIRD_PARTY_NOTICES.md)。
 
